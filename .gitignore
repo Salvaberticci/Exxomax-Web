@@ -5,3 +5,6 @@
 # artefactos locales
 __pycache__/
 .vercel/
+
+.vercel
+.env*
