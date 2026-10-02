@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | EXXOMAX C.A.</title>
+<meta name="description" content="Contacta a EXXOMAX C.A. en Valera, estado Trujillo. Solicita cotizaciones, consulta disponibilidad de productos o habla con nuestro equipo comercial.">
+<meta name="theme-color" content="#00752c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilos.css?v=7">
+<script>document.documentElement.className += " js";</script>
+<style>
+  .campo input.invalido, .campo textarea.invalido { border-color: #d94a4a; background: #fdf3f3; }
+  .oculto { display: none !important; }
+</style>
+</head>
+<body>
+
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<div class="barra-progreso" data-progreso aria-hidden="true"><i></i></div>
+
+<header class="header">
+  <div class="contenedor header-inner">
+    <a class="logo" href="index.html" aria-label="EXXOMAX C.A. - Inicio">
+      <img src="assets/img/logo.svg" alt="EXXOMAX C.A." width="210" height="52">
+    </a>
+    <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="cobertura.html">Cobertura</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="hero" style="padding:72px 0 82px">
+    <div class="contenedor">
+      <span class="hero-chip">
+        <span class="punto"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chat"></use></svg></span>
+        Contacto
+      </span>
+      <h1 data-palabras style="max-width:17ch">Hablemos de tu <span class="destacado">próximo pedido</span></h1>
+      <p class="hero-lead" style="max-width:60ch">
+        Escríbenos para cotizar, consultar disponibilidad o coordinar la entrega en tu
+        zona. Respondemos el mismo día hábil.
+      </p>
+    </div>
+  </section>
+
+  <section class="seccion-sm" style="padding-bottom:88px">
+    <div class="contenedor">
+      <div class="contacto-grid">
+
+        <!-- ------------------------------------------------------- DATOS -->
+        <div class="revelar">
+          <span class="sec-ojo">Datos de la empresa</span>
+          <h2 style="font-size:1.7rem">EXXOMAX C.A.</h2>
+          <p style="color:var(--gris)">RIF <strong>J504831298</strong></p>
+
+          <div style="margin-top:22px">
+            <div class="info-item">
+              <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ubicacion"></use></svg></span>
+              <div>
+                <b>Dirección</b>
+                <p data-direccion-texto>Dirección</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-reloj"></use></svg></span>
+              <div>
+                <b>Horario</b>
+                <p>Lunes a viernes, 8:00 am - 5:00 pm</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-mail"></use></svg></span>
+              <div>
+                <b>Correo</b>
+                <p>Contacto directo por formulario y WhatsApp</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-camion"></use></svg></span>
+              <div>
+                <b>Zonas de despacho</b>
+                <p>Táchira · Mérida · estado Trujillo · Zulia</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="btn btn-borde btn-blk" style="margin-top:24px" href="cobertura.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ubicacion"></use></svg>
+            Ver mapa y vendedores
+          </a>
+
+          <div class="paso-foto revelar" style="margin-top:24px">
+            <img src="assets/img/productos/1337.jpg" alt="Herramientas eléctricas EXXOMAX listas para despacho" loading="lazy">
+          </div>
+        </div>
+
+        <!-- --------------------------------------------------- FORMULARIO -->
+        <div class="formulario revelar revelar-d2">
+          <h2 style="font-size:1.4rem">Solicita tu cotización</h2>
+          <p style="color:var(--gris);font-size:.94rem">
+            Completa el formulario y te contactamos con precio, disponibilidad y
+            fecha de despacho.
+          </p>
+
+          <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+          <form id="form-contacto" novalidate>
+            <div class="campo-fila">
+              <div class="campo">
+                <label for="nombre">Nombre y apellido *</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej. José Pérez">
+              </div>
+              <div class="campo">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" autocomplete="organization" placeholder="Opcional">
+              </div>
+            </div>
+
+            <div class="campo-fila">
+              <div class="campo">
+                <label for="telefono">Teléfono / WhatsApp *</label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="Ej. 0412-1234567">
+              </div>
+              <div class="campo">
+                <label for="estado">Estado donde despacha</label>
+                <select id="estado" name="estado">
+                  <option value="">Selecciona...</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="campo-fila">
+              <div class="campo">
+                <label for="categoria">Categoría de interés</label>
+                <select id="categoria" name="categoria"></select>
+              </div>
+              <div class="campo">
+                <label for="codigo">Código de producto</label>
+                <input type="text" id="codigo" name="codigo" placeholder="Ej. HESC-10">
+              </div>
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué necesitas, cantidades aproximadas y para cuándo lo requieres."></textarea>
+              <span class="ayuda">Mínimo 10 caracteres. Mientras más detalle, la cotización es más precisa.</span>
+            </div>
+
+            <button class="btn btn-primario btn-blk" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+              Enviar consulta por WhatsApp
+            </button>
+            <button class="btn btn-borde btn-blk oculto" id="copiar" type="button" style="margin-top:10px">
+              Copiar consulta
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------ VENDEDORES -->
+  <section class="seccion alt">
+    <div class="contenedor">
+      <div class="sec-head centrado revelar">
+        <span class="sec-ojo">Venta directa</span>
+        <h2>También puedes escribir a un vendedor</h2>
+        <p class="entradilla">Si ya tratas con alguno de nuestro equipo, escríbele directo por WhatsApp.</p>
+      </div>
+      <div class="grid g-3" data-vendedores></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="contenedor">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="assets/img/logo-blanco.svg" alt="EXXOMAX C.A." width="210" height="52">
+        </div>
+        <p class="footer-desc">Importación y distribución de materiales de ferretería y construcción. Empresa aliada de Hierromax.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="cobertura.html">Cobertura y vendedores</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Catálogo</h4>
+        <ul class="footer-links" id="footer-cats"></ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="footer-links">
+          <li data-direccion-texto>Dirección</li>
+          <li><span data-tel-enlace>Teléfono</span></li>
+          <li>RIF: J504831298</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-anio>2026</span> EXXOMAX C.A. Todos los derechos reservados.</span>
+      <span class="fiscal">Hecho en Venezuela · Gerencia Regional de Tributos Internos, estado Trujillo</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-flotante" data-wa-flotante href="contacto.html" aria-label="Escribir por WhatsApp"></a>
+
+<script src="data/empresa.js?v=2"></script>
+<script src="data/categorias.js?v=2"></script>
+<script src="assets/js/iconos.js?v=3"></script>
+<script src="assets/js/app.js?v=4"></script>
+<script src="assets/js/contacto.js?v=2"></script>
+<script>
+  /* categorias en el formulario + enlaces del pie */
+  (function () {
+    var c = window.EXXOMAX_CATEGORIAS_INFO || [];
+    var sel = document.getElementById("categoria");
+    if (sel) {
+      sel.innerHTML = '<option value="">Selecciona...</option>' +
+        c.map(function (x) { return '<option value="' + x.nombre + '">' + x.nombre + "</option>"; }).join("");
+    }
+    var ul = document.getElementById("footer-cats");
+    if (ul) ul.innerHTML = c.slice(0, 6).map(function (x) {
+      return '<li><a href="catalogo.html?categoria=' + x.id + '">' + x.nombre + "</a></li>";
+    }).join("");
+  })();
+</script>
+</body>
+</html>

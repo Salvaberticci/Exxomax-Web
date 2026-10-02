@@ -1,0 +1,7 @@
+# materiales de trabajo del catálogo (no forman parte del sitio)
+*.pdf
+*.docx
+
+# artefactos locales
+__pycache__/
+.vercel/

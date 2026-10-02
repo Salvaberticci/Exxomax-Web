@@ -1,0 +1,7511 @@
+[
+ {
+  "nombre": "DISCO DE CADENA P/MADERA 7\" MEGAPRO",
+  "codigo": "ADPT-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/155.jpg"
+ },
+ {
+  "nombre": "DISCO DE FIBRA 7\" X 7/8\" G-36",
+  "codigo": "ADDF-04",
+  "marca": "CARBORUNDUM",
+  "presentacion": "UND"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO CARBOFORCE SEGMENTADO 4 1/2\"",
+  "codigo": "ADDS-05",
+  "marca": "CARBORUNDUM",
+  "presentacion": "UNID",
+  "imagen": "assets/img/productos/162.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO CARBOFORCE TURBO 4 1/2\"",
+  "codigo": "ADDT-06",
+  "marca": "CARBORUNDUM",
+  "presentacion": "UNID",
+  "imagen": "assets/img/productos/164.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO CONTINUO 4 1/2 MEGAPRO",
+  "codigo": "ADDC-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/166.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO CONTINUO 4 1/2\" COOFIX",
+  "codigo": "ADDC-05",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/168.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO CONTINUO 7 MEGAPRO",
+  "codigo": "ADDC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/170.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO CONTINUO 7\" DIESEL TOOL",
+  "codigo": "ADDC-04",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/172.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO NORTON SEGMENTADO 4 1/2\"",
+  "codigo": "ADDS-02",
+  "marca": "NORTON",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/174.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO SEGMENTADO 7\" SEAL TOOLS",
+  "codigo": "ADDS-01",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/178.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO TURBO 4 1/2 MEGAPRO",
+  "codigo": "ADDS-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/180.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO TURBO 7\" MAXITOOLS",
+  "codigo": "ADDT-05",
+  "marca": "MAXITOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/182.jpg"
+ },
+ {
+  "nombre": "DISCO DIAMANTADO TURBO 7\" MEGAPRO",
+  "codigo": "ADDT-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/184.jpg"
+ },
+ {
+  "nombre": "DISCO P/ CORTE 4 1/2X1/8X7/8 CARBORUNDUM",
+  "codigo": "ADPC-01",
+  "marca": "CARBORUNDUM",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/186.jpg"
+ },
+ {
+  "nombre": "DISCO P/ MADERA 4 1/2\"X1/8X7/8 40D ZASC",
+  "codigo": "ADCO-03",
+  "marca": "ZASC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/188.jpg"
+ },
+ {
+  "nombre": "DISCO P/ MADERA 4 1/2\"X1/8X7/8 COOFIX",
+  "codigo": "ADUL-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/190.jpg"
+ },
+ {
+  "nombre": "DISCO P/ MADERA 4 1/2X1/8X7/8 30D MEGAPRO",
+  "codigo": "ADCO-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/192.jpg"
+ },
+ {
+  "nombre": "DISCO P/ MADERA 7\"X7/8 40D ZASC",
+  "codigo": "ADPC-02",
+  "marca": "ZASC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/194.jpg"
+ },
+ {
+  "nombre": "DISCO P/ TRONZADORA 14 X3/32X1 SR-24",
+  "codigo": "ADPT-03",
+  "marca": "CARBORUNDUM",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/198.jpg"
+ },
+ {
+  "nombre": "DISCO ULTRAFINO 4 1/2 X0.45 X7/8 COOFIX",
+  "codigo": "ADSU-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/200.jpg"
+ },
+ {
+  "nombre": "LIJA BRICKELL G-080",
+  "codigo": "ALRA-01",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/202.jpg"
+ },
+ {
+  "nombre": "LIJA BRICKELL G-120",
+  "codigo": "ALRA-03",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/202.jpg"
+ },
+ {
+  "nombre": "LIJA BRICKELL G-180",
+  "codigo": "ALRA-05",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/202.jpg"
+ },
+ {
+  "nombre": "LIJA BRICKELL G-220",
+  "codigo": "ALRA-06",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/202.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-080",
+  "codigo": "ALDA-01",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-100",
+  "codigo": "ALDA-14",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-120",
+  "codigo": "ALDA-12",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-150",
+  "codigo": "ALDA-20",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-220",
+  "codigo": "ALDA-06",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-280",
+  "codigo": "ALDA-08",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-320",
+  "codigo": "ALDA-09",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-360",
+  "codigo": "ALDA-10",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-400",
+  "codigo": "ALDA-11",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DE AGUA 3M 331Q G-600",
+  "codigo": "ALDA-13",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/204.jpg"
+ },
+ {
+  "nombre": "LIJA DIESEL TOOLS # 100",
+  "codigo": "ALDA-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/202.jpg"
+ },
+ {
+  "nombre": "REPISA P/ESTANTE GREENPRO",
+  "codigo": "AEXH-01",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "CEMENTO PLASTICO IPA GALON",
+  "codigo": "ACPI-01",
+  "marca": "IPA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/210.jpg"
+ },
+ {
+  "nombre": "CINTA ADHESIVA DOBLE CONTACTO 3/4\" X 2M MEGAPRO",
+  "codigo": "ATGI-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/212.jpg"
+ },
+ {
+  "nombre": "CINTA ADHESIVA DOBLE CONTACTO 3/4\" X 5M",
+  "codigo": "FCME-08",
+  "marca": "BRICKELL",
+  "presentacion": "BLISTER",
+  "imagen": "assets/img/productos/214.jpg"
+ },
+ {
+  "nombre": "CINTA ANTIDESLIZANTE 2 COLORES 2\" X 5M MEGAPRO",
+  "codigo": "ACBC-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/216.jpg"
+ },
+ {
+  "nombre": "CINTA ANTIDESLIZANTE NEGRO 2\" X 5M MEGAPRO",
+  "codigo": "ACBC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/218.jpg"
+ },
+ {
+  "nombre": "CINTA DE ALUMINIO 2\" X 20M MEGAPRO",
+  "codigo": "APCE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/220.jpg"
+ },
+ {
+  "nombre": "CINTA DE GEL NANOSILICONA 2MMX2.34CMX2MT MEGAPRO",
+  "codigo": "ATGC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/222.jpg"
+ },
+ {
+  "nombre": "CINTA DOBLE FAZ 3M SCOTCH 1/2\" X 80\" (12,7CM X 2,03M)",
+  "codigo": "APCE-05",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/224.jpg"
+ },
+ {
+  "nombre": "CINTA P/EMBALAR TRANSPARENTE 2\" X 55M MEGAPRO",
+  "codigo": "APCE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/226.jpg"
+ },
+ {
+  "nombre": "CINTA P/EMBALAR TRANSPARENTE 2\" X 183M MEGAPRO",
+  "codigo": "APCE-06",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/230.jpg"
+ },
+ {
+  "nombre": "CINTA PARA DUCTOS 2\" 10M MEGAPRO",
+  "codigo": "FPZB-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/232.jpg"
+ },
+ {
+  "nombre": "CINTA REFLECTANTE PVC 2\" X 9M EXXEL",
+  "codigo": "FCME-05",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/234.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO 1 1/2\" X 20M MEGAPRO",
+  "codigo": "LRUR-05",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/236.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO 1\" X 20M MEGAPRO",
+  "codigo": "FCME-07",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/238.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO 2\" X 20M MEGAPRO",
+  "codigo": "ASVS-10",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/240.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO 3/4\" X 20M MEGAPRO",
+  "codigo": "APCE-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/242.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO VERDE 3M 3/4\" X 55 M",
+  "codigo": "APCT-02",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/244.jpg"
+ },
+ {
+  "nombre": "GOTA FIX IPA GALON",
+  "codigo": "FPZB-03",
+  "marca": "IPA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/246.jpg"
+ },
+ {
+  "nombre": "PEGAMENTO EPOXICO METAL/PLAST MEGAPRO",
+  "codigo": "APEX-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/250.jpg"
+ },
+ {
+  "nombre": "PEGAMENTO OATEY USA MULTI-USO PVC/CPVC/ABS 118ML",
+  "codigo": "APSP-06",
+  "marca": "OATEY",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/252.jpg"
+ },
+ {
+  "nombre": "PEGAMENTO SOLDADURA PVC GREENPRO 125ML",
+  "codigo": "APSP-01",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/254.jpg"
+ },
+ {
+  "nombre": "PEGAMENTO SOLDADURA PVC GREENPRO 250ML",
+  "codigo": "APSP-02",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/256.jpg"
+ },
+ {
+  "nombre": "PEGAMENTO TRABA ROSCA ROJO 10ML MEGAPRO",
+  "codigo": "APSG-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/258.jpg"
+ },
+ {
+  "nombre": "PINTURA P/MANTO EKOCOLOR CINDU CUÑETE 4G BLANCO",
+  "codigo": "SBNO-09",
+  "marca": "CINDU",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/260.jpg"
+ },
+ {
+  "nombre": "PINTURA P/MANTO EKOCOLOR CINDU CUÑETE 4G VERDE",
+  "codigo": "SBNO-08",
+  "marca": "CINDU",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/260.jpg"
+ },
+ {
+  "nombre": "PLASTICO P/EMBALAR NEGRO 45CM X 2KG MEGAPRO",
+  "codigo": "HELA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/262.jpg"
+ },
+ {
+  "nombre": "PLASTICO P/EMBALAR TRANSPARENTE 45CM X 2KG MEGAPRO",
+  "codigo": "HELO-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 2",
+  "imagen": "assets/img/productos/264.jpg"
+ },
+ {
+  "nombre": "SELLADOR IMPERMEABILIZANTE NEGRO SPRAY 500ML",
+  "codigo": "APSA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "SELLADOR IMPERMEABILIZANTE TRANSP SPRAY 500ML",
+  "codigo": "APSA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/270.jpg"
+ },
+ {
+  "nombre": "SILICON BLANCO ANTIHONGOS 85ML GREENPRO",
+  "codigo": "APLS-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/272.jpg"
+ },
+ {
+  "nombre": "SILICON MEGAPRO TRANSPARENTE 85G",
+  "codigo": "APSC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/274.jpg"
+ },
+ {
+  "nombre": "SOPLETE QUEMADOR P/IMPERMEABILIZAR 28\" GOSS",
+  "codigo": "PLIP-01",
+  "marca": "GOSS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/276.jpg"
+ },
+ {
+  "nombre": "TEFLON IMPORTADO 1/2 X 7 MTS.",
+  "codigo": "APTE-01",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/278.jpg"
+ },
+ {
+  "nombre": "TEFLON PROFESIONAL 1/2\" X 10M AMARILLO",
+  "codigo": "APTE-03",
+  "marca": "",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "TEFLON PROFESIONAL 3/4\" X 15 MTS GREENPRO",
+  "codigo": "APTE-04",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "TEFLON PROFESIONAL 3/4\" X 10M AMARILLO",
+  "codigo": "APTE-05",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/282.jpg"
+ },
+ {
+  "nombre": "TEFLON PROFESIONAL 3/4\" X 15M AMARILLO",
+  "codigo": "APTE-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/286.jpg"
+ },
+ {
+  "nombre": "TEIPE 3M TEMPLEX ORIGINAL 3/4 X 18,3M",
+  "codigo": "APTC-04",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/288.jpg"
+ },
+ {
+  "nombre": "TEIPE COBRA GRANDE 3/4\" X 18M",
+  "codigo": "APTC-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/290.jpg"
+ },
+ {
+  "nombre": "TEIPE COBRA ORIGINAL PEQUEÑO 3/4\" X 10M",
+  "codigo": "ALPA-01",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/292.jpg"
+ },
+ {
+  "nombre": "TEIPE ELECTRICO 3M SCOTCH SUPER 33+ 3/4\" X 25YD",
+  "codigo": "APTC-02",
+  "marca": "3M",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/294.jpg"
+ },
+ {
+  "nombre": "TEIPE NEGRO VOLTAGE 3/4\" X 7.3M",
+  "codigo": "APPC-01",
+  "marca": "VOLTAGE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/296.jpg"
+ },
+ {
+  "nombre": "BORNE P/BATERIA CARRO CONEX LATERAL SEAL TOOLS",
+  "codigo": "ABOR-03",
+  "marca": "SEAL TOOLS",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/300.jpg"
+ },
+ {
+  "nombre": "BORNE P/BATERIA CARRO SEAL TOOLS",
+  "codigo": "ABOR-01",
+  "marca": "SEAL TOOLS",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/302.jpg"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #08 BLANCO",
+  "codigo": "ECAU-19",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #08 NEGRO",
+  "codigo": "ECAU-20",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #10 BLANCO",
+  "codigo": "ECAU-21",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #10 NEGRO",
+  "codigo": "ECAU-22",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #10 ROJO",
+  "codigo": "ECAU-23",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #12 NEGRO",
+  "codigo": "ECAU-12",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #12 ROJO",
+  "codigo": "ECAU-13",
+  "marca": "KOOPER",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "CABLE 100% COBRE BRICKELL THHN #12 VERDE",
+  "codigo": "ECAU-14",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO X 1"
+ },
+ {
+  "nombre": "CARGADOR DE BATERIA 50AMP 110V MEGAPRO",
+  "codigo": "ECAB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/318.jpg"
+ },
+ {
+  "nombre": "CONO SEGURIDAD PLEGABLE 40CM",
+  "codigo": "ARAA-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/320.jpg"
+ },
+ {
+  "nombre": "CUPILLA PASADOR FIJACION SET 345PZA",
+  "codigo": "APRT-02",
+  "marca": "SEAL TOOLS",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/322.jpg"
+ },
+ {
+  "nombre": "FORMULA MECANICA 450ML MEGAPRO",
+  "codigo": "ASVS-03",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/324.jpg"
+ },
+ {
+  "nombre": "FUSIBLES DE CARRO SET 97PZA 5-30AMP",
+  "codigo": "APRT-01",
+  "marca": "SEAL TOOLS",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/326.jpg"
+ },
+ {
+  "nombre": "GAMUZA PARA LAVAR AUTO 43X32CM",
+  "codigo": "ASVS-12",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/328.jpg"
+ },
+ {
+  "nombre": "GATO BOTELLA 10 TON MEGAPRO",
+  "codigo": "AGAB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/330.jpg"
+ },
+ {
+  "nombre": "GATO BOTELLA 2 TON MEGAPRO",
+  "codigo": "AGAB-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/332.jpg"
+ },
+ {
+  "nombre": "GATO BOTELLA 20 TON MEGAPRO",
+  "codigo": "AGAB-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/336.jpg"
+ },
+ {
+  "nombre": "GATO BOTELLA 4 TON MEGAPRO",
+  "codigo": "AGAB-07",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/338.jpg"
+ },
+ {
+  "nombre": "GATO BOTELLA 6 TON MEGAPRO",
+  "codigo": "AGAB-08",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/340.jpg"
+ },
+ {
+  "nombre": "GATO CAIMAN DE 2 TON MEGAPRO",
+  "codigo": "AGAB-11",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/342.jpg"
+ },
+ {
+  "nombre": "GATO CAIMAN DE 3 TON MEGAPRO",
+  "codigo": "AGAB-10",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/344.jpg"
+ },
+ {
+  "nombre": "LIMPIADOR MOTOR MEGAPRO 450ML",
+  "codigo": "ASVS-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "LLAVE DE CRUZ 14\" MEGAPRO",
+  "codigo": "ALDC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/348.jpg"
+ },
+ {
+  "nombre": "MEDIDOR DE AIRE 10-120PSI DIESEL TOOLS",
+  "codigo": "ASVS-07",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/350.jpg"
+ },
+ {
+  "nombre": "PEGA PARA PARCHE 500ML TAITEC",
+  "codigo": "APPP-02",
+  "marca": "TAITEC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/352.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/HIERRO 2\"",
+  "codigo": "FBPH-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/356.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/HIERRO 3",
+  "codigo": "FBPH-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/356.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/HIERRO 4",
+  "codigo": "FBPH-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/356.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/HIERRO 5",
+  "codigo": "FBPH-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/356.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/MADERA LATONADA 2 1/2 X 2 1/2",
+  "codigo": "FBPM-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/358.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/MADERA LATONADA 2 X 2",
+  "codigo": "FBPM-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/358.jpg"
+ },
+ {
+  "nombre": "BISAGRA P/MADERA LATONADA 3 X 3",
+  "codigo": "FBPM-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/358.jpg"
+ },
+ {
+  "nombre": "BISAGRA PLATEADA 2 1/2\" X 1.2MM",
+  "codigo": "FCSE-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/360.jpg"
+ },
+ {
+  "nombre": "BISAGRA PLATEADA 2\" X 1.2MM",
+  "codigo": "FCSE-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/360.jpg"
+ },
+ {
+  "nombre": "BISAGRA PLATEADA 4\" X 1.2MM",
+  "codigo": "FCSE-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/364.jpg"
+ },
+ {
+  "nombre": "BLANCO DE LLAVE DERECHA",
+  "codigo": "CBPL-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/366.jpg"
+ },
+ {
+  "nombre": "BLANCO DE LLAVE IZQUIERDO",
+  "codigo": "CBPL-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/368.jpg"
+ },
+ {
+  "nombre": "BRAZO P/PUERTA HIDRAULICO 25-45 KG MEGAPRO",
+  "codigo": "HEMI-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/370.jpg"
+ },
+ {
+  "nombre": "BRAZO P/PUERTA HIDRAULICO 65-85 KG MEGAPRO",
+  "codigo": "HEMI-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/372.jpg"
+ },
+ {
+  "nombre": "CANDADO ANTICIZALLA MEGAPRO 100MM",
+  "codigo": "FCAA-05",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/374.jpg"
+ },
+ {
+  "nombre": "CANDADO ANTICIZALLA MEGAPRO 60MM",
+  "codigo": "FCES-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/376.jpg"
+ },
+ {
+  "nombre": "CANDADO ANTICIZALLA MEGAPRO 70MM",
+  "codigo": "FCES-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/378.jpg"
+ },
+ {
+  "nombre": "CANDADO ANTICIZALLA MEGAPRO 80MM",
+  "codigo": "FCAA-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/380.jpg"
+ },
+ {
+  "nombre": "CANDADO ANTICIZALLA REFORZADO 70MM MEGAPRO",
+  "codigo": "FCAA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/384.jpg"
+ },
+ {
+  "nombre": "CANDADO EN BLISTER 20-25-30MM PADLOCK",
+  "codigo": "FCPG-01",
+  "marca": "",
+  "presentacion": "BLISTER",
+  "imagen": "assets/img/productos/386.jpg"
+ },
+ {
+  "nombre": "CANDADO EN BLISTER 30-40-50MM",
+  "codigo": "FCEB-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "BLISTER",
+  "imagen": "assets/img/productos/388.jpg"
+ },
+ {
+  "nombre": "CANDADO EN BLISTER 40-50-60MM",
+  "codigo": "FCBS-01",
+  "marca": "TREK",
+  "presentacion": "CARTON",
+  "imagen": "assets/img/productos/390.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MAXI TOOLS 32MM",
+  "codigo": "FCIY-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/392.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MAXI TOOLS 40MM",
+  "codigo": "FCIY-02",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/394.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MAXI TOOLS 50MM",
+  "codigo": "FCIY-03",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/396.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MAXI TOOLS 63MM",
+  "codigo": "FCIY-04",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/398.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 20MM",
+  "codigo": "FCFM-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/400.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 25MM",
+  "codigo": "FCFM-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/404.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 32MM",
+  "codigo": "FCFM-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/406.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 38MM",
+  "codigo": "FCFM-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/408.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 50MM",
+  "codigo": "FCCA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/410.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 63MM",
+  "codigo": "FCSE-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/412.jpg"
+ },
+ {
+  "nombre": "CANDADO PLANO MEGAPRO 75MM",
+  "codigo": "FCIY-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/414.jpg"
+ },
+ {
+  "nombre": "CERRADURA MANILLA CURVA PLATEADA (BOTON) MEGAPRO",
+  "codigo": "CPMC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/416.jpg"
+ },
+ {
+  "nombre": "CERRADURA P/EMBUTIR SEAL TOOLS 25MM",
+  "codigo": "CPEM-01",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/418.jpg"
+ },
+ {
+  "nombre": "CERRADURA P/GAVETA PLATEADA (HL600CP)",
+  "codigo": "CPGP-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/420.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO EXXEL 587-PB DORADO",
+  "codigo": "CPRA-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/424.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO EXXEL 587-PC CROMO",
+  "codigo": "CPBR-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/426.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO MAXI TOOLS COBRIZA (588AC)",
+  "codigo": "CPMO-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/430.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO MAXI TOOLS PLATEADA (588SS)",
+  "codigo": "CPRD-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "CERRADURA POMO MAXI TOOLS REDONDA PLATEADA (587SS)",
+  "codigo": "CPRA-02",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "CERRADURA POMO PLATEADA BLISTER MEGAPRO",
+  "codigo": "CPMO-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/436.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO REDONDO BRONCE (BOTON) MEGAPRO",
+  "codigo": "CPAC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/438.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO REDONDO PLATEADA (BOTON) MEGAPRO",
+  "codigo": "CPRD-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/440.jpg"
+ },
+ {
+  "nombre": "CERRADURA POMO REDONDO PLATEADA (GIRO) MEGAPRO",
+  "codigo": "CPRD-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/444.jpg"
+ },
+ {
+  "nombre": "CERRADURA SOBREPONER C/FIJO 3 PINES MEGAPRO",
+  "codigo": "CPRD-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/446.jpg"
+ },
+ {
+  "nombre": "CERRADURA SOBREPONER C/FIJO DERECHA MEGAPRO",
+  "codigo": "CPMO-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/448.jpg"
+ },
+ {
+  "nombre": "CERRADURA SOBREPONER C/FIJO IZQUIERDA MEGAPRO",
+  "codigo": "CSCF-01",
+  "marca": "MAGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/450.jpg"
+ },
+ {
+  "nombre": "CERRADURA SOBREPONER C/FIJO MAXXITOOLS",
+  "codigo": "CSCF-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/452.jpg"
+ },
+ {
+  "nombre": "CERRADURA SOBREPONER C/SUELTO P/PORTON MEGAPRO",
+  "codigo": "CPEM-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/454.jpg"
+ },
+ {
+  "nombre": "CERRADURA SOBREPONER C/SUELTO Y PASADOR MEGAPRO",
+  "codigo": "CSCF-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/456.jpg"
+ },
+ {
+  "nombre": "CILINDRO P/CERRADURA BRONCE 60MM MEGAPRO",
+  "codigo": "CCPR-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/458.jpg"
+ },
+ {
+  "nombre": "OREJA P/ PUERTA DE HIERRO",
+  "codigo": "FOPH-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/460.jpg"
+ },
+ {
+  "nombre": "PASADOR CUADRADO ZINCADO 5\"",
+  "codigo": "FCBR-05",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/464.jpg"
+ },
+ {
+  "nombre": "PASADOR PORTA CANDADO 3\"",
+  "codigo": "FPAS-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/466.jpg"
+ },
+ {
+  "nombre": "PASADOR PORTA CANDADO 4\"",
+  "codigo": "FPAS-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/466.jpg"
+ },
+ {
+  "nombre": "PASADOR PORTA CANDADO 5\"",
+  "codigo": "FPAS-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/466.jpg"
+ },
+ {
+  "nombre": "PASADOR PORTA CANDADO 6\"",
+  "codigo": "FPAS-05",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/466.jpg"
+ },
+ {
+  "nombre": "PASADOR PORTA CANDADO 8\"",
+  "codigo": "FPAS-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/466.jpg"
+ },
+ {
+  "nombre": "PROTECTOR P/CILINDRO FIJO REDONDO",
+  "codigo": "FPPC-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/468.jpg"
+ },
+ {
+  "nombre": "PROTECTOR P/CILINDRO OVALADO EXTERIOR",
+  "codigo": "FPPC-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/470.jpg"
+ },
+ {
+  "nombre": "PROTECTOR P/CILINDRO OVALADO INTERIOR",
+  "codigo": "FPPC-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/472.jpg"
+ },
+ {
+  "nombre": "PROTECTOR P/CILINDRO REDONDO EXTERIOR",
+  "codigo": "FPPC-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/476.jpg"
+ },
+ {
+  "nombre": "PROTECTOR P/CILINDRO REDONDO INTERIOR",
+  "codigo": "FPPC-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/478.jpg"
+ },
+ {
+  "nombre": "REPUESTO PARA ROLDANA 50MM MEGAPRO",
+  "codigo": "ALPC-13",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/480.jpg"
+ },
+ {
+  "nombre": "REPUESTO PARA ROLDANA 60MM MEGAPRO",
+  "codigo": "ALPC-14",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/482.jpg"
+ },
+ {
+  "nombre": "REPUESTO PARA ROLDANA 80MM MEGAPRO",
+  "codigo": "ALPC-15",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/484.jpg"
+ },
+ {
+  "nombre": "ROLDANA P/EMPOTRAR 60MM MEGAPRO",
+  "codigo": "FCCA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/486.jpg"
+ },
+ {
+  "nombre": "ROLDANA P/EMPOTRAR 80MM MEGAPRO",
+  "codigo": "FLZA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/488.jpg"
+ },
+ {
+  "nombre": "ROLDANA P/EMPOTRAR 90MM MEGAPRO",
+  "codigo": "FLZA-02",
+  "marca": "MEGAPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "ROLDANA P/EMPOTRAR 120MM MEGAPRO",
+  "codigo": "FLZA-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/490.jpg"
+ },
+ {
+  "nombre": "ROLDANA SOBREPONER DORADA 80MM MEGAPRO",
+  "codigo": "FCAA-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/494.jpg"
+ },
+ {
+  "nombre": "ROLDANA SOBREPONER DORADA 90MM MEGAPRO",
+  "codigo": "FCMM-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/496.jpg"
+ },
+ {
+  "nombre": "ROLDANA SOBREPONER PLATEADA 50MM MEGAPRO",
+  "codigo": "CPVI-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/498.jpg"
+ },
+ {
+  "nombre": "ROLDANA SOBREPONER PLATEADA 60MM MEGAPRO",
+  "codigo": "FLZA-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/500.jpg"
+ },
+ {
+  "nombre": "ROLDANA SOBREPONER PLATEADA 70MM MEGAPRO",
+  "codigo": "FCBR-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/502.jpg"
+ },
+ {
+  "nombre": "HG ANILLO GALVANIZADO DE 1",
+  "codigo": "CGAG-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/506.jpg"
+ },
+ {
+  "nombre": "HG ANILLO GALVANIZADO DE 1/2",
+  "codigo": "CGAG-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/508.jpg"
+ },
+ {
+  "nombre": "HG ANILLO GALVANIZADO DE 3/4",
+  "codigo": "CGAG-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/508.jpg"
+ },
+ {
+  "nombre": "HG ANILLO REDUCIDO GALVANIZADO 1 X 1/2",
+  "codigo": "CGAR-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/510.jpg"
+ },
+ {
+  "nombre": "HG ANILLO REDUCIDO GALVANIZADO 1 X 3/4",
+  "codigo": "CGAR-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/512.jpg"
+ },
+ {
+  "nombre": "HG BUSHING GALVANIZADO 1 X 1/2",
+  "codigo": "CGAG-06",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/514.jpg"
+ },
+ {
+  "nombre": "HG BUSHING GALVANIZADO 1 X 3/4",
+  "codigo": "CGAG-07",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/514.jpg"
+ },
+ {
+  "nombre": "HG BUSHING GALVANIZADO 3/4 X 1/2",
+  "codigo": "CGAG-08",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/514.jpg"
+ },
+ {
+  "nombre": "HG CODOS GALVANIZADO 1 X 90",
+  "codigo": "CGCC-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/516.jpg"
+ },
+ {
+  "nombre": "HG CODOS GALVANIZADO 2 X 90",
+  "codigo": "CGCC-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/520.jpg"
+ },
+ {
+  "nombre": "HG CODOS GALVANIZADO 3/4",
+  "codigo": "CGCC-06",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/522.jpg"
+ },
+ {
+  "nombre": "HG JUNTA DRESSER GALVANIZADA 3/4",
+  "codigo": "CGJD-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/524.jpg"
+ },
+ {
+  "nombre": "HG TAPA GALVANIZADA DE 1",
+  "codigo": "CGTG-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/526.jpg"
+ },
+ {
+  "nombre": "HG TAPA GALVANIZADA DE 1 1/2",
+  "codigo": "CGTG-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/526.jpg"
+ },
+ {
+  "nombre": "HG TAPA GALVANIZADA DE 3/4",
+  "codigo": "CGTG-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/528.jpg"
+ },
+ {
+  "nombre": "HG TAPON GALVANIZADO DE 1",
+  "codigo": "CGTP-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/530.jpg"
+ },
+ {
+  "nombre": "HG TAPON GALVANIZADO DE 3/4",
+  "codigo": "CGTP-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/530.jpg"
+ },
+ {
+  "nombre": "HG TEE GALVANIZADA DE 1/2",
+  "codigo": "CGTE-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/532.jpg"
+ },
+ {
+  "nombre": "HG TEE GALVANIZADA DE 3/4",
+  "codigo": "CGTE-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/536.jpg"
+ },
+ {
+  "nombre": "HG UNION GALVANIZADA DE 1\"",
+  "codigo": "CGUG-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/538.jpg"
+ },
+ {
+  "nombre": "HG UNION GALVANIZADA DE 3/4",
+  "codigo": "CGUG-06",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/540.jpg"
+ },
+ {
+  "nombre": "CONEXION COMPUESTA PVC P/TANQUE 1\" GREENPRO",
+  "codigo": "CPCC-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/558.jpg"
+ },
+ {
+  "nombre": "CONEXION COMPUESTA PVC P/TANQUE 1/2\" GREENPRO",
+  "codigo": "CPCC-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/558.jpg"
+ },
+ {
+  "nombre": "CONEXION COMPUESTA PVC P/TANQUE 3/4\"",
+  "codigo": "CPCC-03",
+  "marca": "HTK",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/558.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR HEMBRA ESPIGA AMPLIADA PVC PRESION A/F 1/2\" A 3/4\"",
+  "codigo": "CPAH-04",
+  "marca": "IMPLASVENCA",
+  "presentacion": "UNID",
+  "imagen": "assets/img/productos/560.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR HEMBRA PVC PRESION A/F 1\"",
+  "codigo": "CPAH-03",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/562.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR HEMBRA PVC PRESION A/F 1/2\"",
+  "codigo": "CPAH-01",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/562.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR HEMBRA PVC PRESION A/F 3/4\"",
+  "codigo": "CPAH-02",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/562.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR MACHO PVC PRESION A/F 1\"",
+  "codigo": "CPAM-03",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/564.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR MACHO PVC PRESION A/F 1/2\"",
+  "codigo": "CPAM-01",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/564.jpg"
+ },
+ {
+  "nombre": "CP ADAPTADOR MACHO PVC PRESION A/F 3/4\"",
+  "codigo": "CPAM-02",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/564.jpg"
+ },
+ {
+  "nombre": "CP ANILLO PVC PRESION A/F 1",
+  "codigo": "CPAP-03",
+  "marca": "UNI",
+  "presentacion": "",
+  "imagen": "assets/img/productos/568.jpg"
+ },
+ {
+  "nombre": "CP ANILLO PVC PRESION A/F 1/2",
+  "codigo": "CPUP-01",
+  "marca": "UNI",
+  "presentacion": "",
+  "imagen": "assets/img/productos/570.jpg"
+ },
+ {
+  "nombre": "CP ANILLO PVC PRESION A/F 3/4",
+  "codigo": "CPAP-02",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/568.jpg"
+ },
+ {
+  "nombre": "CP ANILLOS PLASTICOS DE 1/2",
+  "codigo": "CPAN-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/572.jpg"
+ },
+ {
+  "nombre": "CP ANILLOS PLASTICOS DE 3/4",
+  "codigo": "CPAN-02",
+  "marca": "",
+  "presentacion": "",
+  "imagen": "assets/img/productos/572.jpg"
+ },
+ {
+  "nombre": "CP ANILLOS PLASTICOS REDUCIDO 1 X 3/4 GREENPRO",
+  "codigo": "CPJD-06",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "CP ANILLOS PLASTICOS REDUCIDO 3/4 X 1/2",
+  "codigo": "CPAN-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/574.jpg"
+ },
+ {
+  "nombre": "CP BUSHING PVC ROSCA 3/4\" A 1/2\"",
+  "codigo": "CPJD-02",
+  "marca": "GREENPRO",
+  "presentacion": "BOLSA X 50"
+ },
+ {
+  "nombre": "CP CODO PVC PRESION A/F 1\" X90°",
+  "codigo": "CPCP-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/578.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC PRESION A/F 1/2\" X90° GREENPRO",
+  "codigo": "CPCP-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/578.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC PRESION A/F 3/4\" X90° GREENPRO",
+  "codigo": "CPCP-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/578.jpg"
+ },
+ {
+  "nombre": "CP CODOS PLASTICOS DE 1 GREENPRO",
+  "codigo": "CPCO-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/580.jpg"
+ },
+ {
+  "nombre": "CP CODOS PLASTICOS DE 1/2",
+  "codigo": "CPCO-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/580.jpg"
+ },
+ {
+  "nombre": "CP CODOS PLASTICOS DE 3/4",
+  "codigo": "CPCO-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/580.jpg"
+ },
+ {
+  "nombre": "CP JUNTA DREES PLASTICA DE 1",
+  "codigo": "CPJD-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/582.jpg"
+ },
+ {
+  "nombre": "CP JUNTA DRESS PVC 1/2\"",
+  "codigo": "CPJD-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/584.jpg"
+ },
+ {
+  "nombre": "CP JUNTA DRESS PVC 3/4\"",
+  "codigo": "CPJD-05",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/586.jpg"
+ },
+ {
+  "nombre": "CP NIPLE PLASTICO 1\" X CORRIDO",
+  "codigo": "CPTP-10",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/590.jpg"
+ },
+ {
+  "nombre": "CP REDUCCION ANILLO CPVC PRESION A/CALIENTE 3/4 A 1/2",
+  "codigo": "CPBP-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/592.jpg"
+ },
+ {
+  "nombre": "CP REDUCCION BUSHING PVC PRESION A/F 3/4 A 1/2",
+  "codigo": "CPBP-01",
+  "marca": "IMPLASVENCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/594.jpg"
+ },
+ {
+  "nombre": "CP TAPA PLASTICA DE 1 GREENPRO",
+  "codigo": "CPCP-10",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "CP TAPA PLASTICA DE 1/2",
+  "codigo": "CPTA-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/596.jpg"
+ },
+ {
+  "nombre": "CP TAPA PLASTICA DE 3/4",
+  "codigo": "CPTA-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/596.jpg"
+ },
+ {
+  "nombre": "CP TAPON PLASTICO DE 1/2",
+  "codigo": "CPTP-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/598.jpg"
+ },
+ {
+  "nombre": "CP TAPON PLASTICO DE 3/4",
+  "codigo": "CPTP-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/598.jpg"
+ },
+ {
+  "nombre": "CP TAPON SOLDADO PVC PRESION A/F 1",
+  "codigo": "CPTS-03",
+  "marca": "UNI",
+  "presentacion": "",
+  "imagen": "assets/img/productos/600.jpg"
+ },
+ {
+  "nombre": "CP TAPON SOLDADO PVC PRESION A/F 1/2",
+  "codigo": "CPTS-01",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/600.jpg"
+ },
+ {
+  "nombre": "CP TAPON SOLDADO PVC PRESION A/F 3/4",
+  "codigo": "CPTS-02",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/600.jpg"
+ },
+ {
+  "nombre": "CP TEE CPVC PRESION A/CALIENTE 1/2\"",
+  "codigo": "CPTP-09",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/604.jpg"
+ },
+ {
+  "nombre": "CP TEE PLASTICA DE 1 GREENPRO",
+  "codigo": "CPCP-11",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "CP TEE PLASTICA DE 3/4",
+  "codigo": "CPTE-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/606.jpg"
+ },
+ {
+  "nombre": "CP TEE PVC PRESION A/F 1\"",
+  "codigo": "CPTP-05",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/608.jpg"
+ },
+ {
+  "nombre": "CP TEE PVC PRESION A/F 1/2\"",
+  "codigo": "CPTP-03",
+  "marca": "VINKO",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/610.jpg"
+ },
+ {
+  "nombre": "CP TEE PVC PRESION A/F 3/4\"",
+  "codigo": "CPTP-04",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/610.jpg"
+ },
+ {
+  "nombre": "CP UNION UNIVERSAL PLASTICA DE 1",
+  "codigo": "CPUN-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/612.jpg"
+ },
+ {
+  "nombre": "CP UNION UNIVERSAL PLASTICA DE 1/2",
+  "codigo": "CPUN-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/612.jpg"
+ },
+ {
+  "nombre": "CP UNION UNIVERSAL PLASTICA DE 3/4",
+  "codigo": "PCUN-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/616.jpg"
+ },
+ {
+  "nombre": "CP UNION UNIVERSAL PVC PRESION A/F 1\"",
+  "codigo": "CPUU-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/618.jpg"
+ },
+ {
+  "nombre": "CP UNION UNIVERSAL PVC PRESION A/F 1/2\"",
+  "codigo": "CPUU-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/618.jpg"
+ },
+ {
+  "nombre": "CP UNION UNIVERSAL PVC PRESION A/F 3/4\"",
+  "codigo": "CPUU-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/618.jpg"
+ },
+ {
+  "nombre": "CP VALVULA CHECK C/MARACA PVC PRESION A/F 1 1/2",
+  "codigo": "CPVC-07",
+  "marca": "IMPLASVENCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/620.jpg"
+ },
+ {
+  "nombre": "CP VALVULA CHECK PVC PRESION A/F 1",
+  "codigo": "CPVC-03",
+  "marca": "IMPLASVENCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/622.jpg"
+ },
+ {
+  "nombre": "CP VALVULA CHECK PVC PRESION A/F 1/2",
+  "codigo": "CPVC-01",
+  "marca": "IMPLASVENCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/622.jpg"
+ },
+ {
+  "nombre": "CP VALVULA CHECK PVC PRESION A/F 3/4",
+  "codigo": "CPVC-02",
+  "marca": "IMPLASVENCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/622.jpg"
+ },
+ {
+  "nombre": "APAGADOR C/TOMA P/CAJETIN MEGAPRO BLANCO",
+  "codigo": "EATC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/626.jpg"
+ },
+ {
+  "nombre": "APAGADOR DOBLE P/CAJETIN CREMA MEGAPRO",
+  "codigo": "EADC-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/628.jpg"
+ },
+ {
+  "nombre": "APAGADOR DOBLE P/CAJETIN LUJO GRIS MEGAPRO",
+  "codigo": "EASC-05",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/630.jpg"
+ },
+ {
+  "nombre": "APAGADOR DOBLE P/CAJETIN MODERNO BLANCO MEGAPRO",
+  "codigo": "EASC-07",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/632.jpg"
+ },
+ {
+  "nombre": "APAGADOR DOBLE P/CAJETIN ORIX PLATEADO",
+  "codigo": "EADC-01",
+  "marca": "ORIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/634.jpg"
+ },
+ {
+  "nombre": "APAGADOR SENCILLO P/CAJETIN LUJO BLANCO MEGAPRO",
+  "codigo": "EASC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/636.jpg"
+ },
+ {
+  "nombre": "APAGADOR SENCILLO P/CAJETIN LUJO GRIS MEGAPRO",
+  "codigo": "EASC-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/638.jpg"
+ },
+ {
+  "nombre": "APAGADOR SENCILLO P/CAJETIN MODERNO BLANCO MEGAPRO",
+  "codigo": "EADC-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/640.jpg"
+ },
+ {
+  "nombre": "APAGADOR SUPERFICIAL T-52",
+  "codigo": "EASF-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/642.jpg"
+ },
+ {
+  "nombre": "APAGADOR SUPERFICIAL T/OVAL",
+  "codigo": "EASO-01",
+  "marca": "VITRON",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/646.jpg"
+ },
+ {
+  "nombre": "APAGADOR TRIPLE P/CAJETIN GAMMA ELECTRIC",
+  "codigo": "EASC-08",
+  "marca": "GAMMA ELECTRIC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/648.jpg"
+ },
+ {
+  "nombre": "APAGADOR TRIPLE P/CAJETIN LUJO GRIS MEGAPRO",
+  "codigo": "EADC-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/650.jpg"
+ },
+ {
+  "nombre": "BOMBILLO INDUSTRIAL MEGAPRO 150W E27 85-265V 6500K",
+  "codigo": "EBTR-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10"
+ },
+ {
+  "nombre": "BOMBILLO INDUSTRIAL MEGAPRO 15W 85-265V 6500K",
+  "codigo": "ECAU-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/652.jpg"
+ },
+ {
+  "nombre": "BOMBILLO INDUSTRIAL MEGAPRO 20W 85-265V 6500K",
+  "codigo": "ECAU-06",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/654.jpg"
+ },
+ {
+  "nombre": "BOMBILLO INDUSTRIAL MEGAPRO 30W 85-265V 6500K",
+  "codigo": "ECAU-07",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/656.jpg"
+ },
+ {
+  "nombre": "BOMBILLO INDUSTRIAL MEGAPRO 40W 85-265V 6500K",
+  "codigo": "ECAU-08",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/658.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED DICROICO 5W 85-260V 6500K EXXEL",
+  "codigo": "EBLM-04",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/660.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED EXXEL 9W 110V 6500K",
+  "codigo": "EBAE-03",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/664.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED EXXEL 10W 110V 6500K",
+  "codigo": "EBAE-04",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/666.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED INDUSTRIAL EXXEL C/ENFRI 180W 85-265V 6500K",
+  "codigo": "EBTR-03",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/668.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED INDUSTRIAL WALES 35W 85-265V 6500K",
+  "codigo": "EBAE-01",
+  "marca": "WALES",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/670.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED MAXI 18W W18M",
+  "codigo": "ENAE-05",
+  "marca": "MAXI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/672.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED PLEGABLE 42W 85-265V",
+  "codigo": "EBTR-04",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/674.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED PLEGABLE 60W 85-265V",
+  "codigo": "EBDR-01",
+  "marca": "D-LED / EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/676.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED VELA 5W E14 85-265V MEGAPRO",
+  "codigo": "EBLM-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/678.jpg"
+ },
+ {
+  "nombre": "BOMBILLO LED VELA 5W E27 85-260V MEGAPRO",
+  "codigo": "EBLM-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/680.jpg"
+ },
+ {
+  "nombre": "BOMBILLO VENTILADOR C/ASPAS 20W 85-265V C/CONTRO",
+  "codigo": "EBVE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJUA X 5",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "BOMBILLO VENTILADOR REDONDO 20W 85-265V C/CONTROL",
+  "codigo": "EBLM-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "BREAKERS QL 2X30 AMP EMPOTRAR",
+  "codigo": "EBQL-06",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/684.jpg"
+ },
+ {
+  "nombre": "BREAKERS QL 2X40 AMP EMPOTRAR",
+  "codigo": "EBQL-07",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/686.jpg"
+ },
+ {
+  "nombre": "BREAKERS SOBREPONER 1X20 AMP.",
+  "codigo": "EBQC-01",
+  "marca": "V-TEC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/688.jpg"
+ },
+ {
+  "nombre": "BREAKERS SOBREPONER 1X30 AMP.",
+  "codigo": "EBQC-02",
+  "marca": "V-TEC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/690.jpg"
+ },
+ {
+  "nombre": "BREAKERS SOBREPONER 1X40 AMP.",
+  "codigo": "EBQC-03",
+  "marca": "V-TEC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/692.jpg"
+ },
+ {
+  "nombre": "BREAKERS SOBREPONER 1X50 AMP.",
+  "codigo": "EBQC-09",
+  "marca": "V-TEG",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/694.jpg"
+ },
+ {
+  "nombre": "CAJETIN METAL 4X2 MEGAPRO",
+  "codigo": "ECAM-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/696.jpg"
+ },
+ {
+  "nombre": "CAJETIN PLASTICO 4 X 2 BLANCO",
+  "codigo": "ECAP-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/700.jpg"
+ },
+ {
+  "nombre": "CAJETIN PLASTICO 4 X 4 BLANCO",
+  "codigo": "ECAP-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/702.jpg"
+ },
+ {
+  "nombre": "CAJETIN PLASTICO OCTOGONAL BLANCO",
+  "codigo": "ECPO-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/704.jpg"
+ },
+ {
+  "nombre": "CANALETA PVC AUTOADHESIVA 10 X 10 (2MTS.)",
+  "codigo": "FCAN-01",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/706.jpg"
+ },
+ {
+  "nombre": "CANALETA PVC AUTOADHESIVA 15 X 10 (2MTS.)",
+  "codigo": "FCAN-02",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/708.jpg"
+ },
+ {
+  "nombre": "CANALETA PVC AUTOHADESIVA 20 X 10 (2MTS)",
+  "codigo": "FCAN-03",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/710.jpg"
+ },
+ {
+  "nombre": "CANALETA PVC AUTOHADESIVA 30 X 15 (2MTS)",
+  "codigo": "FCAN-04",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/712.jpg"
+ },
+ {
+  "nombre": "COCINA ELECTRICA 2 HORNILLAS 1000W 110V MG ELECTRIC",
+  "codigo": "FCHE-01",
+  "marca": "MG ELECTRIC",
+  "presentacion": "",
+  "imagen": "assets/img/productos/714.jpg"
+ },
+ {
+  "nombre": "CUCHILLA 601 T/TICINO MEGAPRO",
+  "codigo": "ECTT-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/716.jpg"
+ },
+ {
+  "nombre": "CUCHILLA 602 T/TICINO MEGAPRO",
+  "codigo": "ECTT-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/720.jpg"
+ },
+ {
+  "nombre": "CUCHILLA DE PORCELANA 2X100",
+  "codigo": "ECPC-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/722.jpg"
+ },
+ {
+  "nombre": "CUCHILLA DE PORCELANA 2X30 MEGAPRO",
+  "codigo": "ECPC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/724.jpg"
+ },
+ {
+  "nombre": "CUCHILLA DE PORCELANA 2X60",
+  "codigo": "ECPC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/724.jpg"
+ },
+ {
+  "nombre": "CUCHILLA DE PORCELANA DOBLE PASE 2X63A MEGAPRO",
+  "codigo": "ECPC-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/726.jpg"
+ },
+ {
+  "nombre": "CUCHILLA DE PORCELANA DOBLE PASE 3X100A MEGAPRO",
+  "codigo": "ECPC-06",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/728.jpg"
+ },
+ {
+  "nombre": "CURVAS PVC CONDUIT A 1/2",
+  "codigo": "ECPB-01",
+  "marca": "FESTA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/730.jpg"
+ },
+ {
+  "nombre": "CURVAS PVC CONDUIT B 3/4",
+  "codigo": "ECPB-02",
+  "marca": "FESTA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/730.jpg"
+ },
+ {
+  "nombre": "CURVAS PVC CONDUIT C 1",
+  "codigo": "ECPB-03",
+  "marca": "FESTA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/730.jpg"
+ },
+ {
+  "nombre": "CURVAS PVC CONDUIT E 2\"",
+  "codigo": "ECPB-05",
+  "marca": "FESTA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/730.jpg"
+ },
+ {
+  "nombre": "ENCHUFE ADAPTADOR EUROPEO - AMERICANO",
+  "codigo": "EEPL-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/734.jpg"
+ },
+ {
+  "nombre": "ENCHUFE ANGULAR TRIFASICO 3X50AMP T/80",
+  "codigo": "EEAT-01",
+  "marca": "VOLTAGE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/736.jpg"
+ },
+ {
+  "nombre": "ENCHUFE TIPO EAGLE 2 X 15",
+  "codigo": "EETE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/738.jpg"
+ },
+ {
+  "nombre": "ENCHUFE TIPO EAGLE C/TIERRA",
+  "codigo": "EETE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 100",
+  "imagen": "assets/img/productos/740.jpg"
+ },
+ {
+  "nombre": "ENCHUFE TIPO EAGLE HORIZONTAL POLARIZADO T/2866",
+  "codigo": "EETE-03",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/742.jpg"
+ },
+ {
+  "nombre": "EXTENSION C/REGLETA 16AWG 12FT (3,6M) MEGAPRO",
+  "codigo": "EADC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/744.jpg"
+ },
+ {
+  "nombre": "EXTENSION C/REGLETA 16AWG 18FT (5,4M) MEGAPRO",
+  "codigo": "EBBR-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/746.jpg"
+ },
+ {
+  "nombre": "EXTENSION C/REGLETA 16AWG 6FT (1,8M) MEGAPRO",
+  "codigo": "EBAT-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/748.jpg"
+ },
+ {
+  "nombre": "EXTENSION ELECTRICA 12FT (3,65M) MEGAPRO",
+  "codigo": "EBTR-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/752.jpg"
+ },
+ {
+  "nombre": "EXTENSION ELECTRICA 15FT (4,57M) MEGAPRO",
+  "codigo": "ECAU-09",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/754.jpg"
+ },
+ {
+  "nombre": "FLEXICON CONDUIT METALICO 3/4\"X30M",
+  "codigo": "ETPC-10",
+  "marca": "MEGAPRO",
+  "presentacion": "ROLLO"
+ },
+ {
+  "nombre": "INTERRUPTOR RABITO 15AMP 250V",
+  "codigo": "EIRA-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/758.jpg"
+ },
+ {
+  "nombre": "LAMPARA BORDE INFINITO CUADRADA 18W 85-265V 6500K 12CM",
+  "codigo": "EFLU-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/760.jpg"
+ },
+ {
+  "nombre": "LAMPARA BORDE INFINITO CUADRADA 36W 85-265V 6500K 22CM",
+  "codigo": "EBAC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/762.jpg"
+ },
+ {
+  "nombre": "LAMPARA BORDE INFINITO CUADRADO 24W 85-265V 6500K 17CM",
+  "codigo": "EFLU-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/764.jpg"
+ },
+ {
+  "nombre": "LAMPARA BORDE INFINITO REDONDA 18W 85-265V 6500K 12CM",
+  "codigo": "EFLU-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/766.jpg"
+ },
+ {
+  "nombre": "LAMPARA BORDE INFINITO REDONDA 24W 85-265V 6500K 17CM",
+  "codigo": "EFLU-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/768.jpg"
+ },
+ {
+  "nombre": "LAMPARA BORDE INFINITO REDONDO 36W 85-265V 6500K 22CM",
+  "codigo": "ECCR-06",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/772.jpg"
+ },
+ {
+  "nombre": "LAMPARA CUADRADA SOBREPONER 12W 85-265V 6500K 16CM",
+  "codigo": "ELCE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/774.jpg"
+ },
+ {
+  "nombre": "LAMPARA CUADRADA SOBREPONER 18W 85-265V 6500K 20CM",
+  "codigo": "ELEL-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X10",
+  "imagen": "assets/img/productos/776.jpg"
+ },
+ {
+  "nombre": "LAMPARA CUADRADA SOBREPONER 24W 85-265V 6500K 28CM",
+  "codigo": "ELEL-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/778.jpg"
+ },
+ {
+  "nombre": "LAMPARA DE EMERGENCIA 4W 6500K MEGAPRO",
+  "codigo": "EBTH-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/780.jpg"
+ },
+ {
+  "nombre": "LAMPARA ELECTRONICA CIRCULAR BLANCO 21W",
+  "codigo": "ELNT-02",
+  "marca": "GAMMA ELECTRIC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/782.jpg"
+ },
+ {
+  "nombre": "LAMPARA ELECTRONICA CIRCULAR BLANCO 38W",
+  "codigo": "ELER-01",
+  "marca": "GAMMA ELECTRIC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/784.jpg"
+ },
+ {
+  "nombre": "LAMPARA ELECTRONICA CIRCULAR GRIS-BLANCO 21W",
+  "codigo": "ELLE-02",
+  "marca": "GAMMA ELECTRIC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/786.jpg"
+ },
+ {
+  "nombre": "LAMPARA ELECTRONICA CIRCULAR GRIS-BLANCO 38W",
+  "codigo": "ELEM-01",
+  "marca": "GAMMA ELECTRIC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/788.jpg"
+ },
+ {
+  "nombre": "LAMPARA LED CRISTAL CUADRADA 36W 85-265V 17CM",
+  "codigo": "ECCT-02",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/792.jpg"
+ },
+ {
+  "nombre": "LAMPARA LED CRISTAL CUADRADA 48W 85-265V 20CM",
+  "codigo": "ECCR-07",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/792.jpg"
+ },
+ {
+  "nombre": "LAMPARA LED CRISTAL RECTANGULAR 36W 85-265V 25CM",
+  "codigo": "EFLU-07",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/794.jpg"
+ },
+ {
+  "nombre": "LAMPARA LED CRISTAL RECTANGULAR 48W 85-265V 35CM",
+  "codigo": "EFLU-08",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/796.jpg"
+ },
+ {
+  "nombre": "LAMPARA LED CRISTAL REDONDA 36W 85-265V 17CM",
+  "codigo": "ECCR-01",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/798.jpg"
+ },
+ {
+  "nombre": "LAMPARA LED CRISTAL REDONDA 48W 85-265V 20CM",
+  "codigo": "ECCR-02",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/798.jpg"
+ },
+ {
+  "nombre": "LAMPARA REDONDA EMPOTRAR 12W 85-265V 6500K 16.9CM",
+  "codigo": "ELEM-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/802.jpg"
+ },
+ {
+  "nombre": "LAMPARA REDONDA EMPOTRAR 18W 85-265V 3CCT 17CM",
+  "codigo": "ELEM-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/804.jpg"
+ },
+ {
+  "nombre": "LAMPARA REDONDA EMPOTRAR 24W 85-265V 3CCT 22CM",
+  "codigo": "ELEM-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/808.jpg"
+ },
+ {
+  "nombre": "LAMPARA REDONDA SOBREPONER 12W 85-265V 6500K 16CM",
+  "codigo": "ELPM-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/810.jpg"
+ },
+ {
+  "nombre": "LAMPARA REDONDA SOBREPONER 18W 85-265V 6500K 21CM",
+  "codigo": "ELCD-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/812.jpg"
+ },
+ {
+  "nombre": "LAMPARA REDONDA SOBREPONER 24W 85-265V 6500K 30CM",
+  "codigo": "ELCD-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/814.jpg"
+ },
+ {
+  "nombre": "LAMPARA SUPERFICIAL DECORATIVA 25W 85-260V 38CM MEGAPRO",
+  "codigo": "ELRM-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "LAMPARA T/VAPOLETA OVALADA 15W 85-260V 6500K MEGAPRO",
+  "codigo": "EBTH-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/816.jpg"
+ },
+ {
+  "nombre": "LAMPARA T/VAPOLETA OVALADA 20W 85-265V 6500K MEGAPRO",
+  "codigo": "ELLE-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/818.jpg"
+ },
+ {
+  "nombre": "LINTERNA LED T/MINERO RECARGABLE 2W MAXI HOUSE",
+  "codigo": "EBSR-01",
+  "marca": "MAXI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/820.jpg"
+ },
+ {
+  "nombre": "LINTERNA RECARGABLE 1W MAXI HOUSE",
+  "codigo": "ELET-01",
+  "marca": "MAXI HOUSE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/822.jpg"
+ },
+ {
+  "nombre": "MULTIMETRO DIGITAL 10AMP DIESEL TOOLS",
+  "codigo": "ETED-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/826.jpg"
+ },
+ {
+  "nombre": "MULTITOMA PROTECTOR SPECTRUM 120V",
+  "codigo": "EPPN-01",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/828.jpg"
+ },
+ {
+  "nombre": "PLAFON D/BAKELITA T/OVAL VITRON",
+  "codigo": "EPLA-04",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/830.jpg"
+ },
+ {
+  "nombre": "PLAFON D/BAKELITA T/TICINO 4",
+  "codigo": "EPLA-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/832.jpg"
+ },
+ {
+  "nombre": "PLAFON DE PORCELANA 4",
+  "codigo": "EPLA-02",
+  "marca": "",
+  "presentacion": "",
+  "imagen": "assets/img/productos/834.jpg"
+ },
+ {
+  "nombre": "PROBADOR DE VOLTAJE 6-12-24V C/PINZA MEGAPRO",
+  "codigo": "FPRO-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/836.jpg"
+ },
+ {
+  "nombre": "PROTECTOR DE VOLTAJE REFRIGERACION 110V MEGAPRO",
+  "codigo": "EPPE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/838.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM AIRE ACOND BORNERA/BORNERA 110V",
+  "codigo": "EPRD-01",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/840.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM AIRE ACOND BORNERA/TOMA 220V",
+  "codigo": "EPSP-07",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/842.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM AIRE ACOND TOMA 120° 220V",
+  "codigo": "EPSP-06",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/846.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM AIRE ACOND TOMA/TOMA 110V",
+  "codigo": "EPSP-04",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/848.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM AIRE ACOND TOMA/TOMA 220V",
+  "codigo": "EPSP-05",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/850.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM EQUIPOS ELECTRONICOS 110V",
+  "codigo": "EPSP-03",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/852.jpg"
+ },
+ {
+  "nombre": "PROTECTOR SPECTRUM LAVADORA 110V",
+  "codigo": "EPSP-02",
+  "marca": "SPECTRUM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/854.jpg"
+ },
+ {
+  "nombre": "REFLECTOR 300W 120-240V IP66 7000K 42X31CM MEGAPRO",
+  "codigo": "EBTH-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 2",
+  "imagen": "assets/img/productos/856.jpg"
+ },
+ {
+  "nombre": "REFLECTOR 400W 120-240V IP66 7000K 46X34CM MEGAPRO",
+  "codigo": "EBES-02",
+  "marca": "MAGAPRO",
+  "presentacion": "CAJA X 2",
+  "imagen": "assets/img/productos/858.jpg"
+ },
+ {
+  "nombre": "REFLECTOR LED REDONDO C/ROSCA 110V 50W 15CM",
+  "codigo": "EBAK-01",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/860.jpg"
+ },
+ {
+  "nombre": "REFLECTOR LED REDONDO C/ROSCA 110V 100W 17CM",
+  "codigo": "EBAK-02",
+  "marca": "LWCC",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/862.jpg"
+ },
+ {
+  "nombre": "REGLETA ELECTRICA 3 TOMA 70CMS BRICKELL",
+  "codigo": "EMUL-03",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/866.jpg"
+ },
+ {
+  "nombre": "REGLETA ELECTRICA 6 CONEXIONES",
+  "codigo": "EMUL-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/868.jpg"
+ },
+ {
+  "nombre": "REGLETA ELECTRICA 6 TOMAS 1MT MEGAPRO",
+  "codigo": "EMUL-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/870.jpg"
+ },
+ {
+  "nombre": "RESISTENCIA P/DUCHA CORONA",
+  "codigo": "EEPE-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/872.jpg"
+ },
+ {
+  "nombre": "RESISTENCIA P/DUCHA MAXI-CORONA",
+  "codigo": "EEDA-06",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/874.jpg"
+ },
+ {
+  "nombre": "SOCATE D/GOMA C/PORCELANA",
+  "codigo": "ESGP-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/876.jpg"
+ },
+ {
+  "nombre": "SOCATE DE PORCELANA E-14",
+  "codigo": "ESPO-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/878.jpg"
+ },
+ {
+  "nombre": "SOCATE DE PORCELANA PR4 E-40",
+  "codigo": "ESPO-07",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/880.jpg"
+ },
+ {
+  "nombre": "SOCATE PORCELANA PATICA E-27",
+  "codigo": "ESPO-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/882.jpg"
+ },
+ {
+  "nombre": "SOCATE PORCELANA PLAFON 2 PZA 2 1/2\"",
+  "codigo": "ESPO-01",
+  "marca": "VOLTAGE",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "TABLERO 12 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-12",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/888.jpg"
+ },
+ {
+  "nombre": "TABLERO 4 CIRCUITOS THQL ORIX",
+  "codigo": "ETAB-10",
+  "marca": "ORIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/890.jpg"
+ },
+ {
+  "nombre": "TABLERO C/PUERTA 12 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-08",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/892.jpg"
+ },
+ {
+  "nombre": "TABLERO C/PUERTA 4 CIRCUITOS MEGAPRO",
+  "codigo": "ETRT-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/894.jpg"
+ },
+ {
+  "nombre": "TABLERO C/PUERTA 8 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-06",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/896.jpg"
+ },
+ {
+  "nombre": "TABLERO DE 2 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/898.jpg"
+ },
+ {
+  "nombre": "TABLERO DE 4 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/900.jpg"
+ },
+ {
+  "nombre": "TABLERO DE 6 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/902.jpg"
+ },
+ {
+  "nombre": "TABLERO DE 8 CIRCUITOS MEGAPRO",
+  "codigo": "ETAB-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/906.jpg"
+ },
+ {
+  "nombre": "TAPA ACERO INOX. P/TOMA 3 X 30 AMP",
+  "codigo": "FTAI-02",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/908.jpg"
+ },
+ {
+  "nombre": "TAPA CIEGA OVALADA BAKELITA",
+  "codigo": "ETCO-01",
+  "marca": "FERMETAL",
+  "presentacion": "UNID",
+  "imagen": "assets/img/productos/910.jpg"
+ },
+ {
+  "nombre": "TAPA METAL CIEGA 4X2",
+  "codigo": "ETAI-03",
+  "marca": "ORIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/912.jpg"
+ },
+ {
+  "nombre": "TAPA PLASTICA CIEGA",
+  "codigo": "ETPM-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/914.jpg"
+ },
+ {
+  "nombre": "TAPA PLASTICA P/TOMA DOBLE 270",
+  "codigo": "ETAD-01",
+  "marca": "UD",
+  "presentacion": "",
+  "imagen": "assets/img/productos/916.jpg"
+ },
+ {
+  "nombre": "TAPA PLASTICA P/TOMA POLARIZADO T/816",
+  "codigo": "ETPF-01",
+  "marca": "FESTA",
+  "presentacion": "UNI",
+  "imagen": "assets/img/productos/918.jpg"
+ },
+ {
+  "nombre": "TAPA TERMOPLASTICA DOBLE T/270 P/EXTERIORES",
+  "codigo": "ETMP-01",
+  "marca": "ORIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/920.jpg"
+ },
+ {
+  "nombre": "TERMINALES SET 200 PZA DIESEL TOOLS",
+  "codigo": "EBCC-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/922.jpg"
+ },
+ {
+  "nombre": "TERMOENCOGIBLE SET 164 PZA",
+  "codigo": "EFLU-05",
+  "marca": "",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/926.jpg"
+ },
+ {
+  "nombre": "TIMBRE INALAMBRICO EN BLISTER",
+  "codigo": "ETMD-03",
+  "marca": "DINUY",
+  "presentacion": "DINUY",
+  "imagen": "assets/img/productos/928.jpg"
+ },
+ {
+  "nombre": "TOMA AEREO C/TIERRA TIPO EAGLE",
+  "codigo": "ETAE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 50",
+  "imagen": "assets/img/productos/930.jpg"
+ },
+ {
+  "nombre": "TOMA AEREO POLARIZADO 250V 15A",
+  "codigo": "ETAE-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/932.jpg"
+ },
+ {
+  "nombre": "TOMA AEREO S/ INDUSTRIAL",
+  "codigo": "ETAS-01",
+  "marca": "RODOMAR",
+  "presentacion": "UND"
+ },
+ {
+  "nombre": "TOMA AEREO S/ INDUSTRIAL C/ TIERRA",
+  "codigo": "ETAS-02",
+  "marca": "RODOMAR",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/936.jpg"
+ },
+ {
+  "nombre": "TOMA AEREO TIPO EAGLE 2 X 15 AMP",
+  "codigo": "ETAE-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 50",
+  "imagen": "assets/img/productos/938.jpg"
+ },
+ {
+  "nombre": "TOMA CON ENCHUFE DE GOMA",
+  "codigo": "ETCE-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/940.jpg"
+ },
+ {
+  "nombre": "TOMA DOBLE SUPERFICIAL C/TIERRA T/78 MEGAPRO",
+  "codigo": "ETDS-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/942.jpg"
+ },
+ {
+  "nombre": "TOMA DOBLE SUPERFICIAL OVAL MEGAPRO",
+  "codigo": "ETDS-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/946.jpg"
+ },
+ {
+  "nombre": "TOMA POLARIZADA 15A-250V T/816 CHINO",
+  "codigo": "ETMD-01",
+  "marca": "ORIX / MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/948.jpg"
+ },
+ {
+  "nombre": "TOMA SUPERFICIAL TRIFASICO 3X50AMP MEGAPRO",
+  "codigo": "ETSU-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/950.jpg"
+ },
+ {
+  "nombre": "TOMACORRIENTE DOBLE P/CAJETIN A616 MEGAPRO",
+  "codigo": "ETCP-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/952.jpg"
+ },
+ {
+  "nombre": "TOMACORRIENTE DOBLE P/CAJETIN B1106 MEGAPRO",
+  "codigo": "ETCD-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/954.jpg"
+ },
+ {
+  "nombre": "TOMACORRIENTE DOBLE P/CAJETIN MEGAPRO BLANCO",
+  "codigo": "ETCP-03",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/956.jpg"
+ },
+ {
+  "nombre": "TOMACORRIENTE DOBLE POLARIZADO T/270 MEGAPRO",
+  "codigo": "ETCD-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/958.jpg"
+ },
+ {
+  "nombre": "TUBO CONDUIT PVC BLANCO 1/2 X3MT",
+  "codigo": "ETPC-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/960.jpg"
+ },
+ {
+  "nombre": "TUBO CONDUIT PVC BLANCO 3/4 X3MT",
+  "codigo": "ETPC-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/960.jpg"
+ },
+ {
+  "nombre": "TUBO LED T8 9W 85-265V 60CM MEGAPRO",
+  "codigo": "EBAT-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/964.jpg"
+ },
+ {
+  "nombre": "TUBO LED T8 18W 85-265V 120CM MEGAPRO",
+  "codigo": "EBAE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA ACERO INOXIDABLE 16-27MM",
+  "codigo": "AAIN-09",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/968.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA ACERO INOXIDABLE 19-38MM",
+  "codigo": "AAIN-07",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/970.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA ACERO INOXIDABLE 23-35MM",
+  "codigo": "AAIN-08",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/968.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA ACERO INOXIDABLE 40-64MM",
+  "codigo": "AAIN-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/968.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA BRACE GALVANIZADA 1 1/2\"",
+  "codigo": "FAGB-06",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/972.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA BRACE GALVANIZADA 1\"",
+  "codigo": "FAGB-05",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/974.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA CON MANIJA 1\" 16-25MM (BOLSA X 10)",
+  "codigo": "AAIN-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/976.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA CON MANIJA 2\" 35-51MM (BOLSA X 10)",
+  "codigo": "FALG-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/978.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA CON MANIJA 3/4\" 13-19MM (BOLSA X 10)",
+  "codigo": "AAIN-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/984.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA E.M.T. GALVANIZADA 1 1/2\"",
+  "codigo": "FAEG-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/986.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA E.M.T. GALVANIZADA 1\"",
+  "codigo": "FAEG-03",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/986.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA E.M.T. GALVANIZADA 1/2\"",
+  "codigo": "FAEG-01",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/986.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA E.M.T. GALVANIZADA 2\"",
+  "codigo": "FAEG-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/986.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA E.M.T. GALVANIZADA 3/4\"",
+  "codigo": "FAEG-02",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/986.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA GALVANIZADA 1 1/2\"",
+  "codigo": "FAGF-06",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/972.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA GALVANIZADA 1\"",
+  "codigo": "FAGE-05",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/988.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA GALVANIZADA 1/2\"",
+  "codigo": "FAGC-03",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/988.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA GALVANIZADA 2\"",
+  "codigo": "FAGG-07",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/974.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA GALVANIZADA 3/4\"",
+  "codigo": "FAGD-04",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/992.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA GALVANIZADA 3/8\"",
+  "codigo": "FAGB-02",
+  "marca": "CHINA",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/992.jpg"
+ },
+ {
+  "nombre": "ACOPLE JUEGO 5 CONEXIONES 1/4\" EXXEL",
+  "codigo": "FALU-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/994.jpg"
+ },
+ {
+  "nombre": "ALAMBRE IMPORTADO CAL 17.5 800GR",
+  "codigo": "FALG-02",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/996.jpg"
+ },
+ {
+  "nombre": "ALAMBRE PUA MEGAPRO CAL 16 X 300M",
+  "codigo": "FALP-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 3"
+ },
+ {
+  "nombre": "AMARRAS PARA ZINC (PAQUETE X 100)",
+  "codigo": "FAPC-01",
+  "marca": "",
+  "presentacion": "PAQUETE",
+  "imagen": "assets/img/productos/998.jpg"
+ },
+ {
+  "nombre": "AMARRE P/CABLE 4.6 MM X 200 MM (BOLSA X 100)",
+  "codigo": "FAPC-05",
+  "marca": "MAXI TOOLS",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1000.jpg"
+ },
+ {
+  "nombre": "AMARRE P/CABLE 4.6 MM X 500 MM (BOLSA X 100)",
+  "codigo": "FAPC-08",
+  "marca": "COOFIX",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1002.jpg"
+ },
+ {
+  "nombre": "AMARRE P/CABLE 7.2 MM X 400 MM (BOLSA X 100)",
+  "codigo": "FAPC-07",
+  "marca": "COOFIX",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1000.jpg"
+ },
+ {
+  "nombre": "AMARRE P/CABLE 7.2 MM X 500 MM (BOLSA X 100)",
+  "codigo": "FAPC-03",
+  "marca": "COOFIX",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1000.jpg"
+ },
+ {
+  "nombre": "BASE PARA ESMERIL ANGULAR MEGAPRO",
+  "codigo": "FBEC-07",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/1006.jpg"
+ },
+ {
+  "nombre": "CADENA P/PERRO 1.5MM X 1.8MTS",
+  "codigo": "FCPP-21",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1008.jpg"
+ },
+ {
+  "nombre": "CADENA P/PERRO 1.7MM X 1.8MTS",
+  "codigo": "FCPP-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1010.jpg"
+ },
+ {
+  "nombre": "CADENA P/PERRO 1.9MM X 1,8MTS",
+  "codigo": "FCPP-20",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1010.jpg"
+ },
+ {
+  "nombre": "CADENA P/PERRO 2.1MM X 1.8MTS",
+  "codigo": "FCPP-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1010.jpg"
+ },
+ {
+  "nombre": "CADENA P/PERRO 2.6MM X 1.8MTS",
+  "codigo": "FCPP-22",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1008.jpg"
+ },
+ {
+  "nombre": "CADENA P/PERRO 3.1MM X 1.8MTS",
+  "codigo": "FCPP-23",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1008.jpg"
+ },
+ {
+  "nombre": "CAJA DE ACERO PARA 60 LLAVES",
+  "codigo": "FCDA-01",
+  "marca": "VINKO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1014.jpg"
+ },
+ {
+  "nombre": "CAMILLA PARA MECANICO MEGAPRO",
+  "codigo": "FBDE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "CINCHAS DE AMARRE 2 PZA 1\"X5M 1000KG",
+  "codigo": "FAPH-01",
+  "marca": "EXXEL",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/1016.jpg"
+ },
+ {
+  "nombre": "CINTA DE REMOLQUE 3MTS 3000KG MEGAPRO",
+  "codigo": "HEEP-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1018.jpg"
+ },
+ {
+  "nombre": "CINTA METRICA IMPEGNI 3M 16MM",
+  "codigo": "FCME-02",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1020.jpg"
+ },
+ {
+  "nombre": "CINTA METRICA IMPEGNI 5M 19MM",
+  "codigo": "FCME-03",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1022.jpg"
+ },
+ {
+  "nombre": "CINTA METRICA SEAL TOOLS 3 MTS.",
+  "codigo": "FCME-06",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1024.jpg"
+ },
+ {
+  "nombre": "CINTA METRICA SEAL TOOLS 5 MTS.",
+  "codigo": "FCME-10",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1026.jpg"
+ },
+ {
+  "nombre": "CINTA METRICA TOPOGRAFICA 30 MTS COOFIX",
+  "codigo": "FCMG-02",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1028.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO COBRA 1\" X 55M",
+  "codigo": "FCDC-03",
+  "marca": "COBRA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1032.jpg"
+ },
+ {
+  "nombre": "CINTA TIRRO COBRA 3/4\" X 55M",
+  "codigo": "FCDC-01",
+  "marca": "COBRA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1032.jpg"
+ },
+ {
+  "nombre": "CONECTORES RAPIDO COMPRESOR AIRE KIT X 5",
+  "codigo": "FCDH-01",
+  "marca": "MEGAPRO",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1034.jpg"
+ },
+ {
+  "nombre": "CORDON ELASTICO 0.8\"X24\" (BOLSA X 4)",
+  "codigo": "FCOE-02",
+  "marca": "ZASC",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1036.jpg"
+ },
+ {
+  "nombre": "ELECTRODO 6013 1/8 AZUL MEGAPRO",
+  "codigo": "FELE-06",
+  "marca": "MEGAPRO",
+  "presentacion": "KILO",
+  "imagen": "assets/img/productos/1038.jpg"
+ },
+ {
+  "nombre": "ELECTRODO WELD ELECTRIC 6013 3/32",
+  "codigo": "FELE-05",
+  "marca": "EXXEL",
+  "presentacion": "KILO",
+  "imagen": "assets/img/productos/1040.jpg"
+ },
+ {
+  "nombre": "ESPATULA M/ERGONOMICO COOFIX 3\"",
+  "codigo": "FEJP-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1042.jpg"
+ },
+ {
+  "nombre": "ESPATULA M/ERGONOMICO COOFIX 5\"",
+  "codigo": "FECM-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1042.jpg"
+ },
+ {
+  "nombre": "ESPATULA M/ERGONOMICO COOFIX 6\"",
+  "codigo": "FECM-13",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1044.jpg"
+ },
+ {
+  "nombre": "ESTAÑO P/SOLDAR 1MM 80GR",
+  "codigo": "FEPS-02",
+  "marca": "MEGAPRO",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1048.jpg"
+ },
+ {
+  "nombre": "ESTAÑO P/SOLDAR T/LAPIZ 25GR MEGAPRO",
+  "codigo": "FEPS-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1050.jpg"
+ },
+ {
+  "nombre": "ESTANTE EXHIBIDOR GREENPRO",
+  "codigo": "EITT-01",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "ESTANTE EXHIBIDOR MEGAPRO",
+  "codigo": "ALDA-24",
+  "marca": "MEGAPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "EXACTO PLASTICO 16.3CM 18MM MEGAPRO",
+  "codigo": "FEXA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/1052.jpg"
+ },
+ {
+  "nombre": "EXACTO PLASTICO GRANDE M/ERGONOMICO 18MM COOFIX",
+  "codigo": "FEXA-03",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1054.jpg"
+ },
+ {
+  "nombre": "EXACTO PLASTICO GRANDE MULTIUSO 18MM COOFIX",
+  "codigo": "FEXA-02",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1056.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA LAMINA PERFORADA 5 CM",
+  "codigo": "FAGB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1058.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA LAMINA PERFORADA 10 CM",
+  "codigo": "FAGB-07",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1060.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA LAMINA PERFORADA 20 CM",
+  "codigo": "FAGB-08",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1064.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA LAMINA PERFORADA 30CM",
+  "codigo": "FAGB-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1066.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA TABLA ACANALADA 10 CM",
+  "codigo": "FAGB-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1068.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA TABLA ACANALADA 15 CM",
+  "codigo": "FAPP-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1070.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA TABLA ACANALADA 20 CM",
+  "codigo": "FAPP-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1072.jpg"
+ },
+ {
+  "nombre": "GANCHO PARA TABLA ACANALADA 30 CM",
+  "codigo": "FAPS-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1074.jpg"
+ },
+ {
+  "nombre": "GARRUCHA DOBLE C/BASE 30X30MM MEGAPRO",
+  "codigo": "FHSE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1076.jpg"
+ },
+ {
+  "nombre": "GARRUCHA DOBLE C/BASE 50X45MM MEGAPRO",
+  "codigo": "FHSE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1076.jpg"
+ },
+ {
+  "nombre": "GARRUCHA DOBLE C/BASE 65X55MM MEGAPRO",
+  "codigo": "FHSE-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1078.jpg"
+ },
+ {
+  "nombre": "GRAPA 1 X 9 MEGAPRO (BOLSA X 500GR)",
+  "codigo": "FPGM-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 40",
+  "imagen": "assets/img/productos/1082.jpg"
+ },
+ {
+  "nombre": "GRAPA REDONDA N° 10 (BOLSA X 100)",
+  "codigo": "FGRA-01",
+  "marca": "RODOMAR",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1084.jpg"
+ },
+ {
+  "nombre": "GUANTE DE CARNAZA Y TELA",
+  "codigo": "FGDC-02",
+  "marca": "",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/1086.jpg"
+ },
+ {
+  "nombre": "GUANTE DE NITRILO 10\" IMPEGNI",
+  "codigo": "FGSI-01",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1088.jpg"
+ },
+ {
+  "nombre": "GUANTE DE PVC 31CM L COOFIX",
+  "codigo": "FGDT-05",
+  "marca": "COOFIX",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/1090.jpg"
+ },
+ {
+  "nombre": "GUANTE DOMESTICO DE LATEX (MULTIUSO) MEGAPRO",
+  "codigo": "FGDT-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1092.jpg"
+ },
+ {
+  "nombre": "GUAYA DE ACERO PARA REMOLQUE 4MTS 5000KG MEGAPRO",
+  "codigo": "HEIN-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1094.jpg"
+ },
+ {
+  "nombre": "HOJA DE SEGUETA 24 DIENTES CHESTERWOOD",
+  "codigo": "FHSE-06",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1096.jpg"
+ },
+ {
+  "nombre": "MANGUERA CRISTAL B 3/16 (ROLLO X 100 MTS)",
+  "codigo": "FMMC-03",
+  "marca": "RLL",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1098.jpg"
+ },
+ {
+  "nombre": "MANGUERA CRISTAL C 1/4 (ROLLO X 50 MTS)",
+  "codigo": "FMMC-11",
+  "marca": "EXXEL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1098.jpg"
+ },
+ {
+  "nombre": "MANGUERA CRISTAL D 5/16 (ROLLO X 50 MTS)",
+  "codigo": "FMMC-05",
+  "marca": "FEMOI",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1098.jpg"
+ },
+ {
+  "nombre": "MANGUERA CRISTAL E 3/8 (ROLLO X 50 MTS)",
+  "codigo": "FMMC-06",
+  "marca": "FEMOI",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1098.jpg"
+ },
+ {
+  "nombre": "MANGUERA CULEBRA 1/2 (ROLLO X 50 MTS)",
+  "codigo": "FMMC-09",
+  "marca": "FEMOI",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1102.jpg"
+ },
+ {
+  "nombre": "MANGUERA CULEBRA 1/2\" X 20MT C/CONECTORES GREENPRO",
+  "codigo": "FOMP-01",
+  "marca": "GREENPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/1104.jpg"
+ },
+ {
+  "nombre": "MANGUERA D/PRESION AIRE/GAS 300PSI 1/4\" (ROLLO X 25M)",
+  "codigo": "FMDP-01",
+  "marca": "MEGAPRO",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1106.jpg"
+ },
+ {
+  "nombre": "MANGUERA D/PRESION AIRE/GAS 300PSI 3/8\" (ROLLO X 25M)",
+  "codigo": "FMPG-02",
+  "marca": "MEGAPRO",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1106.jpg"
+ },
+ {
+  "nombre": "MANGUERA D/PRESION AIRE/GAS 300PSI 5/16\" (ROLLO X 25M)",
+  "codigo": "FMPA-04",
+  "marca": "MEGAPRO",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1106.jpg"
+ },
+ {
+  "nombre": "MANGUERA P/GAS 3/8\" ROLLOX50 (NEGRA)",
+  "codigo": "FMPG-01",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1108.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO CALIBRADA # 20 5/32\"",
+  "codigo": "FMAC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1112.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA D 1/8",
+  "codigo": "FMAD-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1114.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA E 9/64",
+  "codigo": "FMAD-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1116.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA F 5/32",
+  "codigo": "FMAD-06",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1116.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA H 3/16",
+  "codigo": "FMAD-08",
+  "marca": "MT / DT",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1118.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA J 7/32",
+  "codigo": "FMAD-10",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1116.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA L 1/4",
+  "codigo": "FMAD-12",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1114.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA LA 9/32",
+  "codigo": "FMAD-13",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1118.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA M 5/16",
+  "codigo": "FMAD-14",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1114.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA N 3/8",
+  "codigo": "FMAD-15",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1114.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA O 7/16",
+  "codigo": "FMAD-16",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1114.jpg"
+ },
+ {
+  "nombre": "MECHAS ACERO SUPER RAPIDO DORADA P 1/2",
+  "codigo": "FMAD-17",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1114.jpg"
+ },
+ {
+  "nombre": "MECHAS DEWALT P/CONCRETO 1/2\" X 6\"",
+  "codigo": "FMPC-10",
+  "marca": "DEWALT",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1122.jpg"
+ },
+ {
+  "nombre": "MECHAS DEWALT P/CONCRETO 1/4\" X 4\"",
+  "codigo": "FMPC-07",
+  "marca": "DEWALT",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1122.jpg"
+ },
+ {
+  "nombre": "MECHAS DEWALT P/CONCRETO 5/16\" X 5\"",
+  "codigo": "FMPC-08",
+  "marca": "DEWALT",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "MECHAS IRWIN P/CONCRETO 1/2\" X 13\"",
+  "codigo": "FMCA-02",
+  "marca": "IRWIN",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1126.jpg"
+ },
+ {
+  "nombre": "MECHAS IRWIN P/CONCRETO 3/8\" X 13\"",
+  "codigo": "FMCA-01",
+  "marca": "IRWIN",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1126.jpg"
+ },
+ {
+  "nombre": "MECHAS PARA CONCRETO A 3/16",
+  "codigo": "FMPC-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1128.jpg"
+ },
+ {
+  "nombre": "MECHAS PARA CONCRETO B 1/4",
+  "codigo": "FMPC-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1132.jpg"
+ },
+ {
+  "nombre": "MECHAS PARA CONCRETO E 1/2",
+  "codigo": "FMPC-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1134.jpg"
+ },
+ {
+  "nombre": "MECHAS PARA CONCRETO JUEGO X 5PZA MEGAPRO",
+  "codigo": "FMPC-06",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1136.jpg"
+ },
+ {
+  "nombre": "NAVAJA ACERO INOXIDABLE 6\"",
+  "codigo": "FATE-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1138.jpg"
+ },
+ {
+  "nombre": "NIVEL ALUMINIO PERFECT 16\"",
+  "codigo": "FNAL-01",
+  "marca": "PERFECT",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1140.jpg"
+ },
+ {
+  "nombre": "NIVEL DE CUERDA CON CUERDA EXXEL",
+  "codigo": "FNCU-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1142.jpg"
+ },
+ {
+  "nombre": "NIVEL TORPEDO C/IMAN REFORZADO 9\" EXXEL",
+  "codigo": "FNAL-06",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1144.jpg"
+ },
+ {
+  "nombre": "NYLON P/ PESCAR # 0.60",
+  "codigo": "FNPP-07",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1146.jpg"
+ },
+ {
+  "nombre": "NYLON P/ PESCAR # 0.70",
+  "codigo": "FNPP-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1148.jpg"
+ },
+ {
+  "nombre": "NYLON P/ PESCAR # 0.90",
+  "codigo": "FNPP-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1148.jpg"
+ },
+ {
+  "nombre": "NYLON P/ PESCAR # 1.30",
+  "codigo": "FCMM-05",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1148.jpg"
+ },
+ {
+  "nombre": "NYLON P/DESMALEZADORA CUADRADO 3.0MM X 153 MTS",
+  "codigo": "FCME-01",
+  "marca": "ZASC",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1152.jpg"
+ },
+ {
+  "nombre": "NYLON P/DESMALEZADORA REDONDO 3.3MM X 200MTS",
+  "codigo": "FNPD-03",
+  "marca": "PROFESIONAL TOLLS",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1154.jpg"
+ },
+ {
+  "nombre": "NYLON P/RED DE PESCA BLANCO 210D-12 200GR MEGAPRO",
+  "codigo": "FCMM-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1156.jpg"
+ },
+ {
+  "nombre": "NYLON P/RED DE PESCA BLANCO 210D-24 200GR MEGAPRO",
+  "codigo": "FCMM-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1158.jpg"
+ },
+ {
+  "nombre": "O-RINES JUEGO X 270 PZA DIESEL TOOLS",
+  "codigo": "FLDA-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/1160.jpg"
+ },
+ {
+  "nombre": "PALUSTRA DE GOMA P/FRISAR 21.5X13.5CM MEGAPRO",
+  "codigo": "FPTB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1162.jpg"
+ },
+ {
+  "nombre": "PALUSTRA PLASTICA ALBAÑILERIA 32X22CM MEGAPRO",
+  "codigo": "FPPB-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1164.jpg"
+ },
+ {
+  "nombre": "PEGO EXTRA BLANCO OCCIDENTE 14 KG",
+  "codigo": "FCCC-01",
+  "marca": "OCCIDENTE",
+  "presentacion": "SACO",
+  "imagen": "assets/img/productos/1168.jpg"
+ },
+ {
+  "nombre": "PERRO P/GUAYA A 1/8",
+  "codigo": "FPGU-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1170.jpg"
+ },
+ {
+  "nombre": "PERRO P/GUAYA B 3/16",
+  "codigo": "FPGU-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1170.jpg"
+ },
+ {
+  "nombre": "PERRO P/GUAYA C 1/4",
+  "codigo": "FPGU-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1170.jpg"
+ },
+ {
+  "nombre": "PERRO P/GUAYA D 5/16",
+  "codigo": "FPGU-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1172.jpg"
+ },
+ {
+  "nombre": "PERRO P/GUAYA E 3/8",
+  "codigo": "FPGU-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1172.jpg"
+ },
+ {
+  "nombre": "PIE DE AMIGO FIJO BLANCO 12 X 14",
+  "codigo": "FPAF-07",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1174.jpg"
+ },
+ {
+  "nombre": "PIE DE AMIGO FIJO BLANCO 3 X 4",
+  "codigo": "FPAF-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1174.jpg"
+ },
+ {
+  "nombre": "PIE DE AMIGO FIJO BLANCO 8 X 10",
+  "codigo": "FPAF-05",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1176.jpg"
+ },
+ {
+  "nombre": "PIEDRA P/AMOLAR 8\" MAXI TOOLS",
+  "codigo": "FPGA-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1180.jpg"
+ },
+ {
+  "nombre": "PIEDRA PARA ESMERILAR EXXEL 6\" X 1\" G-60",
+  "codigo": "FPPE-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1182.jpg"
+ },
+ {
+  "nombre": "PIEDRA PARA ESMERILAR EXXEL 8\" X 1\" G-60",
+  "codigo": "FPPE-04",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1184.jpg"
+ },
+ {
+  "nombre": "PISTOLA P/MANGUERA PLASTICA",
+  "codigo": "FPMP-01",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1186.jpg"
+ },
+ {
+  "nombre": "PISTOLA P/PINTAR ELECTRICA 700W 800ML MEGAPRO",
+  "codigo": "FPSP-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5"
+ },
+ {
+  "nombre": "PISTOLA SILICON GRANDE 60W COOFIX",
+  "codigo": "FPSP-02",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1188.jpg"
+ },
+ {
+  "nombre": "PISTOLA SILICON PEQUEÑA 20W 110V BRICKELL",
+  "codigo": "FPSR-02",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1190.jpg"
+ },
+ {
+  "nombre": "RAMPLU DE GANCHO METALICO 1/2\" BRACE",
+  "codigo": "FRDG-04",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1192.jpg"
+ },
+ {
+  "nombre": "RAMPLU DE GANCHO METALICO 3/8\" BRACE",
+  "codigo": "FRDG-03",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1192.jpg"
+ },
+ {
+  "nombre": "RAMPLU EXPANSIVO 1/2 X 3\" (CAJA X 25)",
+  "codigo": "FCPA-03",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/1196.jpg"
+ },
+ {
+  "nombre": "RAMPLU EXPANSIVO 5/16 X 2 1/2\" (CAJA X 100)",
+  "codigo": "FCPA-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/1196.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO BRACE C/TORNILLO 1/2",
+  "codigo": "FRAM-08",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1198.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO BRACE C/TORNILLO 1/4",
+  "codigo": "FRAM-06",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1200.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO BRACE C/TORNILLO 3/8",
+  "codigo": "FRAM-09",
+  "marca": "BRACE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1198.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO C/TORNILLO 1/2",
+  "codigo": "FRAM-01",
+  "marca": "FERMETAL",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1198.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO C/TORNILLO 3/8",
+  "codigo": "FRAM-04",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1200.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO C/TORNILLO 5/16",
+  "codigo": "FRAM-05",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1202.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO C/TORNILLO M6 1/4\" BLISTER X 4",
+  "codigo": "FRAM-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1204.jpg"
+ },
+ {
+  "nombre": "RAMPLU METALICO C/TORNILLO M8 5/16\" BLISTER X 4",
+  "codigo": "FRAM-07",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1208.jpg"
+ },
+ {
+  "nombre": "RAMPLU PLASTICO AZUL 5/16 (BOLSA X 100)",
+  "codigo": "FRAP-02",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA"
+ },
+ {
+  "nombre": "RAMPLU PLASTICO D NARANJA 3/8\" (BOLSA X 30)",
+  "codigo": "FRAP-03",
+  "marca": "BOLSA",
+  "presentacion": ""
+ },
+ {
+  "nombre": "RAMPLU PLASTICO E NEGRO 1/2\" (BOLSA X 100)",
+  "codigo": "FRAP-04",
+  "marca": "BOLSA",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1215.jpg"
+ },
+ {
+  "nombre": "RAMPLU PLASTICO VERDE 1/4 (BOLSA X 100)",
+  "codigo": "FRAP-01",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1217.jpg"
+ },
+ {
+  "nombre": "REGULADOR P/BOMBONA TIPO AUTOGAS",
+  "codigo": "FRGU-05",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1219.jpg"
+ },
+ {
+  "nombre": "REGULADOR P/BOMBONA TIPO CLIP-ON MEGAPRO",
+  "codigo": "FRGU-11",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1221.jpg"
+ },
+ {
+  "nombre": "REGULADOR P/BOMBONA TIPO POL AZUL",
+  "codigo": "FREG-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 50",
+  "imagen": "assets/img/productos/1223.jpg"
+ },
+ {
+  "nombre": "REGULADOR P/BOMBONA TIPO POL MARIPOSA",
+  "codigo": "FRGU-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1225.jpg"
+ },
+ {
+  "nombre": "REMACHE CIEGO MEJIA 3-4 3/32 X 9.52MM CAJA X 1000",
+  "codigo": "FREM-14",
+  "marca": "",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/1229.jpg"
+ },
+ {
+  "nombre": "REMACHES 3/16 X 10MM BOLSA X 50",
+  "codigo": "FREM-16",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1231.jpg"
+ },
+ {
+  "nombre": "REMACHES 3/16 X 13MM BOLSA X 50",
+  "codigo": "FREM-17",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1233.jpg"
+ },
+ {
+  "nombre": "REMACHES 3/16 X 16MM BOLSA X 50",
+  "codigo": "FREM-18",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1233.jpg"
+ },
+ {
+  "nombre": "REMACHES 3/16 X 18MM BOLSA X 50",
+  "codigo": "FREM-19",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1233.jpg"
+ },
+ {
+  "nombre": "REMACHES 5/32 X 13MM BOLSA X 50",
+  "codigo": "FREM-10",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1235.jpg"
+ },
+ {
+  "nombre": "REMACHES 5/32 X 18MM BOLSA X 50",
+  "codigo": "FREM-12",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1235.jpg"
+ },
+ {
+  "nombre": "REMACHES 5/32 X 20MM BOLSA X 50",
+  "codigo": "FREM-13",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1235.jpg"
+ },
+ {
+  "nombre": "REMACHES ALA ANCHA 3/16 X 12MM (BOLSA X 30)",
+  "codigo": "FRAA-04",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1237.jpg"
+ },
+ {
+  "nombre": "REMACHES ALA ANCHA 3/16 X 20MM (BOLSA X 30)",
+  "codigo": "FRAA-06",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1237.jpg"
+ },
+ {
+  "nombre": "REMACHES ALA ANCHA 5/32 X 12MM (BOLSA X 30)",
+  "codigo": "FRAA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "BOLSA",
+  "imagen": "assets/img/productos/1241.jpg"
+ },
+ {
+  "nombre": "ROCIADOR 1000ML",
+  "codigo": "FRVE-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1243.jpg"
+ },
+ {
+  "nombre": "ROLINERA 608 MEGAPRO",
+  "codigo": "FROP-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1245.jpg"
+ },
+ {
+  "nombre": "ROLINERA 6200 MEGAPRO",
+  "codigo": "FROP-03",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1247.jpg"
+ },
+ {
+  "nombre": "ROLINERA 6201 MEGAPRO",
+  "codigo": "FROP-05",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1247.jpg"
+ },
+ {
+  "nombre": "ROLINERA 6202 MEGAPRO",
+  "codigo": "FROP-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1247.jpg"
+ },
+ {
+  "nombre": "RUEDA GIRATORIA CON FRENO 4\" MEGAPRO",
+  "codigo": "FRPC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1249.jpg"
+ },
+ {
+  "nombre": "RUEDA INDUSTRIAL PLANA FIJA 4\"",
+  "codigo": "FCNP-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1251.jpg"
+ },
+ {
+  "nombre": "RUEDA INDUSTRIAL PLANA GIRATORIA 3\"",
+  "codigo": "FBCC-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1255.jpg"
+ },
+ {
+  "nombre": "RUEDA INDUSTRIAL PLANA GIRATORIA 4\"",
+  "codigo": "FBCD-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1257.jpg"
+ },
+ {
+  "nombre": "RUEDA P/CARRETILLA 14\" MACIZA MEGAPRO",
+  "codigo": "PRPC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1259.jpg"
+ },
+ {
+  "nombre": "RUEDA P/CARRUCHA 10\" NEUMATICA MEGAPRO",
+  "codigo": "FRNC-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1261.jpg"
+ },
+ {
+  "nombre": "SILLA MECANICO MEGAPRO",
+  "codigo": "FBUK-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1263.jpg"
+ },
+ {
+  "nombre": "SOPORTE RECTO ALUMINIO 1\" CAJA X 15 PAR",
+  "codigo": "FSCR-05",
+  "marca": "",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/1265.jpg"
+ },
+ {
+  "nombre": "SOPORTE RECTO ALUMINIO 5/8\" CAJA X 25 PAR",
+  "codigo": "FSCR-03",
+  "marca": "",
+  "presentacion": "CAJA",
+  "imagen": "assets/img/productos/1265.jpg"
+ },
+ {
+  "nombre": "SPLINTER DE METAL 2 VIAS",
+  "codigo": "FSME-01",
+  "marca": "UNI",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1267.jpg"
+ },
+ {
+  "nombre": "SPLINTER DE METAL 3 VIAS",
+  "codigo": "FSME-02",
+  "marca": "",
+  "presentacion": "und",
+  "imagen": "assets/img/productos/1269.jpg"
+ },
+ {
+  "nombre": "STUCO BLANCO OSTRA OCCIDENTE 10KG",
+  "codigo": "FCCC-02",
+  "marca": "OCCIDENTE",
+  "presentacion": "SACO",
+  "imagen": "assets/img/productos/1273.jpg"
+ },
+ {
+  "nombre": "TOBO EXPRIMIDOR MEGAPRO",
+  "codigo": "FTOB-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1275.jpg"
+ },
+ {
+  "nombre": "TRIPA P/CARRETILLA RUEDA 10\"",
+  "codigo": "FTRI-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1277.jpg"
+ },
+ {
+  "nombre": "UÑA GRANDE PARA LAVAMANOS",
+  "codigo": "FUNA-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1279.jpg"
+ },
+ {
+  "nombre": "UÑA PEQUEÑA P/LAVAMANOS REFORZADA",
+  "codigo": "FUNA-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1281.jpg"
+ },
+ {
+  "nombre": "VIDRIO PARA CARETA Nº 11",
+  "codigo": "FVID-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1283.jpg"
+ },
+ {
+  "nombre": "VIDRIO PARA CARETA Nº 12",
+  "codigo": "FVID-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1285.jpg"
+ },
+ {
+  "nombre": "YEE P/LAVADORA C/VALVULAS DE CIERRE GARDEN",
+  "codigo": "PYEE-01",
+  "marca": "GARDEN",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1287.jpg"
+ },
+ {
+  "nombre": "ZOCALO PARABICHOS 100 X 4.2CM ALUMINIO",
+  "codigo": "FSTA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1289.jpg"
+ },
+ {
+  "nombre": "ASPIRADORA 10LT 600W MEGAPRO",
+  "codigo": "APMO-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1293.jpg"
+ },
+ {
+  "nombre": "ASPIRADORA 12LT 1100W MEGAPRO",
+  "codigo": "APMO-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1295.jpg"
+ },
+ {
+  "nombre": "ASPIRADORA 15LT 1100W MEGAPRO",
+  "codigo": "APMO-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1297.jpg"
+ },
+ {
+  "nombre": "DESMALEZADORA 2.5HP 2T MEGAPRO",
+  "codigo": "HEHJ-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1299.jpg"
+ },
+ {
+  "nombre": "DESMALEZADORA 43CC GASOLINA 2T GENPAR",
+  "codigo": "HEHJ-02",
+  "marca": "GENPAR",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "ESMERIL ANGULAR 4 1/2\" 800W MEGAPRO",
+  "codigo": "HEEA-11",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 2",
+  "imagen": "assets/img/productos/1303.jpg"
+ },
+ {
+  "nombre": "ESMERIL ANGULAR 9\" 2200W MEGAPRO",
+  "codigo": "HETR-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 2",
+  "imagen": "assets/img/productos/1305.jpg"
+ },
+ {
+  "nombre": "HIDROLAVADORA 1400W 1512PSI BLACK & DECKER",
+  "codigo": "HEHL-03",
+  "marca": "BLACK & DECKER",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1307.jpg"
+ },
+ {
+  "nombre": "HIDROLAVADORA ALTA PRESION 1200W 1400PSI MEGAPRO",
+  "codigo": "HEHD-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 1"
+ },
+ {
+  "nombre": "HIDROLAVADORA ALTA PRESION 1400W 1740PSI MEGAPRO",
+  "codigo": "HEHD-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 1",
+  "imagen": "assets/img/productos/1311.jpg"
+ },
+ {
+  "nombre": "MAQUINA CORTADORA DE CERAMICA CLIPPER TT200 800W 110V",
+  "codigo": "HEMC-01",
+  "marca": "NORTON",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1313.jpg"
+ },
+ {
+  "nombre": "MOTOTOOLS SET 65 PZA 135W COOFIX",
+  "codigo": "HEMS-02",
+  "marca": "COOFIX",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1315.jpg"
+ },
+ {
+  "nombre": "PINZA DE TIERRA P/SOLDAR 300A",
+  "codigo": "HETA-05",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "PISTOLA D/CALOR 2000W 110V COOFIX",
+  "codigo": "HEPC-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1319.jpg"
+ },
+ {
+  "nombre": "PISTOLA DE CALOR 1350W 110V 300-520°C MEGAPRO",
+  "codigo": "APSC-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/1321.jpg"
+ },
+ {
+  "nombre": "PORTA ELECTRODO 300AMP",
+  "codigo": "HEPE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1323.jpg"
+ },
+ {
+  "nombre": "PORTA ELECTRODO 500AMP",
+  "codigo": "HEPE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1323.jpg"
+ },
+ {
+  "nombre": "PULIDORA ANGULAR 7\" 1400W MEGAPRO",
+  "codigo": "HEPA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1325.jpg"
+ },
+ {
+  "nombre": "SIERRA CALADORA 4 AMP BLACK & DECKER",
+  "codigo": "HESC-05",
+  "marca": "BLACK & DECKER",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1329.jpg"
+ },
+ {
+  "nombre": "SIERRA CALADORA 400W MEGAPRO",
+  "codigo": "HESC-07",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 4",
+  "imagen": "assets/img/productos/1331.jpg"
+ },
+ {
+  "nombre": "SIERRA CIRCULAR 1200W MEGAPRO",
+  "codigo": "HESC-10",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 4",
+  "imagen": "assets/img/productos/1333.jpg"
+ },
+ {
+  "nombre": "SOPLADORA 500W 110V 13800RPM MEGAPRO",
+  "codigo": "HESE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1335.jpg"
+ },
+ {
+  "nombre": "TALADRO INALAMBRICO 20V 1/2\" KIT 25 PZA + 2 BAT MEGAPRO",
+  "codigo": "HETP-11",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/1337.jpg"
+ },
+ {
+  "nombre": "TALADRO INALAMBRICO 20V 3/8\" KIT 25 PZA + 1 BAT MEGAPRO",
+  "codigo": "HETP-09",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/1339.jpg"
+ },
+ {
+  "nombre": "TALADRO PERCUTOR 1/2\" 500W VVR MEGAPRO",
+  "codigo": "HETP-10",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1341.jpg"
+ },
+ {
+  "nombre": "TALADRO PERCUTOR 1/2\" 550W VVR B & D",
+  "codigo": "HETP-02",
+  "marca": "BLACK & DECKER",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1343.jpg"
+ },
+ {
+  "nombre": "TALADRO PERCUTOR 1/2\" 650W 110V 2800RPM COOFIX",
+  "codigo": "HETP-08",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1345.jpg"
+ },
+ {
+  "nombre": "ALICATE D/CORTE DIAGONAL 6\" COOFIX",
+  "codigo": "HMAD-04",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1349.jpg"
+ },
+ {
+  "nombre": "ALICATE DE PRESION BOCA CURVA 10\" MEGAPRO",
+  "codigo": "HMAP-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/1351.jpg"
+ },
+ {
+  "nombre": "ALICATE DE PRESION BOCA RECTA 10\" C/PROTEC MAXITOOLS",
+  "codigo": "HMAP-02",
+  "marca": "MAXITOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1353.jpg"
+ },
+ {
+  "nombre": "ALICATE DE PRESION BOCA RECTA 9\" MEGAPRO",
+  "codigo": "HMAP-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/1355.jpg"
+ },
+ {
+  "nombre": "ALICATE DE PRESION VISE-GRIP ORIGINAL RECTO 10\"",
+  "codigo": "HMAM-06",
+  "marca": "VISE-GRIP",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1357.jpg"
+ },
+ {
+  "nombre": "ALICATE ELECTRICISTA 8\" SEAL TOOLS",
+  "codigo": "HMAE-01",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1359.jpg"
+ },
+ {
+  "nombre": "ALICATE ELECTRICISTA 8\" STANLEY",
+  "codigo": "HMAE-03",
+  "marca": "STANLEY",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1361.jpg"
+ },
+ {
+  "nombre": "ALICATE GANADERO 10\" MEGAPRO",
+  "codigo": "HMAG-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "ALICATE MECANICO C/PROTECTOR 10\" EXXEL",
+  "codigo": "HMAM-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1365.jpg"
+ },
+ {
+  "nombre": "ARCO DE SEGUETA MEGAPRO",
+  "codigo": "FAPS-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1369.jpg"
+ },
+ {
+  "nombre": "BOMBA D/AIRE P/BICICLETA MANUAL 19CM MAXI TOOLS",
+  "codigo": "HMBM-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1371.jpg"
+ },
+ {
+  "nombre": "CARETA P/SOLDAR VIDRIO MOVIL",
+  "codigo": "FGCE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1373.jpg"
+ },
+ {
+  "nombre": "CARRETILLA CONSTRUCCION 65 LTS R/MACIZA EXXEL",
+  "codigo": "HMCC-07",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1375.jpg"
+ },
+ {
+  "nombre": "CAUTIN DE 30W 110V DIESEL TOOLS",
+  "codigo": "FCAU-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1377.jpg"
+ },
+ {
+  "nombre": "CAUTIN DE 60W MEGAPRO",
+  "codigo": "FCAU-04",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1379.jpg"
+ },
+ {
+  "nombre": "CAUTIN DE 60W PUNTA CURVA MEGAPRO",
+  "codigo": "FCAU-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1381.jpg"
+ },
+ {
+  "nombre": "CEPILLO COPA BRONCE 4\" IMPEGNI",
+  "codigo": "FCAH-01",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1383.jpg"
+ },
+ {
+  "nombre": "CEPILLO COPA BRONCE 4\" X 5/8\" MAXI TOOLS",
+  "codigo": "FGCC-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1385.jpg"
+ },
+ {
+  "nombre": "CEPILLO COPA BRONCE 5\" X 5/8\" MEGAPRO",
+  "codigo": "HMAD-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1389.jpg"
+ },
+ {
+  "nombre": "CEPILLO DE ALAMBRE 4X15 M/PLAST C/ESPATULA IMPEGNI",
+  "codigo": "FCEC-02",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1391.jpg"
+ },
+ {
+  "nombre": "CEPILLO DE ALAMBRE 4X15 M/PLAST IMPEGNI",
+  "codigo": "HMAJ-01",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1393.jpg"
+ },
+ {
+  "nombre": "CEPILLO DE ALAMBRE 4X16 C/MADERA MEGAPRO",
+  "codigo": "FCAH-04",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1395.jpg"
+ },
+ {
+  "nombre": "CEPILLO DE ALAMBRE 6X15 C/MADERA MEGAPRO",
+  "codigo": "FCAH-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1397.jpg"
+ },
+ {
+  "nombre": "CEPILLO DE ALAMBRE BRONCE ANTICHISPA IMPEGNI",
+  "codigo": "FCEC-01",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1399.jpg"
+ },
+ {
+  "nombre": "CEPILLO DE ALAMBRE BRONCE ANTICHISPA MEGAPRO",
+  "codigo": "FCAH-03",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1401.jpg"
+ },
+ {
+  "nombre": "CUCHARA P/ALBAÑIL M/CUADRADA DE 8\" IMPEGNI",
+  "codigo": "HMCC-02",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1403.jpg"
+ },
+ {
+  "nombre": "CUCHARA P/ALBAÑIL M/CUADRADA DE 9\" IMPEGNI",
+  "codigo": "HMCC-03",
+  "marca": "IMPEGNI",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1405.jpg"
+ },
+ {
+  "nombre": "CUCHARA P/ALBAÑIL M/REDONDA 8\" IMPEGNI",
+  "codigo": "HMCR-03",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1409.jpg"
+ },
+ {
+  "nombre": "CUCHARA P/ALBAÑIL M/REDONDA 9\" IMPEGNI",
+  "codigo": "HMCR-02",
+  "marca": "IMPEGNI",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1411.jpg"
+ },
+ {
+  "nombre": "CUCHARA P/ALBAÑIL REDONDA 6\" MAXI TOOLS",
+  "codigo": "HMCC-04",
+  "marca": "MAXITOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1413.jpg"
+ },
+ {
+  "nombre": "DADO EN JUEGO 40PZAS 1/4\"-3/8\" TREK",
+  "codigo": "HMDJ-02",
+  "marca": "TREK",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1415.jpg"
+ },
+ {
+  "nombre": "DADO JUEGO RATCHE 1/4\" 4-13MM 12PZAS MEGAPRO",
+  "codigo": "HMDJ-11",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/1417.jpg"
+ },
+ {
+  "nombre": "DADO JUEGO RATCHE 1/2\" 10-21MM 11PZAS MEGAPRO",
+  "codigo": "HMDJ-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1419.jpg"
+ },
+ {
+  "nombre": "DADO JUEGO RATCHE 1/2\" 8-24MM 12PZAS MEGAPRO",
+  "codigo": "HMDJ-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1421.jpg"
+ },
+ {
+  "nombre": "DADO JUEGO RATCHE 1/4\" 4-13MM 11PZAS MEGAPRO",
+  "codigo": "HMDJ-06",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1423.jpg"
+ },
+ {
+  "nombre": "DADO JUEGO RATCHE 3/8\" 8-17MM 12PZAS MEGAPRO",
+  "codigo": "HMDJ-05",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1425.jpg"
+ },
+ {
+  "nombre": "DADO JUEGO RATCHE 3/8\" 8-21MM 12PZAS MEGAPRO",
+  "codigo": "HMDJ-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 5",
+  "imagen": "assets/img/productos/1429.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR COPA 7 PZAS MM",
+  "codigo": "HMDC-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1431.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR JUEGO 2 PZAS MEGAPRO",
+  "codigo": "HMDE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1433.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR JUEGO 2 PZAS SEAL TOOLS",
+  "codigo": "HMDM-01",
+  "marca": "SEAL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1435.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR JUEGO 20 PZAS C/PUNTAS MEGAPRO",
+  "codigo": "HMDE-05",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1437.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR JUEGO 4 PZAS MEGAPRO",
+  "codigo": "HMDE-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1439.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR JUEGO 6 PZAS MEGAPRO",
+  "codigo": "HMDE-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1441.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR MEGAPRO ESTRIA 8\" P/IMANTADA",
+  "codigo": "HMDP-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1443.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR MEGAPRO PLANO 8\" P/IMANTADA",
+  "codigo": "HMDP-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1445.jpg"
+ },
+ {
+  "nombre": "DESTORNILLADOR RELOJERO 6 PZA DIESEL TOOLS",
+  "codigo": "HMDR-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1449.jpg"
+ },
+ {
+  "nombre": "DISCO DE CADENA P/MADERA 4 1/2\" MEGAPRO",
+  "codigo": "FCAU-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 20",
+  "imagen": "assets/img/productos/1451.jpg"
+ },
+ {
+  "nombre": "ENGRASADORA MANUAL MEGAPRO",
+  "codigo": "HETA-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 3",
+  "imagen": "assets/img/productos/1453.jpg"
+ },
+ {
+  "nombre": "ESCOBA METALICA P/JARDIN REFORZADO S/CABO",
+  "codigo": "FEMP-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1455.jpg"
+ },
+ {
+  "nombre": "EXTRACTOR DE TORNILLOS JUEGO X 5",
+  "codigo": "HMCZ-05",
+  "marca": "EXXEL",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1457.jpg"
+ },
+ {
+  "nombre": "GRAPADORA MEGAPRO",
+  "codigo": "HETA-04",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1459.jpg"
+ },
+ {
+  "nombre": "GUAYA DESTAPA CAÑERIA 3 MTS EXXEL",
+  "codigo": "FGRE-03",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1461.jpg"
+ },
+ {
+  "nombre": "GUIA PASACABLE PVC 10M EXXEL",
+  "codigo": "FPPR-01",
+  "marca": "EXXEL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1463.jpg"
+ },
+ {
+  "nombre": "HACHA MANGO ERGONOMICO 1KG X 38CM MEGAPRO",
+  "codigo": "HEET-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1465.jpg"
+ },
+ {
+  "nombre": "HACHA MANGO ERGONOMICO 2KG X 85CM MEGAPRO",
+  "codigo": "HEET-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1469.jpg"
+ },
+ {
+  "nombre": "JUEGO SACA BUJIAS 3 PZAS 16-18-21MM MEGAPRO",
+  "codigo": "HMDJ-10",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1471.jpg"
+ },
+ {
+  "nombre": "LIMA P/MOTOSIERRA 3/16 HERRAGRO",
+  "codigo": "FLPM-05",
+  "marca": "HERRAGRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1473.jpg"
+ },
+ {
+  "nombre": "LIMA P/MOTOSIERRA 7/32 HERRAGRO",
+  "codigo": "FLPM-06",
+  "marca": "HERRAGRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1473.jpg"
+ },
+ {
+  "nombre": "LIMA P/MOTOSIERRA DE 7/32\" DIESEL TOOLS",
+  "codigo": "FLPM-02",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1475.jpg"
+ },
+ {
+  "nombre": "LIMA TRIANGULAR C/CABO 6\" DIESEL TOOLS",
+  "codigo": "FLPM-03",
+  "marca": "",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "LLAVE AJUSTABLE 15\"",
+  "codigo": "HMLA-05",
+  "marca": "PERFECT",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1479.jpg"
+ },
+ {
+  "nombre": "LLAVE AJUSTABLE 6\"",
+  "codigo": "HMLA-01",
+  "marca": "PERFECT",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1481.jpg"
+ },
+ {
+  "nombre": "LLAVE AJUSTABLE 8\"",
+  "codigo": "HMLA-02",
+  "marca": "PERFECT",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1481.jpg"
+ },
+ {
+  "nombre": "LLAVE ALEX 10 PZAS. MILIMETRICA MAXI TOOLS",
+  "codigo": "HMLL-02",
+  "marca": "MAXI TOOLS",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1485.jpg"
+ },
+ {
+  "nombre": "LLAVE ALEX 7 PZAS 1.5MM A 6.0MM",
+  "codigo": "HMLL-05",
+  "marca": "BRICKELL",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1487.jpg"
+ },
+ {
+  "nombre": "LLAVE ALEX TORX MANGO T JUEGO X 6 UYUSTOOLS",
+  "codigo": "FLDT-12",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1489.jpg"
+ },
+ {
+  "nombre": "LLAVE COMBINADA JUEGO 11 PZA 1/4\" A 7/8\" JAYKAY",
+  "codigo": "PLLC-20",
+  "marca": "JAYKAY",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1491.jpg"
+ },
+ {
+  "nombre": "LLAVE COMBINADA JUEGO 8 PZAS 1/4\" A 3/4\" TOTAL",
+  "codigo": "PLLC-32",
+  "marca": "TOTAL",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1493.jpg"
+ },
+ {
+  "nombre": "LLAVE DE TUBO HEAVY DUTY 8\"",
+  "codigo": "FLDT-06",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1495.jpg"
+ },
+ {
+  "nombre": "LLAVE DE TUBO HEAVY DUTY 10\"",
+  "codigo": "FLDT-07",
+  "marca": "COOFIX",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1495.jpg"
+ },
+ {
+  "nombre": "LLAVE DE TUBO HEAVY DUTY 12\"",
+  "codigo": "FLDT-08",
+  "marca": "COOFIX",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1495.jpg"
+ },
+ {
+  "nombre": "LLAVE DE TUBO HEAVY DUTY 14\"",
+  "codigo": "FLDT-09",
+  "marca": "COOFIX",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1497.jpg"
+ },
+ {
+  "nombre": "LLAVE DE TUBO HEAVY DUTY 18\"",
+  "codigo": "FLDT-10",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1495.jpg"
+ },
+ {
+  "nombre": "MAZO DE GOMA MANGO MADERA 16OZ",
+  "codigo": "FMDG-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1501.jpg"
+ },
+ {
+  "nombre": "MULTIHERRAMIENTA 12 FUNCIONES EXXEL",
+  "codigo": "HMUL-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1503.jpg"
+ },
+ {
+  "nombre": "PALUSTRA DE GOMA P/FRISAR 24X10CM MEGAPRO",
+  "codigo": "FPDG-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12"
+ },
+ {
+  "nombre": "PALUSTRA DENTADA P/ALBAÑIL 28X12CM MEGAPRO",
+  "codigo": "FPDA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1505.jpg"
+ },
+ {
+  "nombre": "PALUSTRA LISA P/ALBAÑIL 28X12CM MEGAPRO",
+  "codigo": "FPLA-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1507.jpg"
+ },
+ {
+  "nombre": "PALUSTRA LISA PARA ALBAÑIL DIESEL TOOLS",
+  "codigo": "FPLA-01",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1509.jpg"
+ },
+ {
+  "nombre": "PALUSTRA PLASTICA ALBAÑILERIA 27X18CM MEGAPRO",
+  "codigo": "FPPL-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1511.jpg"
+ },
+ {
+  "nombre": "PELACABLE 7\" COOFIX",
+  "codigo": "HMPA-03",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1513.jpg"
+ },
+ {
+  "nombre": "PINZA PICO LARGO 6\" COOFIX",
+  "codigo": "HMPI-02",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1517.jpg"
+ },
+ {
+  "nombre": "PINZA PICO LARGO 6\" EXXEL",
+  "codigo": "HMPI-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1519.jpg"
+ },
+ {
+  "nombre": "PINZA PICO LARGO 8\" COOFIX",
+  "codigo": "HMPI-04",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1521.jpg"
+ },
+ {
+  "nombre": "PINZA PICO LARGO JGO X 5 PZA 4.5\" EXXEL",
+  "codigo": "HMPI-07",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1523.jpg"
+ },
+ {
+  "nombre": "RASPADOR CON NAVAJA 2PZA 19MM X 39MM EXXEL",
+  "codigo": "HMEM-01",
+  "marca": "EXXEL",
+  "presentacion": "BLISTER",
+  "imagen": "assets/img/productos/1525.jpg"
+ },
+ {
+  "nombre": "RATCHET DE 1/2 X 10\" M/ERGONOMICO MEGAPRO",
+  "codigo": "HMRA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1527.jpg"
+ },
+ {
+  "nombre": "RATCHET DE 3/8\" X 8\" M/ERGONOMICO MEGAPRO",
+  "codigo": "HMRE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1529.jpg"
+ },
+ {
+  "nombre": "REMACHADORA MEGAPRO",
+  "codigo": "HMRE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1531.jpg"
+ },
+ {
+  "nombre": "SACA RETEN 6\" JGO 4 PZA COOFIX",
+  "codigo": "HMAD-03",
+  "marca": "COOFIX",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1533.jpg"
+ },
+ {
+  "nombre": "SALPICADORA DE CEMENTO",
+  "codigo": "HMAD-06",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1537.jpg"
+ },
+ {
+  "nombre": "TENAZA DE ARMADOR 10\" COOFIX",
+  "codigo": "HMTA-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1539.jpg"
+ },
+ {
+  "nombre": "TENAZA DE ARMADOR 9\" COOFIX",
+  "codigo": "HMTA-02",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1541.jpg"
+ },
+ {
+  "nombre": "TIJERA PARA PODAR JARDIN 8\" COOFIX",
+  "codigo": "FTPP-01",
+  "marca": "COOFIX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1543.jpg"
+ },
+ {
+  "nombre": "CORDEL PP-30 4X3 ELEFANTES 500GM",
+  "codigo": "MAGN-01",
+  "marca": "CORDELERIA",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1547.jpg"
+ },
+ {
+  "nombre": "CORDEL PP-30 MEGAPRO 500GR",
+  "codigo": "MCEB-03",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1549.jpg"
+ },
+ {
+  "nombre": "GUARAL # 12 AZUL 1100 MTS 400GR",
+  "codigo": "MMOA-02",
+  "marca": "ENPROPLAS",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1551.jpg"
+ },
+ {
+  "nombre": "GUARAL # 12 DORADO 1100 MTS 400GR",
+  "codigo": "MMOA-03",
+  "marca": "ENPROPLAS",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1553.jpg"
+ },
+ {
+  "nombre": "GUARAL # 12 ROJO 1100 MTS 400GR",
+  "codigo": "MMOA-01",
+  "marca": "ENPROPLAS",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1555.jpg"
+ },
+ {
+  "nombre": "MALLA CEDAZO 5 X 5 1MT X 15M C-29 MEGAPRO",
+  "codigo": "MMSV-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1557.jpg"
+ },
+ {
+  "nombre": "MALLA CEDAZO 8 X 8 1MT X 15M C-29 MEGAPRO",
+  "codigo": "MMSV-02",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1559.jpg"
+ },
+ {
+  "nombre": "MALLA ELECTROSOLDADA 1\"X1\" 1M X 25M MEGAPRO",
+  "codigo": "MMES-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 1"
+ },
+ {
+  "nombre": "MALLA ELECTROSOLDADA 3/4\"X3/4\" 1M X 25M MEGAPRO",
+  "codigo": "MMES-04",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 1"
+ },
+ {
+  "nombre": "MALLA PAJARERA 1/2\" 25X1M EXXEL",
+  "codigo": "MMPO-02",
+  "marca": "EXXEL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1563.jpg"
+ },
+ {
+  "nombre": "MALLA PAJARERA 1/2\" X 1.00M X 25M MEGAPRO",
+  "codigo": "MMNN-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "MALLA PAJARERA 3/4\" 25X1M EXXEL",
+  "codigo": "MMPO-03",
+  "marca": "EXXEL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1565.jpg"
+ },
+ {
+  "nombre": "MALLA PAJARERA 3/4\" X 1.00M X 25M MEGAPRO",
+  "codigo": "MMPO-01",
+  "marca": "MEGAPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "MALLA POLLITO 1\" X 1M X 25M",
+  "codigo": "MMPO-05",
+  "marca": "EXXEL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1567.jpg"
+ },
+ {
+  "nombre": "MECATE POLIPROPILENO ELEFANTE # 3 3/16\" (ROLLO X 1000MTS)",
+  "codigo": "MMPE-01",
+  "marca": "ELEFANTE",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1569.jpg"
+ },
+ {
+  "nombre": "MECATE POLIPROPILENO ELEFANTE # 6 1/4\" (ROLLO X 500MTS)",
+  "codigo": "MMPE-02",
+  "marca": "ELEFANTE",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1569.jpg"
+ },
+ {
+  "nombre": "MECATE POLIPROPILENO ELEFANTE # 9 5/16\" (ROLLO X 330MTS)",
+  "codigo": "MMPE-03",
+  "marca": "ELEFANTE",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1569.jpg"
+ },
+ {
+  "nombre": "MECATE POLIPROPILENO ELEFANTE #12 3/8\" (ROLLO X 250MTS)",
+  "codigo": "MMPE-04",
+  "marca": "ELEFANTE",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1569.jpg"
+ },
+ {
+  "nombre": "MECATE POLIPROPILENO ELEFANTE #15 7/16\" (ROLLO X 200MTS)",
+  "codigo": "MMPE-05",
+  "marca": "ELEFANTE",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1569.jpg"
+ },
+ {
+  "nombre": "MECATE POLIPROPILENO ELEFANTE #21 1/2\" (ROLLO X 140MTS)",
+  "codigo": "MMPE-06",
+  "marca": "ELEFANTE",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1569.jpg"
+ },
+ {
+  "nombre": "SACO NATURAL 89 X 56",
+  "codigo": "MRPV-03",
+  "marca": "POLYBARQ",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1573.jpg"
+ },
+ {
+  "nombre": "SACO ROJO NATURAL 89 X 54",
+  "codigo": "MRPV-01",
+  "marca": "POLYBARQ",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1575.jpg"
+ },
+ {
+  "nombre": "SACO ROJO ROJO 89 X 54",
+  "codigo": "MRPV-02",
+  "marca": "POLYBARQ",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1577.jpg"
+ },
+ {
+  "nombre": "ACOPLE HEMBRA BRONCE 1/2\" X 3/4\" GREENPRO",
+  "codigo": "PCHB-01",
+  "marca": "GREENPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/1581.jpg"
+ },
+ {
+  "nombre": "ASIENTO P/INODORO 16\"",
+  "codigo": "PDLS-01",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1583.jpg"
+ },
+ {
+  "nombre": "BALANCIN DE PLASTICO P/W.C. JOMAI",
+  "codigo": "PBPW-02",
+  "marca": "JOMAI",
+  "presentacion": "UNID"
+ },
+ {
+  "nombre": "BALANCIN MANILLA METALICA P/W.C.",
+  "codigo": "PBMW-03",
+  "marca": "FERMETAL",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1587.jpg"
+ },
+ {
+  "nombre": "BALANCIN MANILLA PLASTICA CROMADA P/W.C.",
+  "codigo": "PBMW-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1589.jpg"
+ },
+ {
+  "nombre": "BALANCIN SUPERIOR BOTON DOBLE P/W.C",
+  "codigo": "PDEC-06",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1591.jpg"
+ },
+ {
+  "nombre": "BALANCIN SUPERIOR BOTON SENCILLO P/W.C",
+  "codigo": "PDEC-05",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1593.jpg"
+ },
+ {
+  "nombre": "BOMBA DE AGUA 1/2 HP GENPAR PRO",
+  "codigo": "PCFF-01",
+  "marca": "GENPAR",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1595.jpg"
+ },
+ {
+  "nombre": "BRAZO P/REGADERA LARGO C/ROSETA GREENPRO",
+  "codigo": "APMO-04",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1597.jpg"
+ },
+ {
+  "nombre": "CALENTADOR DE AGUA ELECTRICO 110V 3500W GREENPRO",
+  "codigo": "PDMC-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1601.jpg"
+ },
+ {
+  "nombre": "CALENTADOR DE AGUA PORTATIL 1000W MEGAPRO",
+  "codigo": "FEDA-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 12",
+  "imagen": "assets/img/productos/1603.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC AGUAS SERVIDAS 2X45°",
+  "codigo": "CPCP-07",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1605.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC AGUAS SERVIDAS 2X90°",
+  "codigo": "CPCP-04",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1607.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC AGUAS SERVIDAS 3X45°",
+  "codigo": "CPCP-08",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1609.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC AGUAS SERVIDAS 3X90°",
+  "codigo": "CPCP-05",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1611.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC AGUAS SERVIDAS 4X45°",
+  "codigo": "CPCP-09",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1613.jpg"
+ },
+ {
+  "nombre": "CP CODO PVC AGUAS SERVIDAS 4X90°",
+  "codigo": "CPCP-06",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1615.jpg"
+ },
+ {
+  "nombre": "CP TEE PVC AGUAS SERVIDAS 2\"",
+  "codigo": "CPTP-06",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1617.jpg"
+ },
+ {
+  "nombre": "CP TEE PVC AGUAS SERVIDAS 3\"",
+  "codigo": "CPTP-07",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1617.jpg"
+ },
+ {
+  "nombre": "CP TEE PVC AGUAS SERVIDAS 4\"",
+  "codigo": "CPTP-08",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1621.jpg"
+ },
+ {
+  "nombre": "CP YEE PVC AGUAS SERVIDAS 2",
+  "codigo": "CPYP-01",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1623.jpg"
+ },
+ {
+  "nombre": "CP YEE PVC AGUAS SERVIDAS 3",
+  "codigo": "CPYP-02",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1625.jpg"
+ },
+ {
+  "nombre": "CP YEE PVC AGUAS SERVIDAS 4\"",
+  "codigo": "CPYP-03",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1625.jpg"
+ },
+ {
+  "nombre": "CP YEE PVC REDUCIDA AGUAS SERVIDAS 4\" X 2\"",
+  "codigo": "CPYR-01",
+  "marca": "FESTAPLAS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1627.jpg"
+ },
+ {
+  "nombre": "DESAGUE 1 1/4 P/LAVAMANO C/SIFON CORRUGADO",
+  "codigo": "PDLE-01",
+  "marca": "AQUA PLUS",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1629.jpg"
+ },
+ {
+  "nombre": "DESAGUE P/FREGADERO METAL/PLAST 3 1/2",
+  "codigo": "PDMP-01",
+  "marca": "GRIMAX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1631.jpg"
+ },
+ {
+  "nombre": "DESAGUE P/FREGADERO METALICO 3 1/2 GREENPRO",
+  "codigo": "PDFM-01",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1633.jpg"
+ },
+ {
+  "nombre": "DESAGUE P/LAVAMANO T/MONEDA C/SIFON CORRUGADO GREENPRO",
+  "codigo": "PSTB-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1637.jpg"
+ },
+ {
+  "nombre": "DESAGUE PARA WC JOMAI",
+  "codigo": "PDWC-01",
+  "marca": "JOMAI",
+  "presentacion": "UNID",
+  "imagen": "assets/img/productos/1639.jpg"
+ },
+ {
+  "nombre": "DUCHA ELECTRICA CORONA BLANCA",
+  "codigo": "PDEC-01",
+  "marca": "CORONA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1641.jpg"
+ },
+ {
+  "nombre": "DUCHA ELECTRICA MAXI CORONA BLANCA",
+  "codigo": "PDMC-01",
+  "marca": "CORONA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1643.jpg"
+ },
+ {
+  "nombre": "DUCHA TELEFONO ABS CROMADA C/MANG ACERO INOX 1.2MT GREENPRO",
+  "codigo": "PDRH-05",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1645.jpg"
+ },
+ {
+  "nombre": "DUCHA TELEFONO BLANCA ABS C/MANG 1.2MT GREENPRO",
+  "codigo": "PDTH-01",
+  "marca": "GREENPRO",
+  "presentacion": "CAJA X 6",
+  "imagen": "assets/img/productos/1647.jpg"
+ },
+ {
+  "nombre": "DUCHA TELEFONO CROMADA DE LUJO FERMETAL",
+  "codigo": "PDTC-01",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1649.jpg"
+ },
+ {
+  "nombre": "DUCHA TELEFONO CROMADA LUJO C/MANG 1.2MT GREENPRO",
+  "codigo": "PDTC-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1651.jpg"
+ },
+ {
+  "nombre": "FLOTANTE BRONCE AQUA PLUS 1\"",
+  "codigo": "PFLO-03",
+  "marca": "AQUA PLUS",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "FLOTANTE BRONCE AQUA PLUS 1/2\"",
+  "codigo": "PFLO-01",
+  "marca": "AQUA PLUS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1657.jpg"
+ },
+ {
+  "nombre": "FLOTANTE BRONCE AQUA PLUS 3/4\"",
+  "codigo": "PFLO-02",
+  "marca": "AQUA PLUS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1657.jpg"
+ },
+ {
+  "nombre": "FLOTANTE BRONCE C/BOYA 1/2 GREENPRO",
+  "codigo": "PDPC-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1659.jpg"
+ },
+ {
+  "nombre": "FLOTANTE BRONCE C/BOYA 3/4 GREENPRO",
+  "codigo": "PDPS-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1661.jpg"
+ },
+ {
+  "nombre": "FLOTANTE PLASTICO P/TANQUE 1/2 GREENPRO",
+  "codigo": "PFPT-01",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 100X50 EMPOTRAR DER. GREENPRO",
+  "codigo": "PFAI-07",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 100X50 SOBREPONER DER. GREENPRO",
+  "codigo": "PFAI-01",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 100X50 SOBREPONER IZQ. GREENPRO",
+  "codigo": "PFAI-09",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 53X48 GREENPRO",
+  "codigo": "PFAI-08",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1663.jpg"
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 62X48 EMPOTRAR GREENPRO",
+  "codigo": "APSC-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 63X56 EMPOTRAR GREENPRO",
+  "codigo": "APSC-04",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1667.jpg"
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 80X50 DERECHO GREENPRO",
+  "codigo": "PFAI-04",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1669.jpg"
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 80X50 IZQUIERDO GREENPRO",
+  "codigo": "PFAI-05",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1671.jpg"
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 83X48 DOBLE TINA EMPOTRAR GREENPRO",
+  "codigo": "PFAI-02",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "FREGADERO ACERO INOX 83X56 DOBLE TINA EMPOTRAR GREENPRO",
+  "codigo": "PFAI-06",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "GRIFERIA LAVAMANOS ABS CROMADA C/CURVO PALANCA GREENPRO",
+  "codigo": "PGPL-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1673.jpg"
+ },
+ {
+  "nombre": "GRIFERIA LAVAMANOS ABS NEGRA C/CURVO PALANCA GREENPRO",
+  "codigo": "ARAA-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1675.jpg"
+ },
+ {
+  "nombre": "GRIFERIA LAVAMANOS ABS NEGRA C/CURVO POMO GREENPRO",
+  "codigo": "ARAA-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1677.jpg"
+ },
+ {
+  "nombre": "GRIFERIA LAVAMANOS MONOMANDO C/MANGUERAS",
+  "codigo": "PGRM-03",
+  "marca": "JOMO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1681.jpg"
+ },
+ {
+  "nombre": "GRIFERIA P/FREGADERO ABS BLANCO GRIMAX",
+  "codigo": "PGPL-05",
+  "marca": "GRIMAX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1683.jpg"
+ },
+ {
+  "nombre": "GRIFERIA P/FREGADERO ABS BLANCO POMO JAPPY",
+  "codigo": "PGPF-02",
+  "marca": "JAPPY",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1685.jpg"
+ },
+ {
+  "nombre": "GRIFERIA P/FREGADERO DOBLE PLAST/CROM HEXAG GRIMAX",
+  "codigo": "PGRM-01",
+  "marca": "GRIMAX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1687.jpg"
+ },
+ {
+  "nombre": "GRIFERIA SAM GRUPO LAVAMANO AMERICANA 4\"",
+  "codigo": "PGLM-01",
+  "marca": "SAM",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1689.jpg"
+ },
+ {
+  "nombre": "HERRAJE P/W.C. 1/2 BOTON LATERAL GREENPRO",
+  "codigo": "PHER-03",
+  "marca": "GREENPRO",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1691.jpg"
+ },
+ {
+  "nombre": "HERRAJE P/W.C. JOMAI #1",
+  "codigo": "PHER-07",
+  "marca": "JOMAI",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1693.jpg"
+ },
+ {
+  "nombre": "HERRAJE P/W.C. LF PLOMERIA",
+  "codigo": "PHER-02",
+  "marca": "EXXEL",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1695.jpg"
+ },
+ {
+  "nombre": "LAVAMANOS BLANCO C/PEDESTAL GREENPRO",
+  "codigo": "FPBA-01",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "LAVAMANOS BLANCO RECTANCULAR SOBREPONER 48X37X13 GREENPRO",
+  "codigo": "FMAN-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "LAVAMANOS BLANCO RECTANGULAR SOBREPONER 48X38X13,5 GREENPRO",
+  "codigo": "FMAN-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "LLAVE BOLA BRONCE 1\"",
+  "codigo": "PLBB-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1699.jpg"
+ },
+ {
+  "nombre": "LLAVE BOLA BRONCE 3/4",
+  "codigo": "PLBB-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1701.jpg"
+ },
+ {
+  "nombre": "LLAVE BOLA CROMADA P/MARIPOSA 3/4\"",
+  "codigo": "PLLB-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1703.jpg"
+ },
+ {
+  "nombre": "LLAVE BOLA CROMADA PESADA C 1",
+  "codigo": "PLBC-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1705.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO BOLA BRONCE 1/2 GREENPRO",
+  "codigo": "PLGR-03",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1707.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO BOLA CIERRE RAPIDO 1/2 GREENPRO",
+  "codigo": "PLGR-01",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1709.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO BOLA CROMADA 1/2\" GREENPRO",
+  "codigo": "PLCH-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1711.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO BOLA CROMADA 1/2\" JAPPY",
+  "codigo": "PLLA-03",
+  "marca": "JAPPY",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "LLAVE CHORRO BOLA PESADA 1/2",
+  "codigo": "PLCH-02",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1717.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO BRONCE 1/2 C/PICO LF",
+  "codigo": "PLCH-03",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1719.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO BRONCE 1/2 GREENPRO",
+  "codigo": "PLCH-04",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1721.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO DORADA 1/2\" M/AZUL",
+  "codigo": "PLCH-07",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1723.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO PLASTICA BOLA C/CRUCETA GREENPRO",
+  "codigo": "PLCH-05",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1725.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO PLASTICA BOLA PALANCA 1/2\" BRICKELL",
+  "codigo": "PLGR-06",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1727.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO PLASTICA C/PICO 1/2\" GRIMAX",
+  "codigo": "PLCH-09",
+  "marca": "GRIMAX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1729.jpg"
+ },
+ {
+  "nombre": "LLAVE CHORRO PLASTICA CONEXION METAL GREENPRO",
+  "codigo": "PLCH-08",
+  "marca": "GREENPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/1731.jpg"
+ },
+ {
+  "nombre": "LLAVE DE ARRESTO ABS 1/2X1/2 BLANCO JAPPY",
+  "codigo": "PLLA-05",
+  "marca": "JAPPY",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1735.jpg"
+ },
+ {
+  "nombre": "LLAVE DE ARRESTO BOLA CROMADA 1/2 X1/2",
+  "codigo": "PLLA-02",
+  "marca": "GREENPRO / AQUA PLUS",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1737.jpg"
+ },
+ {
+  "nombre": "LLAVE DE ARRESTO CROMADA 1/2 X1/2 GREENPRO",
+  "codigo": "PLLA-04",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1739.jpg"
+ },
+ {
+  "nombre": "LLAVE DE ARRESTO P/METALICO TRIANGULAR GRIMAX",
+  "codigo": "PLLA-01",
+  "marca": "GRIMAX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1741.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA DISPENSADOR D/AGUA PVC 18MM HIDROTEK",
+  "codigo": "PDMC-05",
+  "marca": "HIDROTEK",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1743.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA DUCHA INDIVIDUAL GREENPRO",
+  "codigo": "PLPD-04",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1745.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA DUCHA INDIVIDUAL PLAS/CROMA 4\" LF",
+  "codigo": "PLPD-03",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1747.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA LAVAMANOS PLAST/CROM PALANCA GREENPRO",
+  "codigo": "PLPD-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1749.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA LAVAMANOS PLAST/CROM POMO GREENPRO",
+  "codigo": "FLDT-05",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1751.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA LAVAMANOS PLAST/CROMADO GRIMAX",
+  "codigo": "PLLM-01",
+  "marca": "GRIMAX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1755.jpg"
+ },
+ {
+  "nombre": "LLAVE PARA LAVAMANOS SENCILLA JAPPY M/CROWN",
+  "codigo": "PBPF-02",
+  "marca": "JAPPY",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1757.jpg"
+ },
+ {
+  "nombre": "LLAVE PASO BRONCE CROMADA 1/2\" LF",
+  "codigo": "PLCH-06",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1759.jpg"
+ },
+ {
+  "nombre": "MANGUERA HIDROFLEX CORRUGADA 1/2 X 5/8 X 40CM",
+  "codigo": "PMCH-02",
+  "marca": "HIDROFLEX",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1761.jpg"
+ },
+ {
+  "nombre": "MANGUERA PLASTICA 1/2X1/2X40CM AQUA PLUS",
+  "codigo": "PMPL-01",
+  "marca": "AQUA PLUS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1763.jpg"
+ },
+ {
+  "nombre": "MANGUERA PLASTICA 1/2X1/2X60CM GREENPRO",
+  "codigo": "PMHF-02",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1765.jpg"
+ },
+ {
+  "nombre": "MANGUERA PLASTICA 1/2X5/8X40CM AQUA PLUS",
+  "codigo": "PMPL-02",
+  "marca": "AQUA PLUS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1767.jpg"
+ },
+ {
+  "nombre": "MANGUERA PLASTICA 1/2X5/8X60CM AQUA PLUS",
+  "codigo": "PMHF-01",
+  "marca": "AGUA PLUS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1769.jpg"
+ },
+ {
+  "nombre": "PICO P/MANGUERA T/PLUMA BRONCE 3\" LF",
+  "codigo": "PPMB-01",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1771.jpg"
+ },
+ {
+  "nombre": "POCETA WC BLANCO GREENPRO",
+  "codigo": "FMHB-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "PRESS CONTROL AUTOMATICO 110/220V GENPAR",
+  "codigo": "PFAI-03",
+  "marca": "GENPAR",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1775.jpg"
+ },
+ {
+  "nombre": "PULMON PRESURIZADOR 2LT P/BOMBA AGUA C/MANOMETRO GREENPRO",
+  "codigo": "HEBH-03",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "PURIFICADOR AGUA OSMOSIS INVERSA 5 ETAPAS GREENPRO",
+  "codigo": "PDRH-09",
+  "marca": "GREENPRO",
+  "presentacion": "CAJA X 1",
+  "imagen": "assets/img/productos/1777.jpg"
+ },
+ {
+  "nombre": "REGADERA 8\" CROMADO LF-1340E",
+  "codigo": "PDRH-03",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1779.jpg"
+ },
+ {
+  "nombre": "REGADERA 8\" PLAST/CROMADO LF-1341A",
+  "codigo": "PDRH-04",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1781.jpg"
+ },
+ {
+  "nombre": "REGADERA C/BRAZO PLAST/CROMADO CUADRADA GREENPRO",
+  "codigo": "PDRH-08",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1783.jpg"
+ },
+ {
+  "nombre": "REGADERA C/BRAZO PLAST/CROMADO REDONDA GREENPRO",
+  "codigo": "PDRH-07",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1785.jpg"
+ },
+ {
+  "nombre": "REGADERA C/BRAZO PLAST/CROMADO SENCILLA LF-1301",
+  "codigo": "PDRH-01",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1787.jpg"
+ },
+ {
+  "nombre": "REGADERA C/BRAZO PLAST/CROMADO T/CEBOLLA LF-1318",
+  "codigo": "PDRH-02",
+  "marca": "LF",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1791.jpg"
+ },
+ {
+  "nombre": "REJILLA P/PISO ESTRELLA 2\" PESADA",
+  "codigo": "PREJ-05",
+  "marca": "FERMETAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1793.jpg"
+ },
+ {
+  "nombre": "SAPITO P/INODORO 3\" C/CADENA GREENPRO",
+  "codigo": "PBPF-03",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1795.jpg"
+ },
+ {
+  "nombre": "SET DE ACCESORIOS P/BAÑO 5 PZAS GREENPRO",
+  "codigo": "PIRA-01",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "SIFON 1 1/4 P/LAVAMANOS JOMAI",
+  "codigo": "PSLM-02",
+  "marca": "JOMAI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1797.jpg"
+ },
+ {
+  "nombre": "SIFON AGUAS SERVIDAS PVC 2\"",
+  "codigo": "PSAS-01",
+  "marca": "FESTA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1799.jpg"
+ },
+ {
+  "nombre": "SIFON AGUAS SERVIDAS PVC 4\"",
+  "codigo": "PSAS-02",
+  "marca": "FESTA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1801.jpg"
+ },
+ {
+  "nombre": "SIFON EXTENSIBLE 1 1/2",
+  "codigo": "PSEX-02",
+  "marca": "UNI",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1803.jpg"
+ },
+ {
+  "nombre": "SIFON EXTENSIBLE 1 1/4\"",
+  "codigo": "PSEX-03",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1803.jpg"
+ },
+ {
+  "nombre": "SURTIDOR PARA W.C. # 1 JOMAI",
+  "codigo": "PSPW-01",
+  "marca": "JOMAI",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1807.jpg"
+ },
+ {
+  "nombre": "TANQUE CONICO 300LTS AWA NEGRO",
+  "codigo": "FEXD-05",
+  "marca": "AWA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1809.jpg"
+ },
+ {
+  "nombre": "TORNILLOS METALICOS PARA W.C.",
+  "codigo": "PTBW-01",
+  "marca": "",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/1811.jpg"
+ },
+ {
+  "nombre": "TUBO AGUA BLANCA AZUL 1/2\" X 6 MTS AIP",
+  "codigo": "ETPC-12",
+  "marca": "AIP",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1813.jpg"
+ },
+ {
+  "nombre": "TUBO AGUA BLANCA AZUL 3/4\" X 6 MTS AIP",
+  "codigo": "ETPC-13",
+  "marca": "AIP",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1813.jpg"
+ },
+ {
+  "nombre": "TUBO AGUAS SERVIDAS ECONOMICO 2\" AMARILLO",
+  "codigo": "PTAS-09",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1815.jpg"
+ },
+ {
+  "nombre": "TUBO AGUAS SERVIDAS ECONOMICO 3\" AMARILLO",
+  "codigo": "PTAS-08",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1817.jpg"
+ },
+ {
+  "nombre": "TUBO AGUAS SERVIDAS ECONOMICO 4\" AMARILLO",
+  "codigo": "PTAS-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1815.jpg"
+ },
+ {
+  "nombre": "TUBO PRESION A/FRIA SCH 1\" X 3MTS",
+  "codigo": "PTPA-03",
+  "marca": "GREEPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1819.jpg"
+ },
+ {
+  "nombre": "TUBO PRESION A/FRIA SCH 1/2\" X 3MTS",
+  "codigo": "PTPA-01",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1823.jpg"
+ },
+ {
+  "nombre": "TUBO PRESION A/FRIA SCH 3/4 X 3MTS",
+  "codigo": "PTPA-02",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1825.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC ROSCA 1/2 GREENPRO",
+  "codigo": "PVBC-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1827.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC ROSCA 3/4",
+  "codigo": "PVBC-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1827.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC ROSCA 1 1/2 GREENPRO",
+  "codigo": "PVBC-07",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1827.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC ROSCA 1 GREENPRO",
+  "codigo": "PVBC-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1827.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC ROSCA 3\" GREENPRO",
+  "codigo": "PDAI-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1829.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC SOLDAR 1",
+  "codigo": "PVBC-06",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1831.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC SOLDAR 1/2",
+  "codigo": "PVBC-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1831.jpg"
+ },
+ {
+  "nombre": "VALVULA BOLA COMPACTA PVC SOLDAR 3/4",
+  "codigo": "PVBC-05",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1831.jpg"
+ },
+ {
+  "nombre": "VALVULA CHECK DE 1 1/2\"",
+  "codigo": "PVCH-01",
+  "marca": "FERMETAL",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1835.jpg"
+ },
+ {
+  "nombre": "VALVULA CHECK DE 1\"",
+  "codigo": "PVCH-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1837.jpg"
+ },
+ {
+  "nombre": "VALVULA CHECK DE 1/2\"",
+  "codigo": "PVCH-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1837.jpg"
+ },
+ {
+  "nombre": "VALVULA CHECK DE 2\"",
+  "codigo": "PVCH-04",
+  "marca": "FERMETAL",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1839.jpg"
+ },
+ {
+  "nombre": "VALVULA CHECK DE 3/4\"",
+  "codigo": "PVCH-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1837.jpg"
+ },
+ {
+  "nombre": "VALVULA CHECK HORIZONTAL 1 1/4",
+  "codigo": "PVCH-07",
+  "marca": "",
+  "presentacion": "unidad",
+  "imagen": "assets/img/productos/1841.jpg"
+ },
+ {
+  "nombre": "YEE P/LAVADORA 1/2\" METALICA GREENPRO",
+  "codigo": "FYEE-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1843.jpg"
+ },
+ {
+  "nombre": "BOTA PVC C/CORTA BEIGE DURAMIL # 39",
+  "codigo": "SBSV-07",
+  "marca": "",
+  "presentacion": "PAR",
+  "imagen": "assets/img/productos/1847.jpg"
+ },
+ {
+  "nombre": "CASCO DE SEGURIDAD INDUSTRIAL ROJO TOTAL",
+  "codigo": "SBPN-03",
+  "marca": "TOTAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1849.jpg"
+ },
+ {
+  "nombre": "CHALECO DE SEGURIDAD REFLECTIVO",
+  "codigo": "FCHR-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1851.jpg"
+ },
+ {
+  "nombre": "CINTA SEGURIDAD PELIGRO 3\" X 50M BRICKELL",
+  "codigo": "SBNV-02",
+  "marca": "BRICKELL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1853.jpg"
+ },
+ {
+  "nombre": "CINTA SEGURIDAD PROHIBIDO 3\" X 100M EXXEL",
+  "codigo": "SBNV-01",
+  "marca": "EXXEL",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1855.jpg"
+ },
+ {
+  "nombre": "LENTES SEGURIDAD CLARO MAXI TOOLS",
+  "codigo": "SILS-02",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1857.jpg"
+ },
+ {
+  "nombre": "LENTES SEGURIDAD CLARO T/AVISPA MAXI TOOLS",
+  "codigo": "SBPV-07",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1859.jpg"
+ },
+ {
+  "nombre": "LENTES SEGURIDAD OSCURO MAXI TOOLS",
+  "codigo": "SBVC-05",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "LENTES SEGURIDAD OSCURO T/AVISPA COOFIX",
+  "codigo": "SILS-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1863.jpg"
+ },
+ {
+  "nombre": "LENTES SEGURIDAD OSCURO T/AVISPA MAXI TOOLS",
+  "codigo": "SICS-01",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD"
+ },
+ {
+  "nombre": "LENTES SEGURIDAD PLATEADO T/AVISPA MAXI TOOLS",
+  "codigo": "SILS-03",
+  "marca": "MAXI TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1869.jpg"
+ },
+ {
+  "nombre": "BARRA ROSCADA 1/2\" X 1M",
+  "codigo": "TTDP-04",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1873.jpg"
+ },
+ {
+  "nombre": "BARRA ROSCADA 1/4\" X 1M",
+  "codigo": "TTDP-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1875.jpg"
+ },
+ {
+  "nombre": "BARRA ROSCADA 5/16\" X 1M",
+  "codigo": "TTDP-02",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1877.jpg"
+ },
+ {
+  "nombre": "CLAVO DE ACERO BLANCO 1\"",
+  "codigo": "TCAB-01",
+  "marca": "KILO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1879.jpg"
+ },
+ {
+  "nombre": "CLAVO DE ACERO BLANCO 4\"",
+  "codigo": "TCAB-06",
+  "marca": "KILO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1879.jpg"
+ },
+ {
+  "nombre": "CLAVOS ACERO LISO NEGRO 1\" C.A. MEJIA & CIA (BOLSA X 100)",
+  "codigo": "TCAN-01",
+  "marca": "C.A. MEJIA & CIA.",
+  "presentacion": "BOL",
+  "imagen": "assets/img/productos/1881.jpg"
+ },
+ {
+  "nombre": "CLAVOS ACERO LISO NEGRO 1\" MEGAPRO BOLSA X 100",
+  "codigo": "CPHE-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/1883.jpg"
+ },
+ {
+  "nombre": "CLAVOS ACERO LISO NEGRO 3/4\" C.A. MEJIA & CIA (BOLSA X 100)",
+  "codigo": "TCAN-02",
+  "marca": "C.A. MEJIA & CIA.",
+  "presentacion": "BOL",
+  "imagen": "assets/img/productos/1881.jpg"
+ },
+ {
+  "nombre": "CLAVOS ACERO LISO NEGRO 3/4\" MEGAPRO BOLSA X 100",
+  "codigo": "CPHE-02",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 25",
+  "imagen": "assets/img/productos/1885.jpg"
+ },
+ {
+  "nombre": "CLAVOS GALVANIZADO P/MADERA 3\"X10 (BOLSA X 500G)",
+  "codigo": "FCPP-27",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJX X 10",
+  "imagen": "assets/img/productos/1889.jpg"
+ },
+ {
+  "nombre": "CLAVOS GALVANIZADO SIN CABEZA 1 1/2\" (CAJA X 500G)",
+  "codigo": "TCRA-06",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "CLAVOS GALVANIZADO SIN CABEZA 1\" (CAJA X 500G)",
+  "codigo": "TCRA-01",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 10"
+ },
+ {
+  "nombre": "BROCHA M/ROJO MEGAPRO 1\"",
+  "codigo": "FBEC-03",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 48",
+  "imagen": "assets/img/productos/1893.jpg"
+ },
+ {
+  "nombre": "BROCHA M/ROJO MEGAPRO 2\"",
+  "codigo": "FBEC-04",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1895.jpg"
+ },
+ {
+  "nombre": "BROCHA M/ROJO MEGAPRO 3\"",
+  "codigo": "FBEC-05",
+  "marca": "MEGAPRO",
+  "presentacion": "CAJA X 24",
+  "imagen": "assets/img/productos/1897.jpg"
+ },
+ {
+  "nombre": "FONDO HERRERIA SENSACOLOR GRIS 1/4",
+  "codigo": "PFPH-04",
+  "marca": "SENSACOLOR",
+  "presentacion": "UNIDA",
+  "imagen": "assets/img/productos/1899.jpg"
+ },
+ {
+  "nombre": "PINTURA ALUMINIO INDUSTRIAL DIFUSO 1/4",
+  "codigo": "PACZ-01",
+  "marca": "REINCO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1901.jpg"
+ },
+ {
+  "nombre": "PINTURA DE ALUMINIO IPA GALON",
+  "codigo": "PDAL-01",
+  "marca": "IPA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1903.jpg"
+ },
+ {
+  "nombre": "PINTURA ESMALTE VITAL BLANCO 1/4",
+  "codigo": "PCEU-05",
+  "marca": "SENSACOLOR",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1905.jpg"
+ },
+ {
+  "nombre": "PINTURA P/CANCHA CAPA COLOR IPA BLANCO CUÑETE 5G",
+  "codigo": "PSAT-02",
+  "marca": "IPA",
+  "presentacion": "CUÑETE",
+  "imagen": "assets/img/productos/1907.jpg"
+ },
+ {
+  "nombre": "PINTURA P/CANCHA CAPA COLOR IPA BLANCO GALON",
+  "codigo": "PSAT-01",
+  "marca": "IPA",
+  "presentacion": "GALON",
+  "imagen": "assets/img/productos/1909.jpg"
+ },
+ {
+  "nombre": "PINTURA P/CANCHA CAPA COLOR IPA ROJO CUÑETE 5G",
+  "codigo": "PSAC-01",
+  "marca": "IPA",
+  "presentacion": "CUÑETE",
+  "imagen": "assets/img/productos/1907.jpg"
+ },
+ {
+  "nombre": "PINTURA P/CANCHA CAPA COLOR IPA ROJO GALON",
+  "codigo": "PSAC-02",
+  "marca": "IPA",
+  "presentacion": "GALON",
+  "imagen": "assets/img/productos/1909.jpg"
+ },
+ {
+  "nombre": "PINTURA P/CANCHA CAPA COLOR IPA VERDE CUÑETE 5G",
+  "codigo": "PSAA-01",
+  "marca": "IPA",
+  "presentacion": "CUÑETE",
+  "imagen": "assets/img/productos/1907.jpg"
+ },
+ {
+  "nombre": "PINTURA P/CANCHA CAPA COLOR IPA VERDE GALON",
+  "codigo": "PSAB-01",
+  "marca": "IPA",
+  "presentacion": "GALON",
+  "imagen": "assets/img/productos/1909.jpg"
+ },
+ {
+  "nombre": "PINTURA SPRAY MEGAPRO VERDE 400ML",
+  "codigo": "PSNM-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1913.jpg"
+ },
+ {
+  "nombre": "PINTURA SPRAY MEGAPRO VERDE BOSQUE 400ML",
+  "codigo": "PSNB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1913.jpg"
+ },
+ {
+  "nombre": "REPUESTO P/RODILLO 9\" P/CORTO 6MM",
+  "codigo": "FRPR-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1915.jpg"
+ },
+ {
+  "nombre": "REPUESTO P/RODILLO 9\" P/MEDIO 12MM MEGAPRO",
+  "codigo": "FCBR-01",
+  "marca": "MEGAPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1917.jpg"
+ },
+ {
+  "nombre": "RODILLO C/BANDEJA 4\" + 3 FUNDAS",
+  "codigo": "FBEC-01",
+  "marca": "BRICKELL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1921.jpg"
+ },
+ {
+  "nombre": "RODILLO C/BANDEJA 9\" MEGAPRO",
+  "codigo": "FRCB-01",
+  "marca": "MEGAPRO",
+  "presentacion": "JUEGO",
+  "imagen": "assets/img/productos/1923.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 110MM 4\" SALIDA 1 1/2\"",
+  "codigo": "LRAS-30",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 110MM 4\" SALIDA 1\"",
+  "codigo": "LRAS-29",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 110MM 4\" SALIDA 1/2\"",
+  "codigo": "LRAS-27",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 110MM 4\" SALIDA 2\"",
+  "codigo": "LRAS-31",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 110MM 4\" SALIDA 3/4\"",
+  "codigo": "LRAS-28",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 20MM 1/2 SALIDA 1/2\"",
+  "codigo": "LRAS-01",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 25MM 3/4 SALIDA 3/4\"",
+  "codigo": "LRAS-03",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 32MM 1 SALIDA 1/2\"",
+  "codigo": "LRAS-04",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 32MM 1 SALIDA 3/4\"",
+  "codigo": "LRAS-05",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 40MM 1 1/4 SALIDA 3/4\"",
+  "codigo": "LRAS-07",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 40MM 1 1/4\" SALIDA 1\"",
+  "codigo": "LRAS-08",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 40MM 1 1/4\" SALIDA 1/2\"",
+  "codigo": "LRAS-06",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 50MM 1 1/2 SALIDA 1\"",
+  "codigo": "LRAS-11",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 50MM 1 1/2 SALIDA 1/2\"",
+  "codigo": "LRAS-09",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 50MM 1 1/2 SALIDA 3/4\"",
+  "codigo": "LRAS-10",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 63MM 2\" SALIDA 1 1/2\"",
+  "codigo": "LRAS-15",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 63MM 2\" SALIDA 1/2\"",
+  "codigo": "LRAS-12",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 63MM 2\" SALIDA 2\"",
+  "codigo": "LRAS-16",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 63MM 2\" SALIDA 3/4\"",
+  "codigo": "LRAS-13",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 75MM 2 1/2 SALIDA 1 1/2\"",
+  "codigo": "LRAS-20",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 75MM 2 1/2 SALIDA 1/2\"",
+  "codigo": "LRAS-17",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 75MM 2 1/2 SALIDA 2\"",
+  "codigo": "LRAS-21",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 75MM 2 1/2 SALIDA 3/4\"",
+  "codigo": "LRAS-18",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 75MM 2 1/2\" SALIDA 1\"",
+  "codigo": "LRAS-19",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 90MM 3\" SALIDA 1 1/2\"",
+  "codigo": "LRAS-25",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 90MM 3\" SALIDA 1\"",
+  "codigo": "LRAS-24",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 90MM 3\" SALIDA 1/2\"",
+  "codigo": "LRAS-22",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 90MM 3\" SALIDA 2\"",
+  "codigo": "LRAS-26",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ABRAZADERA SENCILLA 90MM 3\" SALIDA 3/4\"",
+  "codigo": "LRAS-23",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1927.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 110MM 4 SALIDA 2",
+  "codigo": "LRAH-06",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 110MM 4 SALIDA 2 1/2",
+  "codigo": "LRAH-07",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 110MM 4 SALIDA 3",
+  "codigo": "LRAH-08",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 20MM 1/2\" SALIDA 1/2\"",
+  "codigo": "LRAH-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 25MM 3/4\" SALIDA 1/2\"",
+  "codigo": "LRAH-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 32MM 1 SALIDA 3/4",
+  "codigo": "LRAH-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 50MM 1 1/2 SALIDA 1",
+  "codigo": "LRAH-09",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 63MM 2\" SALIDA 1 1/2\"",
+  "codigo": "LRAH-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR HEMBRA 63MM 2\" SALIDA 1\"",
+  "codigo": "LRAH-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1935.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 110MM 4\" SALIDA 4\"",
+  "codigo": "LRAM-13",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 16MM 3/8 SALIDA 1/2",
+  "codigo": "LRAM-01",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 16MM 3/8\" SALIDA 3/4\"",
+  "codigo": "LRAM-02",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 20MM 1/2 SALIDA 1/2",
+  "codigo": "LRAM-03",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 20MM 1/2 SALIDA 3/4",
+  "codigo": "LRAM-04",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 25MM 3/4 SALIDA 1/2",
+  "codigo": "LRAM-05",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 25MM 3/4\" SALIDA 3/4\"",
+  "codigo": "LRAM-06",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 32MM 1 SALIDA 1",
+  "codigo": "LRAM-07",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 50MM 1 1/2 SALIDA 2",
+  "codigo": "LRAM-09",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 50MM 1 1/2\" SALIDA 1 1/2\"",
+  "codigo": "LRAM-08",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 63MM 2 SALIDA 2",
+  "codigo": "LRAM-10",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 75MM 2 1/2 SALIDA 2 1/2",
+  "codigo": "LRAM-11",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ADAPTADOR MACHO 90MM 3\" SALIDA 3\"",
+  "codigo": "LRAM-12",
+  "marca": "",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/1939.jpg"
+ },
+ {
+  "nombre": "ASPERSOR D/RIEGO PLASTICO 1\" T/HEMBRA GREENPRO",
+  "codigo": "RAAR-03",
+  "marca": "GREENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1943.jpg"
+ },
+ {
+  "nombre": "ASPERSOR D/RIEGO PLASTICO 1\" T/MACHO GREENPRO",
+  "codigo": "RAAR-01",
+  "marca": "GRENPRO",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1945.jpg"
+ },
+ {
+  "nombre": "ASPERSOR D/RIEGO PLASTICO 1/2\" 360° T/MACHO GREENPRO",
+  "codigo": "RAAR-04",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1949.jpg"
+ },
+ {
+  "nombre": "ASPERSOR D/RIEGO PLASTICO 3/4\" T/HEMBRA GREENPRO",
+  "codigo": "RAAB-01",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1951.jpg"
+ },
+ {
+  "nombre": "ASPERSOR D/RIEGO PLASTICO 3/4\" T/MACHO GREENPRO",
+  "codigo": "RAAR-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1953.jpg"
+ },
+ {
+  "nombre": "BARRETON AGRICOLA 1.3KG 14\" X 4\"",
+  "codigo": "FBAS-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1955.jpg"
+ },
+ {
+  "nombre": "CODO RAPIDO 32MM",
+  "codigo": "AAIN-04",
+  "marca": "FAPLASCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1957.jpg"
+ },
+ {
+  "nombre": "CODO RAPIDO 63MM",
+  "codigo": "AAIN-06",
+  "marca": "FAPLASCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1957.jpg"
+ },
+ {
+  "nombre": "ESCARDILLA 2 LBS MOD 331",
+  "codigo": "FESC-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1959.jpg"
+ },
+ {
+  "nombre": "FUMIGADORA DE MANO CILINDRICA 1.5 LTS",
+  "codigo": "FPPP-03",
+  "marca": "DIESEL TOOLS",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1961.jpg"
+ },
+ {
+  "nombre": "FUMIGADORA DE MANO CILINDRICA 3 LTS GREENPRO",
+  "codigo": "FESC-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/1963.jpg"
+ },
+ {
+  "nombre": "FUMIGADORA DE MANO CILINDRICA 5 LTS",
+  "codigo": "FFMS-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1967.jpg"
+ },
+ {
+  "nombre": "MACHETE LINERO 22\" M/MADERA EXXEL",
+  "codigo": "FMAL-05",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1969.jpg"
+ },
+ {
+  "nombre": "MACHETE LINERO 22\" M/PLASTICO EXXEL",
+  "codigo": "FMAL-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1971.jpg"
+ },
+ {
+  "nombre": "MACHETE ROZADOR 20\" M/MADERA EXXEL",
+  "codigo": "FMAL-10",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1973.jpg"
+ },
+ {
+  "nombre": "MACHETE ROZADOR 22\" M/MADERA EXXEL",
+  "codigo": "FMAL-06",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1973.jpg"
+ },
+ {
+  "nombre": "MACHETE RULA 20\" M/PLASTICO EXXEL",
+  "codigo": "FMAL-11",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1975.jpg"
+ },
+ {
+  "nombre": "MACHETE RULA 22\" M/PLASTICO EXXEL",
+  "codigo": "FMAL-08",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1975.jpg"
+ },
+ {
+  "nombre": "MACHETE RULA 24\" M/PLASTICO",
+  "codigo": "FMAL-09",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1975.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 20MM X 60PSI 100MTS",
+  "codigo": "FCPH-01",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1977.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 25MM X 60PSI 100MTS",
+  "codigo": "FCPI-01",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1977.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 25MM X 150PSI 100MTS",
+  "codigo": "RARM-04",
+  "marca": "AIP",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1981.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 32MM X 60PSI 100MTS",
+  "codigo": "FHAC-01",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1983.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 32MM X 150PSI 100MTS",
+  "codigo": "RARM-06",
+  "marca": "AIP",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1985.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 40MM X 60PSI 100MTS",
+  "codigo": "FPCL-01",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1983.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 40MM X 90PSI 100MTS",
+  "codigo": "FPAN-01",
+  "marca": "AIP",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1985.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 40MM X 150PSI 100MTS",
+  "codigo": "FCPI-02",
+  "marca": "AIP",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1985.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 50MM X 60PSI 100MTS",
+  "codigo": "FPRP-02",
+  "marca": "",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1987.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 50MM X 90PSI 100MTS",
+  "codigo": "FPPP-04",
+  "marca": "AIP",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1989.jpg"
+ },
+ {
+  "nombre": "MANGUERA DE RIEGO 50MM X 150PSI 100MTS",
+  "codigo": "FEFA-01",
+  "marca": "AIP",
+  "presentacion": "ROLLO",
+  "imagen": "assets/img/productos/1989.jpg"
+ },
+ {
+  "nombre": "PALA REDONDA C/CORTO M/PLASTICO EXXEL",
+  "codigo": "FPCC-02",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1993.jpg"
+ },
+ {
+  "nombre": "PALIN MINERO EXXEL",
+  "codigo": "FPAM-01",
+  "marca": "EXXEL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1995.jpg"
+ },
+ {
+  "nombre": "TAPON RAPIDO 32MM",
+  "codigo": "FATE-03",
+  "marca": "FAPLASCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1997.jpg"
+ },
+ {
+  "nombre": "TAPON RAPIDO 50MM",
+  "codigo": "FATE-02",
+  "marca": "FAPLASCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1997.jpg"
+ },
+ {
+  "nombre": "TAPON RAPIDO 63MM",
+  "codigo": "FALU-02",
+  "marca": "FAPLASCA",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1997.jpg"
+ },
+ {
+  "nombre": "TEE RAPIDA 16 MM",
+  "codigo": "LRTR-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1999.jpg"
+ },
+ {
+  "nombre": "TEE RAPIDA 20 MM",
+  "codigo": "LRTR-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1999.jpg"
+ },
+ {
+  "nombre": "TEE RAPIDA 25 MM",
+  "codigo": "LRTR-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1999.jpg"
+ },
+ {
+  "nombre": "TEE RAPIDA 32 MM",
+  "codigo": "LRTR-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1999.jpg"
+ },
+ {
+  "nombre": "TEE RAPIDA 50 MM",
+  "codigo": "LRTR-05",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1999.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 110MM",
+  "codigo": "LRUR-10",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 20MM",
+  "codigo": "LRUR-02",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 25MM",
+  "codigo": "LRUR-03",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 32MM",
+  "codigo": "LRUR-04",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 50MM",
+  "codigo": "LRUR-06",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 63MM",
+  "codigo": "LRUR-07",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 75MM",
+  "codigo": "LRUR-08",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "UNION RAPIDA 90MM",
+  "codigo": "LRUR-09",
+  "marca": "FAPLAST",
+  "presentacion": "UND",
+  "imagen": "assets/img/productos/2003.jpg"
+ },
+ {
+  "nombre": "CAL HIDRATADA 10KG MAXICAL",
+  "codigo": "FCAR-01",
+  "marca": "MAXICAL",
+  "presentacion": "SACO",
+  "imagen": "assets/img/productos/2009.jpg"
+ },
+ {
+  "nombre": "IMPERPLUS OCCIDENTE 10 KG",
+  "codigo": "MPFN-01",
+  "marca": "PRODUCTOS OCCIDENTE",
+  "presentacion": "SACO",
+  "imagen": "assets/img/productos/2011.jpg"
+ },
+ {
+  "nombre": "OCCIBLOQUE OCCIDENTE 20KG",
+  "codigo": "CPMC-01",
+  "marca": "OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2013.jpg"
+ },
+ {
+  "nombre": "OCCICONCRETO OCCIDENTE 20KG",
+  "codigo": "CSCF-05",
+  "marca": "OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2015.jpg"
+ },
+ {
+  "nombre": "OCCIFRISO OCCIDENTE 20KG",
+  "codigo": "CSCF-04",
+  "marca": "OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2017.jpg"
+ },
+ {
+  "nombre": "PEGO STANDARD GRIS OCCIDENTE 14KG",
+  "codigo": "CMFM-01",
+  "marca": "OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2019.jpg"
+ },
+ {
+  "nombre": "SELLADOR DE JUNTAS D COLOR BLANCO 2 KG",
+  "codigo": "SBVC-01",
+  "marca": "PRODUCTOS OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2021.jpg"
+ },
+ {
+  "nombre": "SELLADOR DE JUNTAS D COLOR GRIS 2 KG",
+  "codigo": "SBVC-02",
+  "marca": "PRODUCTOS OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2021.jpg"
+ },
+ {
+  "nombre": "SELLADOR DE JUNTAS D COLOR MARFIL 2 KG",
+  "codigo": "SBVC-03",
+  "marca": "PRODUCTOS OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2021.jpg"
+ },
+ {
+  "nombre": "SELLADOR DE JUNTAS D COLOR TERRACOTA 2 KG",
+  "codigo": "SBPN-06",
+  "marca": "PRODUCTOS OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2021.jpg"
+ },
+ {
+  "nombre": "STUCO GRIS OCCIDENTE 10KG",
+  "codigo": "CMMM-01",
+  "marca": "OCCIDENTE",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/1273.jpg"
+ },
+ {
+  "nombre": "CEPILLO GARBI BARRER CURVO ARAYA",
+  "codigo": "SBNV-09",
+  "marca": "GARBI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2027.jpg"
+ },
+ {
+  "nombre": "CEPILLO GARBI BARRER CURVO MEDANO",
+  "codigo": "SBPN-01",
+  "marca": "GARBI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2029.jpg"
+ },
+ {
+  "nombre": "CEPILLO GARBI BARRER RECTO AMAZONAS",
+  "codigo": "SBNV-07",
+  "marca": "GARBI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2031.jpg"
+ },
+ {
+  "nombre": "CEPILLO GARBI BARRER RECTO LLANERO",
+  "codigo": "SBNV-06",
+  "marca": "GARBI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2033.jpg"
+ },
+ {
+  "nombre": "CEPILLO GARBI BARRER RECTO RORAIMA",
+  "codigo": "SBNV-08",
+  "marca": "GARBI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2035.jpg"
+ },
+ {
+  "nombre": "CEPILLO P/BARRER DALIA GRANDE",
+  "codigo": "HEDE-06",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2037.jpg"
+ },
+ {
+  "nombre": "CEPILLO P/BARRER LILA DURO",
+  "codigo": "HEDE-08",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2039.jpg"
+ },
+ {
+  "nombre": "CEPILLO P/BARRER LILA SUAVE",
+  "codigo": "HEDE-02",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2041.jpg"
+ },
+ {
+  "nombre": "CEPILLO P/BARRER ORQUIDEA",
+  "codigo": "HEDE-07",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2043.jpg"
+ },
+ {
+  "nombre": "CEPILLO P/LAVAR CON ASA",
+  "codigo": "HEEA-04",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2047.jpg"
+ },
+ {
+  "nombre": "CEPILLO P/LAVAR PLANCHITA 2",
+  "codigo": "HEDE-04",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2049.jpg"
+ },
+ {
+  "nombre": "LIMPIADOR DE VIDRIOS 8\"",
+  "codigo": "HEEA-03",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2051.jpg"
+ },
+ {
+  "nombre": "PALA PLASTICA PEQUEÑA",
+  "codigo": "HEEA-06",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2053.jpg"
+ },
+ {
+  "nombre": "PALO MADERA CEPILLO BARRER",
+  "codigo": "HEAM-01",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2055.jpg"
+ },
+ {
+  "nombre": "PAÑO DE MICROFIBRA 30X40CM PAQUETE X 8",
+  "codigo": "HEFR-01",
+  "marca": "MY HOME",
+  "presentacion": "PAQUETE",
+  "imagen": "assets/img/productos/2057.jpg"
+ },
+ {
+  "nombre": "RASTRILLO GARBI PLASTICO 19 UÑAS",
+  "codigo": "SNBO-07",
+  "marca": "GARBI",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2059.jpg"
+ },
+ {
+  "nombre": "RASTRILLO PLASTICO GRANDE # 1",
+  "codigo": "HEEA-14",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2061.jpg"
+ },
+ {
+  "nombre": "RASTRILLO PLASTICO SUPER# 2",
+  "codigo": "HEEA-13",
+  "marca": "LA PALMA REAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2063.jpg"
+ },
+ {
+  "nombre": "SET DE MUEBLE DE LAVAMANO Y ESPEJO 52X41X32 CMS GREENPRO",
+  "codigo": "EPPA-02",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "SET DE MUEBLE DE LAVAMANO Y ESPEJO 82X49X46 CMS GREENPRO",
+  "codigo": "EPPA-03",
+  "marca": "GREENPRO",
+  "presentacion": "",
+  "imagen": "assets/img/productos/153.jpg"
+ },
+ {
+  "nombre": "SET DE MUEBLE DE LAVAMANO Y ESPEJO 82X49X46 CMS GREENPRO",
+  "codigo": "EPPA-04",
+  "marca": "GREENPRO",
+  "presentacion": ""
+ },
+ {
+  "nombre": "AUDIFONOS ALAMBRICOS 3.5MM D.BASS NEGRO AUT117",
+  "codigo": "FELE-09",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2069.jpg"
+ },
+ {
+  "nombre": "AUDIFONOS ALAMBRICOS 3.5MM E.BASS NEGRO AUT123",
+  "codigo": "FELE-10",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2071.jpg"
+ },
+ {
+  "nombre": "CABLE USB A TIPO C 2.1A 1MT",
+  "codigo": "FCAC-02",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2073.jpg"
+ },
+ {
+  "nombre": "CABLE USB TRENZADO ROJO TIPO C 2.4A 1MT",
+  "codigo": "FCNP-04",
+  "marca": "",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2075.jpg"
+ },
+ {
+  "nombre": "TRAMPA P/RATA METALICA GRANDE",
+  "codigo": "FTRA-01",
+  "marca": "NACIONAL",
+  "presentacion": "UNIDAD",
+  "imagen": "assets/img/productos/2077.jpg"
+ }
+]

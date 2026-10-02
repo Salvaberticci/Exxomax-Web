@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo de productos | EXXOMAX C.A.</title>
+<meta name="description" content="Explora las 1.081 referencias de EXXOMAX: herramientas eléctricas, manuales, abrasivos, plomería, electricidad, tornillería y más. Busca por nombre o código.">
+<meta name="theme-color" content="#00752c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilos.css?v=7">
+<script>document.documentElement.className += " js";</script>
+</head>
+<body>
+
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<div class="barra-progreso" data-progreso aria-hidden="true"><i></i></div>
+
+<header class="header">
+  <div class="contenedor header-inner">
+    <a class="logo" href="index.html" aria-label="EXXOMAX C.A. - Inicio">
+      <img src="assets/img/logo.svg" alt="EXXOMAX C.A." width="210" height="52">
+    </a>
+    <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="cobertura.html">Cobertura</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="catalogo-cabecera">
+    <div class="contenedor">
+      <span class="hero-chip">
+        <span class="punto"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-capas"></use></svg></span>
+        Catálogo 2026
+      </span>
+      <h1>Catálogo de productos</h1>
+      <p><span id="total-catalogo">1.081</span> referencias en ferretería, construcción, plomería y electricidad. Los precios se cotizan según cantidad y zona de despacho.</p>
+
+      <div class="barra-busqueda">
+        <label class="salto" for="buscar">Buscar productos</label>
+        <input type="search" id="buscar" placeholder="Buscar por nombre o código (ej. taladro, HESC-10, abrazadera)" autocomplete="off" spellcheck="false">
+        <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-buscar"></use></svg>
+        <button type="button" class="limpiar" id="limpiar-busqueda" aria-label="Limpiar búsqueda">×</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion-sm">
+    <div class="contenedor">
+      <div class="resultados-info">
+        <span class="cuenta" id="cuenta">Cargando catálogo…</span>
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+          <button type="button" class="btn btn-borde btn-sm btn-filtros" id="toggle-filtros" aria-expanded="false" aria-controls="panel-filtros">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-filtros"></use></svg>
+            Filtros
+          </button>
+          <label class="salto" for="orden">Ordenar por</label>
+          <select id="orden" class="filtro-select" style="width:auto">
+            <option value="nombre">Nombre (A-Z)</option>
+            <option value="marca">Marca</option>
+            <option value="codigo">Código</option>
+            <option value="confoto">Con fotografía</option>
+          </select>
+          <label class="salto" for="por-pagina">Mostrar</label>
+          <select id="por-pagina" class="filtro-select" style="width:auto">
+            <option value="24">24</option>
+            <option value="48">48</option>
+            <option value="72">72</option>
+          </select>
+        </div>
+      </div>
+      <div class="chips-activos" id="chips-activos"></div>
+
+      <div class="layout-catalogo">
+        <aside class="filtros plegado" id="panel-filtros" aria-label="Filtros del catálogo">
+          <div class="filtro-bloque">
+            <h4>Categoría</h4>
+            <ul class="filtro-lista" id="filtro-categorias"></ul>
+          </div>
+          <div class="filtro-bloque">
+            <h4>Marca</h4>
+            <select class="filtro-select" id="filtro-marca">
+              <option value="">Todas las marcas</option>
+            </select>
+          </div>
+          <div class="filtro-bloque">
+            <h4>Ayuda</h4>
+            <p style="font-size:.85rem;color:var(--gris);margin:0 0 14px">
+              ¿No encuentras lo que buscas? Escríbenos y te cotizamos la referencia.
+            </p>
+            <a class="btn btn-borde btn-sm btn-blk" data-wa-enlace="Hola EXXOMAX, no encontré un producto en el catálogo y quiero consultarlo." href="contacto.html">Consultar producto</a>
+          </div>
+        </aside>
+
+        <div>
+          <div class="rejilla-productos" id="rejilla">
+            <div class="cargando" style="grid-column:1/-1">
+              <div class="spinner"></div>
+              Cargando el catálogo…
+            </div>
+          </div>
+          <div class="paginacion" id="paginacion"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion-sm">
+    <div class="contenedor">
+      <div class="cta-banda revelar">
+        <div>
+          <h2>¿Necesitas un volumen grande?</h2>
+          <p>Atendemos distribuidores mayoristas con precios por volumen, crédito y agenda de despacho programada.</p>
+        </div>
+        <div class="acciones">
+          <a class="btn btn-blanco" href="contacto.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-documento"></use></svg>
+            Solicitar cotización mayorista
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="contenedor">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="assets/img/logo-blanco.svg" alt="EXXOMAX C.A." width="210" height="52">
+        </div>
+        <p class="footer-desc">Importación y distribución de materiales de ferretería y construcción. Empresa aliada de Hierromax.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="cobertura.html">Cobertura y vendedores</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Catálogo</h4>
+        <ul class="footer-links" id="footer-cats"></ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="footer-links">
+          <li data-direccion-texto>Dirección</li>
+          <li><span data-tel-enlace>Teléfono</span></li>
+          <li>RIF: J504831298</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-anio>2026</span> EXXOMAX C.A. Todos los derechos reservados.</span>
+      <span class="fiscal">Hecho en Venezuela · Gerencia Regional de Tributos Internos, estado Trujillo</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-flotante" data-wa-flotante href="contacto.html" aria-label="Escribir por WhatsApp"></a>
+
+<script src="data/empresa.js?v=2"></script>
+<script src="data/categorias.js?v=2"></script>
+<script src="data/marcas.js?v=2"></script>
+<script src="data/productos.js?v=2"></script>
+<script src="assets/js/iconos.js?v=3"></script>
+<script src="assets/js/app.js?v=4"></script>
+<script src="assets/js/catalogo.js?v=2"></script>
+<script>
+  (function () {
+    var c = window.EXXOMAX_CATEGORIAS_INFO || [];
+    var ul = document.getElementById("footer-cats");
+    if (ul) ul.innerHTML = c.slice(0, 6).map(function (x) {
+      return '<li><a href="catalogo.html?categoria=' + x.id + '">' + x.nombre + "</a></li>";
+    }).join("");
+  })();
+</script>
+</body>
+</html>

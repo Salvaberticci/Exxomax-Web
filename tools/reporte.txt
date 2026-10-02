@@ -1,0 +1,394 @@
+PRODUCTOS: 1081
+CON FOTO: 1023 (94.6%)
+
+PRIMERAS PALABRAS (para armar categorias):
+  CP                           64
+  ABRAZADERA                   49
+  LLAVE                        42
+  LAMPARA                      29
+  CINTA                        26
+  MANGUERA                     26
+  ADAPTADOR                    22
+  DISCO                        21
+  HG                           21
+  MECHAS                       21
+  CEPILLO                      20
+  CANDADO                      19
+  CERRADURA                    18
+  BOMBILLO                     17
+  RAMPLU                       16
+  LIJA                         15
+  VALVULA                      14
+  PINTURA                      13
+  PROTECTOR                    13
+  APAGADOR                     12
+  TUBO                         12
+  CABLE                        10
+  BISAGRA                      10
+  TOMA                         10
+  REMACHES                     10
+  FREGADERO                    10
+  ROLDANA                      9
+  TABLERO                      9
+  ALICATE                      9
+  DESTORNILLADOR               9
+  MALLA                        9
+  GANCHO                       8
+  NYLON                        8
+  GRIFERIA                     8
+  UNION                        8
+  GATO                         7
+  CUCHILLA                     7
+  TAPA                         7
+  PALUSTRA                     7
+  DADO                         7
+  CLAVOS                       7
+  MACHETE                      7
+  SELLADOR                     6
+  PASADOR                      6
+  BREAKERS                     6
+  CADENA                       6
+  PISTOLA                      6
+  RUEDA                        6
+  MECATE                       6
+  DUCHA                        6
+  FLOTANTE                     6
+  REGADERA                     6
+  LENTES                       6
+  PEGAMENTO                    5
+  TEFLON                       5
+  TEIPE                        5
+  REPUESTO                     5
+  ENCHUFE                      5
+  EXTENSION                    5
+  SOCATE                       5
+  PERRO                        5
+  PINZA                        5
+  TALADRO                      5
+  CUCHARA                      5
+  BALANCIN                     5
+  DESAGUE                      5
+  SIFON                        5
+  ASPERSOR                     5
+  TEE                          5
+  CAJETIN                      4
+  CANALETA                     4
+  CURVAS                       4
+  REFLECTOR                    4
+  TOMACORRIENTE                4
+  AMARRE                       4
+  GUANTE                       4
+  REGULADOR                    4
+  ROLINERA                     4
+  LIMA                         4
+  SET                          4
+  BRAZO                        3
+  CONEXION                     3
+  PLAFON                       3
+  REGLETA                      3
+  ESPATULA                     3
+  EXACTO                       3
+  GARRUCHA                     3
+  NIVEL                        3
+  PIE                          3
+  PIEDRA                       3
+  ASPIRADORA                   3
+  HIDROLAVADORA                3
+  SIERRA                       3
+  CAUTIN                       3
+  GUARAL                       3
+  SACO                         3
+  HERRAJE                      3
+  LAVAMANOS                    3
+  BARRA                        3
+  BROCHA                       3
+  FUMIGADORA                   3
+  TAPON                        3
+  RASTRILLO                    3
+  PLASTICO                     2
+  SILICON                      2
+  BORNE                        2
+  LIMPIADOR                    2
+  BLANCO                       2
+  LINTERNA                     2
+  RESISTENCIA                  2
+  ACOPLE                       2
+  ALAMBRE                      2
+  ELECTRODO                    2
+  ESTAÑO                       2
+  ESTANTE                      2
+  GRAPA                        2
+  GUAYA                        2
+  PEGO                         2
+  SOPORTE                      2
+  SPLINTER                     2
+  STUCO                        2
+  UÑA                          2
+  VIDRIO                       2
+  YEE                          2
+  DESMALEZADORA                2
+  ESMERIL                      2
+  PORTA                        2
+  BOMBA                        2
+  HACHA                        2
+  RATCHET                      2
+  TENAZA                       2
+  CORDEL                       2
+  CALENTADOR                   2
+  CLAVO                        2
+  RODILLO                      2
+  CODO                         2
+  PALA                         2
+  AUDIFONOS                    2
+  REPISA                       1
+  CEMENTO                      1
+  GOTA                         1
+  SOPLETE                      1
+  CARGADOR                     1
+  CONO                         1
+  CUPILLA                      1
+  FORMULA                      1
+  FUSIBLES                     1
+  GAMUZA                       1
+  MEDIDOR                      1
+  PEGA                         1
+  CILINDRO                     1
+  OREJA                        1
+  COCINA                       1
+  FLEXICON                     1
+  INTERRUPTOR                  1
+  MULTIMETRO                   1
+  MULTITOMA                    1
+  PROBADOR                     1
+  TERMINALES                   1
+  TERMOENCOGIBLE               1
+  TIMBRE                       1
+  AMARRAS                      1
+  BASE                         1
+  CAJA                         1
+  CAMILLA                      1
+  CINCHAS                      1
+  CONECTORES                   1
+  CORDON                       1
+  HOJA                         1
+  NAVAJA                       1
+  O-RINES                      1
+  REMACHE                      1
+  ROCIADOR                     1
+  SILLA                        1
+  TOBO                         1
+  TRIPA                        1
+  ZOCALO                       1
+  MAQUINA                      1
+  MOTOTOOLS                    1
+  PULIDORA                     1
+  SOPLADORA                    1
+  ARCO                         1
+  CARETA                       1
+  CARRETILLA                   1
+  ENGRASADORA                  1
+  ESCOBA                       1
+  EXTRACTOR                    1
+  GRAPADORA                    1
+  GUIA                         1
+  JUEGO                        1
+  MAZO                         1
+  MULTIHERRAMIENTA             1
+  PELACABLE                    1
+  RASPADOR                     1
+  REMACHADORA                  1
+  SACA                         1
+  SALPICADORA                  1
+  TIJERA                       1
+  ASIENTO                      1
+  PICO                         1
+  POCETA                       1
+  PRESS                        1
+  PULMON                       1
+  PURIFICADOR                  1
+  REJILLA                      1
+  SAPITO                       1
+  SURTIDOR                     1
+  TANQUE                       1
+  TORNILLOS                    1
+  BOTA                         1
+  CASCO                        1
+  CHALECO                      1
+  FONDO                        1
+  BARRETON                     1
+  ESCARDILLA                   1
+  PALIN                        1
+  CAL                          1
+  IMPERPLUS                    1
+  OCCIBLOQUE                   1
+  OCCICONCRETO                 1
+  OCCIFRISO                    1
+  PALO                         1
+  PAÑO                         1
+  TRAMPA                       1
+
+MARCAS: 99 unicas
+  MEGAPRO                      293
+                               194
+  GREENPRO                     93
+  EXXEL                        53
+  FAPLAST                      37
+  COOFIX                       30
+  BRICKELL                     23
+  DIESEL TOOLS                 20
+  MAXI TOOLS                   17
+  3M                           14
+  FERMETAL                     13
+  FESTAPLAS                    13
+  SEAL TOOLS                   11
+  VINKO                        11
+  IMPEGNI                      11
+  IPA                          9
+  LA PALMA REAL                9
+  LWCC                         8
+  SPECTRUM                     8
+  BRACE                        8
+  CHINA                        8
+  AIP                          8
+  FESTA                        7
+  OCCIDENTE                    7
+  LF                           7
+  IMPLASVENCA                  6
+  ELEFANTE                     6
+  AQUA PLUS                    6
+  GRIMAX                       6
+  GARBI                        6
+  CARBORUNDUM                  5
+  UNI                          5
+  GAMMA ELECTRIC               5
+  JOMAI                        5
+  FAPLASCA                     5
+  PRODUCTOS OCCIDENTE          5
+  ZASC                         4
+  ORIX                         4
+  PERFECT                      4
+  JAPPY                        4
+  MAXITOOLS                    3
+  VOLTAGE                      3
+  V-TEC                        3
+  RODOMAR                      3
+  FEMOI                        3
+  DEWALT                       3
+  GENPAR                       3
+  BLACK & DECKER               3
+  ENPROPLAS                    3
+  POLYBARQ                     3
+  NORTON                       2
+  CINDU                        2
+  TREK                         2
+  MAGAPRO                      2
+  MAXI                         2
+  COBRA                        2
+  IRWIN                        2
+  BOLSA                        2
+  HERRAGRO                     2
+  TOTAL                        2
+  CORONA                       2
+  KILO                         2
+  C.A. MEJIA & CIA.            2
+  SENSACOLOR                   2
+  OATEY                        1
+  GOSS                         1
+  KOOPER                       1
+  TAITEC                       1
+  HTK                          1
+  VITRON                       1
+  WALES                        1
+  D-LED / EXXEL                1
+  V-TEG                        1
+  MG ELECTRIC                  1
+  MAXI HOUSE                   1
+  UD                           1
+  DINUY                        1
+  ORIX / MEGAPRO               1
+  RLL                          1
+  MT / DT                      1
+
+PRESENTACIONES: 42 unicas
+  UNIDAD                       444
+                               186
+  UND                          165
+  ROLLO                        47
+  CAJA X 12                    37
+  CAJA X 10                    34
+  JUEGO                        18
+  BOLSA                        18
+  CAJA X 20                    17
+  UNI                          11
+  CAJA                         10
+  CAJA X 6                     9
+  CAJA X 5                     8
+  PAR                          7
+  CAJA X 24                    7
+  CAJA X 25                    7
+  UNID                         6
+  CAJA X 2                     5
+  CAJA X 1                     5
+  BLISTER                      4
+  SACO                         4
+  CAJA X 50                    3
+  CUÑETE                       3
+  GALON                        3
+  CAJA X 3                     2
+  PAQUETE                      2
+  KILO                         2
+  CAJA X 4                     2
+  BOL                          2
+  ROLLO X 1                    1
+  CARTON                       1
+  BOLSA X 50                   1
+  CAJUA X 5                    1
+  CAJA X 100                   1
+  CAJA X10                     1
+  DINUY                        1
+  CAJA X 40                    1
+  und                          1
+  unidad                       1
+  CAJX X 10                    1
+
+SIN FOTO (primeros 40):
+  p2    ADDF-04    DISCO DE FIBRA 7" X 7/8" G-36
+  p5    AEXH-01    REPISA P/ESTANTE GREENPRO
+  p9    APSA-02    SELLADOR IMPERMEABILIZANTE NEGRO SPRAY 500ML
+  p9    APTE-03    TEFLON PROFESIONAL 1/2" X 10M AMARILLO
+  p9    APTE-04    TEFLON PROFESIONAL 3/4" X 15 MTS GREENPRO
+  p11   ECAU-19    CABLE 100% COBRE BRICKELL THHN #08 BLANCO
+  p11   ECAU-20    CABLE 100% COBRE BRICKELL THHN #08 NEGRO
+  p11   ECAU-21    CABLE 100% COBRE BRICKELL THHN #10 BLANCO
+  p11   ECAU-22    CABLE 100% COBRE BRICKELL THHN #10 NEGRO
+  p11   ECAU-23    CABLE 100% COBRE BRICKELL THHN #10 ROJO
+  p11   ECAU-12    CABLE 100% COBRE BRICKELL THHN #12 NEGRO
+  p11   ECAU-13    CABLE 100% COBRE BRICKELL THHN #12 ROJO
+  p12   ECAU-14    CABLE 100% COBRE BRICKELL THHN #12 VERDE
+  p13   ASVS-02    LIMPIADOR MOTOR MEGAPRO 450ML
+  p18   CPRD-01    CERRADURA POMO MAXI TOOLS PLATEADA (588SS)
+  p18   CPRA-02    CERRADURA POMO MAXI TOOLS REDONDA PLATEADA (587SS)
+  p21   FLZA-02    ROLDANA P/EMPOTRAR 90MM MEGAPRO
+  p28   CPJD-06    CP ANILLOS PLASTICOS REDUCIDO 1 X 3/4 GREENPRO
+  p28   CPJD-02    CP BUSHING PVC ROSCA 3/4" A 1/2"
+  p30   CPCP-10    CP TAPA PLASTICA DE 1 GREENPRO
+  p31   CPCP-11    CP TEE PLASTICA DE 1 GREENPRO
+  p34   EBTR-01    BOMBILLO INDUSTRIAL MEGAPRO 150W E27 85-265V 6500K
+  p40   ETPC-10    FLEXICON CONDUIT METALICO 3/4"X30M
+  p43   ELRM-01    LAMPARA SUPERFICIAL DECORATIVA 25W 85-260V 38CM MEGAPRO
+  p47   ESPO-01    SOCATE PORCELANA PLAFON 2 PZA 2 1/2"
+  p49   ETAS-01    TOMA AEREO S/ INDUSTRIAL
+  p54   FALP-01    ALAMBRE PUA MEGAPRO CAL 16 X 300M
+  p58   EITT-01    ESTANTE EXHIBIDOR GREENPRO
+  p58   ALDA-24    ESTANTE EXHIBIDOR MEGAPRO
+  p63   FMPC-08    MECHAS DEWALT P/CONCRETO 5/16" X 5"
+  p67   FPSP-03    PISTOLA P/PINTAR ELECTRICA 700W 800ML MEGAPRO
+  p69   FRAP-02    RAMPLU PLASTICO AZUL 5/16 (BOLSA X 100)
+  p69   FRAP-03    RAMPLU PLASTICO D NARANJA 3/8" (BOLSA X 30)
+  p74   HEHJ-02    DESMALEZADORA 43CC GASOLINA 2T GENPAR
+  p74   HEHD-01    HIDROLAVADORA ALTA PRESION 1200W 1400PSI MEGAPRO
+  p75   HETA-05    PINZA DE TIERRA P/SOLDAR 300A
+  p77   HMAG-01    ALICATE GANADERO 10" MEGAPRO
+  p83   FLPM-03    LIMA TRIANGULAR C/CABO 6" DIESEL TOOLS
+  p85   FPDG-01    PALUSTRA DE GOMA P/FRISAR 24X10CM MEGAPRO
+  p88   MMES-05    MALLA ELECTROSOLDADA 1"X1" 1M X 25M MEGAPRO
