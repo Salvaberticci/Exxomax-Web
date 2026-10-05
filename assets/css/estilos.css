@@ -1971,24 +1971,44 @@ body.saliendo #contenido {
 
 /* ======================================================= PREMIUM IMPACT PACK */
 
-/* 2. Grano / textura noise en heroes (via SVG data-uri) */
-.hero::before { z-index: 1; mix-blend-mode: overlay; pointer-events: none; }
-.hero .contenedor { position: relative; z-index: 2; }
+/* 2. Textura grain en los fondos oscuros (hero de inicio, nosotros y catalogo):
+   ruido SVG en feTurbulence mezclado en overlay para dar profundidad material */
+.hero::before, .catalogo-hero::before {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"),
+    linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px);
+  background-size: 200px 200px, 60px 60px, 60px 60px;
+}
+.hero::before { mix-blend-mode: overlay; opacity: .5; }
+.catalogo-hero::before { mix-blend-mode: overlay; opacity: .38; }
 
 /* 3. Degradado que recorre el h2: banda estrecha (8% del degradado, no del
-   texto) para que el brillo cruce las letras en vez de encenderlas todas */
+   texto) con bordes difuminados, y solo se reproduce cuando el titulo entra
+   en pantalla (app.js anade .h2-brilo al marcar el .revelar padre como visible) */
 .seccion h2, .seccion-sm h2, .sec-head h2 { color: var(--tinta); }
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .seccion h2, .seccion-sm h2, .sec-head h2 {
+    /* degradado simple (respaldo si el navegador no entiende color-mix) */
     background-image: linear-gradient(100deg,
-      var(--tinta) 0%, var(--tinta) 46%,
-      var(--verde) 49%, var(--verde-lima) 50%, var(--verde) 51%,
-      var(--tinta) 54%, var(--tinta) 100%);
+      var(--tinta) 0%, var(--tinta) 41%,
+      var(--verde) 46%, var(--verde-lima) 50%, var(--verde) 54%,
+      var(--tinta) 59%, var(--tinta) 100%);
+    /* el mismo degradado con los bordes de la banda difuminados */
+    background-image: linear-gradient(100deg,
+      var(--tinta) 0%, var(--tinta) 40%,
+      color-mix(in srgb, var(--verde) 40%, var(--tinta)) 44%,
+      color-mix(in srgb, var(--verde-lima) 70%, var(--verde)) 50%,
+      color-mix(in srgb, var(--verde) 40%, var(--tinta)) 56%,
+      var(--tinta) 60%, var(--tinta) 100%);
     background-size: 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: h2Shimmer 11s linear infinite;
+    animation: none;
+  }
+  .seccion h2.h2-brilo, .seccion-sm h2.h2-brilo, .sec-head h2.h2-brilo {
+    animation: h2Shimmer 9s cubic-bezier(.4, 0, .2, 1) infinite;
   }
 }
 .alt-verde h2, .hero h1, .cta-banda h2 {
@@ -1997,11 +2017,14 @@ body.saliendo #contenido {
   animation: none !important;
 }
 /* con background-size 300% la posicion porcentual se mide sobre (ancho - 3xancho),
-   asi que el recorrido va de 150% a -50%: la banda entra por la derecha y sale
-   por la izquierda sin dejar el degradado */
+   o sea -2 x ancho por cada 100%. La banda (45-55% del degradado) solo se ve cuando
+   el desplazamiento va de 1.38 a 0.76 anchos, es decir del -69% al -38%: la faz unica
+   y completa. El ciclo es de 9s, pero el recorrido solo ocupa el primer 28%, asi que
+   el destello se ve rapido y el titulo descansa el resto del ciclo. */
 @keyframes h2Shimmer {
-  0%   { background-position: 150% 0; }
-  100% { background-position: -50% 0; }
+  0%   { background-position: -69% 0; animation-timing-function: cubic-bezier(.4, 0, .2, 1); }
+  28%  { background-position: -38% 0; }
+  100% { background-position: -38% 0; }
 }
 
 /* 4. Glow pulsante en botones primarios, en box-shadow: el barrido de luz de
@@ -2058,4 +2081,5 @@ body.saliendo #contenido {
   /* el carrusel de marcas sigue moviendose, pero lento */
   .pista { animation-duration: 120s !important; }
   .palabra { animation: none !important; opacity: 1; transform: none; }
+  h2.h2-brilo { animation: none !important; }
 }

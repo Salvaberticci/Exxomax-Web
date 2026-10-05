@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/estilos.css?v=10">
+<link rel="stylesheet" href="assets/css/estilos.css?v=12">
 <script>document.documentElement.className += " js";</script>
 <style>
   /* ---- Hero del catálogo ---- */
@@ -22,14 +22,17 @@
     overflow: hidden;
     isolation: isolate;
   }
-  /* Retícula de fondo */
+  /* Retícula de fondo + textura grain */
   .catalogo-hero::before {
     content: "";
     position: absolute; inset: 0;
     background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"),
       linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
-    background-size: 60px 60px;
+    background-size: 200px 200px, 60px 60px, 60px 60px;
+    mix-blend-mode: overlay;
+    opacity: .38;
     -webkit-mask-image: radial-gradient(ellipse 80% 65% at 50% 38%, #000 30%, transparent 100%);
     mask-image: radial-gradient(ellipse 80% 65% at 50% 38%, #000 30%, transparent 100%);
     z-index: -1;
@@ -247,7 +250,7 @@
 <script src="data/marcas.js?v=2"></script>
 <script src="data/productos.js?v=2"></script>
 <script src="assets/js/iconos.js?v=3"></script>
-<script src="assets/js/app.js?v=6"></script>
+<script src="assets/js/app.js?v=8"></script>
 <script src="assets/js/catalogo.js?v=2"></script>
 <script>
   (function () {

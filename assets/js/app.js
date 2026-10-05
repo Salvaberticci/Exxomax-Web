@@ -170,14 +170,22 @@
     ];
     var nodos = $$(selectores.join(","));
     if (!nodos.length) return;
+
+    /* Al mostrarse un bloque, sus titulos reciben .h2-brilo: el degradado
+       animado se reproduce en ese momento y no al cargar la pagina. */
+    function mostrar(n) {
+      n.classList.add("visible");
+      $$("h2", n).forEach(function (h) { h.classList.add("h2-brilo"); });
+    }
+
     if (!("IntersectionObserver" in window)) {
-      nodos.forEach(function (n) { n.classList.add("visible"); });
+      nodos.forEach(mostrar);
       return;
     }
     var obs = new IntersectionObserver(function (entradas) {
       entradas.forEach(function (e) {
         if (e.isIntersecting) {
-          e.target.classList.add("visible");
+          mostrar(e.target);
           obs.unobserve(e.target);
         }
       });
@@ -189,7 +197,7 @@
       nodos.forEach(function (n) {
         if (n.classList.contains("visible")) return;
         if (n.getBoundingClientRect().top < limite) {
-          n.classList.add("visible");
+          mostrar(n);
           obs.unobserve(n);
         }
       });
@@ -637,37 +645,43 @@
   /* ---- Efecto magnético 3D en tarjetas ---- */
   function initTiltCards() {
     if (window.innerWidth <= 768) return; /* No en móvil */
-    var selectores = '.cat-card, .conf-item, .paso, .vendedor-card';
-    var cards = document.querySelectorAll(selectores);
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var selectores = ".cat-card, .vendedor, .paso";
 
-    cards.forEach(function(card) {
-      card.addEventListener('mousemove', function(e) {
-        var rect = card.getBoundingClientRect();
-        var cx = rect.left + rect.width / 2;
-        var cy = rect.top + rect.height / 2;
-        var dx = (e.clientX - cx) / (rect.width / 2);
-        var dy = (e.clientY - cy) / (rect.height / 2);
-        var rotX = dy * -8;  /* max 8 grados */
-        var rotY = dx * 10;  /* max 10 grados */
-        card.style.transform = 'perspective(700px) rotateX(' + rotX + 'deg) rotateY(' + rotY + 'deg) scale(1.03)';
-        card.style.boxShadow = '0 24px 48px rgba(0,0,0,.14), ' + (dx * -8) + 'px ' + (dy * -8) + 'px 20px rgba(0,166,62,.12)';
+    function ligar(card) {
+      if (card.dataset.tilt) return;
+      card.dataset.tilt = "1";
+      card.style.transition = card.style.transition
+        ? card.style.transition + ", transform .18s ease-out, box-shadow .18s ease-out"
+        : "transform .18s ease-out, box-shadow .18s ease-out";
+
+      card.addEventListener("mousemove", function (e) {
+        var r = card.getBoundingClientRect();
+        var dx = (e.clientX - (r.left + r.width / 2)) / (r.width / 2);
+        var dy = (e.clientY - (r.top + r.height / 2)) / (r.height / 2);
+        dx = Math.max(-1, Math.min(1, dx));
+        dy = Math.max(-1, Math.min(1, dy));
+        card.style.transform = "perspective(700px) rotateX(" + (dy * -8).toFixed(2) +
+          "deg) rotateY(" + (dx * 10).toFixed(2) + "deg) scale(1.03)";
+        card.style.boxShadow = "0 24px 48px rgba(0,0,0,.14), " +
+          (-dx * 8).toFixed(1) + "px " + (-dy * 8).toFixed(1) + "px 20px rgba(0,166,62,.12)";
       });
-      card.addEventListener('mouseleave', function() {
-        card.style.transform = '';
-        card.style.boxShadow = '';
+
+      card.addEventListener("mouseleave", function () {
+        card.style.transform = "";
+        card.style.boxShadow = "";
+      });
+    }
+
+    $$(".cat-card, .vendedor, .paso").forEach(ligar);
+
+    /* el catalogo pinta sus tarjetas al vuelo: se enganchan cuando aparecen */
+    var obs = new MutationObserver(function (mut) {
+      mut.forEach(function (m) {
+        $$(".cat-card, .vendedor, .paso", m.target).forEach(ligar);
       });
     });
-
-    /* Re-aplicar cuando el DOM cambie (grid del catálogo es dinámico) */
-    var observer = new MutationObserver(function() {
-      document.querySelectorAll(selectores).forEach(function(card) {
-        if (!card.dataset.tilt) {
-          card.dataset.tilt = '1';
-          card.dispatchEvent(new Event('tilt-init'));
-        }
-      });
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
+    obs.observe(document.body, { childList: true, subtree: true });
   }
 
   function limiteCategorias() {
