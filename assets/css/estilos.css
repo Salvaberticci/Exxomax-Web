@@ -2099,3 +2099,15 @@ body.saliendo #contenido {
   .palabra { opacity: 1; transform: none; }
   .pista { animation-duration: 120s !important; }
 }
+
+/* ======================================================= TITULOS SOBRE VERDE
+   La regla de respaldo del shimmer (los h2 de seccion se pintan en color
+   tinta) llega despues de .cta-banda h2 y .alt-verde h2, que tienen la misma
+   especificidad, y los dejaba en verde oscuro sobre verde: ilegibles.
+   Estas reglas van al final para reaffirmar el blanco. */
+.cta-banda h2,
+.alt-verde h2 { color: var(--blanco); }
+
+/* Las tarjetas de zona viven dentro de la seccion verde pero con fondo blanco:
+   sus titulos deben ir en tinta, no heredar el blanco de .alt-verde h3. */
+.alt-verde .zona-card h3 { color: var(--tinta); }
