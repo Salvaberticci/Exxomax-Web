@@ -305,6 +305,9 @@ p { margin: 0 0 1rem; }
   margin: 0 auto;
   text-align: center;
 }
+/* los titulos y entradillas con max-width propio deben centrarse tambien como caja */
+.hero-inner h1,
+.hero-inner .hero-lead { margin-inline: auto; }
 .hero-centrado .hero-chip { margin-left: auto; margin-right: auto; }
 .hero-centrado .hero-lead { margin-left: auto; margin-right: auto; }
 .hero-centrado .hero-acciones { justify-content: center; }
@@ -1925,6 +1928,10 @@ body.saliendo #contenido {
 
 @media (max-width: 620px) {
   .contenedor { padding: 0 18px; }
+  /* las entradas laterales se vuelven verticales: 40px de desplazamiento
+     horizontal desbordan la pantalla (formulario de contacto) y abren scroll */
+  .js .revelar-izq:not(.visible) { transform: translateY(26px); }
+  .js .revelar-der:not(.visible) { transform: translateY(26px); }
   /* la cabecera es la parte mas tensa del sitio: aqui cada pixel cuenta */
   .header-inner { gap: 8px; }
   .logo img { height: 32px; }
