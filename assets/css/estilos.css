@@ -435,7 +435,9 @@ p { margin: 0 0 1rem; }
   z-index: 1;
   pointer-events: none;
   will-change: transform;
-  opacity: 0;
+  /* opacity 1 en la regla base: si la animacion de entrada no se ejecuta
+     (reducir movimiento, fallo de carga) las herramientas NO deben desaparecer */
+  opacity: 1;
   border-radius: 50%;
   -webkit-mask-image: radial-gradient(circle, black 50%, transparent 68%);
   mask-image: radial-gradient(circle, black 50%, transparent 68%);
@@ -1971,17 +1973,18 @@ body.saliendo #contenido {
 
 /* ======================================================= PREMIUM IMPACT PACK */
 
-/* 2. Textura grain en los fondos oscuros (hero de inicio, nosotros y catalogo):
-   ruido SVG en feTurbulence mezclado en overlay para dar profundidad material */
+/* Textura grain en los fondos oscuros (hero de inicio, nosotros y catalogo):
+   ruido SVG (feTurbulence) con su propia opacidad, mezclado solo con la reticula
+   mediante background-blend-mode. No se usa mix-blend-mode en el elemento porque
+   ese modo tambien se aplicaria a las lineas de la reticula y las taparia. */
 .hero::before, .catalogo-hero::before {
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.13'/%3E%3C/svg%3E"),
     linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px);
   background-size: 200px 200px, 60px 60px, 60px 60px;
+  background-blend-mode: overlay, normal, normal;
 }
-.hero::before { mix-blend-mode: overlay; opacity: .5; }
-.catalogo-hero::before { mix-blend-mode: overlay; opacity: .38; }
 
 /* 3. Degradado que recorre el h2: banda estrecha (8% del degradado, no del
    texto) con bordes difuminados, y solo se reproduce cuando el titulo entra
@@ -2081,7 +2084,10 @@ body.saliendo #contenido {
   .js .revelar-blur,
   .js .revelar-voltear { opacity: 1; transform: none; filter: none; transition: none !important; }
   .hero::after, .hero-insignia, .hero-anillo, .hero h1 .destacado,
-  .hero-foto, .sec-orbe, .palabra { animation: none !important; }
+  .sec-orbe, .palabra { animation: none !important; }
+  /* las herramientas del hero se muestran siempre: la animacion foto-in solo
+     aporta el movimiento de entrada, nunca la visibilidad */
+  .hero-foto { animation: none !important; opacity: 1 !important; }
   .sec-orbe { opacity: .6; }
   .palabra { opacity: 1; transform: none; }
   .pista { animation-duration: 120s !important; }
