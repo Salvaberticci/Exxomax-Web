@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/estilos.css?v=7">
+<link rel="stylesheet" href="assets/css/estilos.css?v=9">
 <script>document.documentElement.className += " js";</script>
 </head>
 <body>
@@ -70,14 +70,16 @@
 
   <section class="seccion-sm" style="padding:0">
     <div class="contenedor">
-      <div class="franja-confianza revelar" data-confianza></div>
+      <div class="franja-confianza" data-confianza></div>
     </div>
   </section>
 
   <!-- ========================================================== QUIÉNES SOMOS -->
-  <section class="seccion">
+  <section class="seccion seccion-deco">
+    <span class="sec-orbe sec-orbe-a" aria-hidden="true"></span>
+    <span class="sec-orbe sec-orbe-b" aria-hidden="true"></span>
     <div class="contenedor split">
-      <div class="revelar">
+      <div class="revelar-izq">
         <span class="sec-ojo">Quiénes somos</span>
         <h2>Una sinergia operativa y comercial</h2>
         <p>
@@ -95,7 +97,7 @@
         </ul>
       </div>
 
-      <div class="revelar revelar-d2">
+      <div class="revelar-der">
         <div class="marco-alianza">
           <span class="sec-ojo">Nuestra alianza</span>
           <h3 style="font-size:1.2rem;margin-bottom:14px">Exxomax + Hierromax</h3>
@@ -117,14 +119,16 @@
   </section>
 
   <!-- ======================================================= MISIÓN / VISIÓN -->
-  <section class="seccion alt">
+  <section class="seccion alt seccion-deco">
+    <span class="sec-orbe sec-orbe-b" aria-hidden="true"></span>
     <div class="contenedor">
       <div class="sec-head centrado revelar">
         <span class="sec-ojo">Nuestro propósito</span>
         <h2>Misión y visión</h2>
+        <span class="sec-head-linea"></span>
       </div>
       <div class="grid g-2">
-        <article class="mv revelar">
+        <article class="mv revelar-izq">
           <div class="mv-icono"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-globo"></use></svg></div>
           <h3>Misión</h3>
           <p>
@@ -136,7 +140,7 @@
             clave para el crecimiento de nuestros clientes y el desarrollo del mercado.
           </p>
         </article>
-        <article class="mv revelar revelar-d2">
+        <article class="mv revelar-der">
           <div class="mv-icono"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ojo"></use></svg></div>
           <h3>Visión</h3>
           <p>
@@ -152,12 +156,14 @@
   </section>
 
   <!-- ============================================================ OBJETIVOS -->
-  <section class="seccion">
+  <section class="seccion seccion-deco">
+    <span class="sec-orbe sec-orbe-a" aria-hidden="true"></span>
     <div class="contenedor">
       <div class="sec-head centrado revelar">
         <span class="sec-ojo">Objetivos</span>
         <h2>Los cuatro ejes de nuestra operación</h2>
         <p class="entradilla">No son promesas de catálogo: son compromisos de trabajo diario.</p>
+        <span class="sec-head-linea"></span>
       </div>
       <div class="grid g-2">
         <article class="card revelar">
@@ -231,45 +237,9 @@
     </div>
   </section>
 
-  <!-- ============================================================= PROCESO -->
-  <section class="seccion">
-    <div class="contenedor">
-      <div class="sec-head centrado revelar">
-        <span class="sec-ojo">Cómo trabajamos</span>
-        <h2>De la fábrica a tu obra</h2>
-        <p class="entradilla">Un proceso directo, trazable y sin pasos innecesarios.</p>
-      </div>
-      <div class="grid g-4">
-        <div class="paso revelar">
-          <div class="paso-linea"></div>
-          <div class="paso-foto"><img src="assets/img/productos/1333.jpg" alt="Sierra circular importada" loading="lazy"></div>
-          <div class="paso-num">1</div><h3>Importación</h3>
-          <p>Compramos directo al fabricante y embarcamos nuestra operación.</p>
-        </div>
-        <div class="paso revelar revelar-d1">
-          <div class="paso-linea"></div>
-          <div class="paso-foto"><img src="assets/img/productos/1889.jpg" alt="Clavos y fijaciones" loading="lazy"></div>
-          <div class="paso-num">2</div><h3>Recepción y control</h3>
-          <p>Verificación de calidad y codificación de cada referencia.</p>
-        </div>
-        <div class="paso revelar revelar-d2">
-          <div class="paso-linea"></div>
-          <div class="paso-foto"><img src="assets/img/productos/1819.jpg" alt="Tubos almacenados" loading="lazy"></div>
-          <div class="paso-num">3</div><h3>Almacenamiento</h3>
-          <p>Despacho rápido desde nuestro centro en Valera, Trujillo.</p>
-        </div>
-        <div class="paso revelar revelar-d3">
-          <div class="paso-foto"><img src="assets/img/productos/1337.jpg" alt="Herramienta eléctrica lista para despacho" loading="lazy"></div>
-          <div class="paso-num">4</div><h3>Entrega en zona</h3>
-          <p>Rutas programadas a Táchira, Mérida, Trujillo y Zulia.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="seccion-sm" style="padding-bottom:88px">
     <div class="contenedor">
-      <div class="cta-banda revelar">
+      <div class="cta-banda revelar-escala">
         <div>
           <h2>Trabajemos juntos</h2>
           <p>Si eres mayorista, ferretero o contratista, tenemos condiciones de venta especiales para tu volumen.</p>
@@ -329,7 +299,7 @@
 <script src="data/categorias.js?v=2"></script>
 <script src="data/marcas.js?v=2"></script>
 <script src="assets/js/iconos.js?v=3"></script>
-<script src="assets/js/app.js?v=4"></script>
+<script src="assets/js/app.js?v=5"></script>
 <script>
   (function () {
     var c = window.EXXOMAX_CATEGORIAS_INFO || [];

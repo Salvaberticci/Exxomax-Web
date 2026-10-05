@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    EXXOMAX - Comportamiento compartido del sitio
    ========================================================================== */
 (function () {
@@ -88,6 +88,54 @@
     });
   }
 
+  /* ---------------------------------------------------- parallax general */
+
+  function parallaxHerramientas() {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var items = $$('[data-parallax], [data-parallax-hero]');
+    if (!items.length) return;
+
+    var ticking = false;
+
+    function mover() {
+      var wH = window.innerHeight;
+      var scrollY = window.scrollY;
+
+      items.forEach(function (el) {
+        if (el.hasAttribute('data-parallax-hero')) {
+          /* Para el hero: el origen es 0, así que usamos scrollY directo */
+          var factor = parseFloat(el.getAttribute('data-parallax-hero')) || 0.15;
+          var py = scrollY * factor;
+          el.style.setProperty('--py', py.toFixed(2) + 'px');
+        } else {
+          /* Para el resto de la página: el origen es el centro de la pantalla */
+          var parent = el.parentElement;
+          var rect = parent.getBoundingClientRect();
+          
+          if (rect.top < wH && rect.bottom > 0) {
+            var factor = parseFloat(el.getAttribute('data-parallax')) || 0.15;
+            var dist = (rect.top + rect.height / 2) - (wH / 2);
+            var py = dist * factor;
+            el.style.setProperty('--py', py.toFixed(2) + 'px');
+          }
+        }
+      });
+
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(mover);
+      }
+    }, { passive: true });
+    
+    /* Disparo inicial */
+    mover();
+  }
+
   /* --------------------------------------------------- barra de progreso */
 
   function barraProgreso() {
@@ -112,17 +160,20 @@
   /* ------------------------------------------------------------- reveals */
 
   function revelar() {
-    var nodos = $$(".revelar");
+    var selectores = [
+      ".revelar",
+      ".revelar-izq",
+      ".revelar-der",
+      ".revelar-escala",
+      ".revelar-blur",
+      ".revelar-voltear"
+    ];
+    var nodos = $$(selectores.join(","));
     if (!nodos.length) return;
     if (!("IntersectionObserver" in window)) {
       nodos.forEach(function (n) { n.classList.add("visible"); });
       return;
     }
-    /*
-     * El margen negativo de abajo obliga a que el bloque cruce el 88% de la
-     * pantalla antes de animarse: si no, la entrada se veia apenas asomando
-     * por el borde, desincronizada de lo que el usuario estaba mirando.
-     */
     var obs = new IntersectionObserver(function (entradas) {
       entradas.forEach(function (e) {
         if (e.isIntersecting) {
@@ -133,12 +184,6 @@
     }, { threshold: 0.05, rootMargin: "0px 0px -12% 0px" });
     nodos.forEach(function (n) { obs.observe(n); });
 
-    /*
-     * Red de seguridad: si el usuario salta de golpe a un ancla o el
-     * IntersectionObserver no llega a disparar, aqui se revela lo que ya
-     * cruzo el borde de la pantalla (con el mismo criterio estricto: al menos
-     * 64px dentro, nunca "lo que este por encima de la mitad del viewport").
-     */
     function barrer() {
       var limite = window.innerHeight - 64;
       nodos.forEach(function (n) {
@@ -156,8 +201,6 @@
     }, { passive: true });
     window.addEventListener("load", barrer);
     window.addEventListener("resize", barrer);
-    /* al volver a la pestana se revisa una vez, sin timers periodicos que
-       revelaran todo de golpe cuando el usuario no estaba mirando */
     document.addEventListener("visibilitychange", function () {
       if (!document.hidden) barrer();
     });
@@ -453,6 +496,26 @@
     if (!E.CONTACTO_PENDIENTE) cont.setAttribute("rel", "noopener");
   }
 
+  /* ------------------------------------------------ orbes decorativos */
+
+  function initOrbitas() {
+    var orbes = $$(".sec-orbe");
+    if (!orbes.length || !("IntersectionObserver" in window)) {
+      orbes.forEach(function (o) { o.classList.add("visible"); });
+      return;
+    }
+    var obs = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add("visible");
+        } else {
+          e.target.classList.remove("visible");
+        }
+      });
+    }, { threshold: 0 });
+    orbes.forEach(function (o) { obs.observe(o); });
+  }
+
   /* --------------------------------------------------------------- init */
 
   function direccionTexto() {
@@ -496,6 +559,7 @@
     menuMovil();
     sombraCabecera();
     barraProgreso();
+    parallaxHerramientas();
     marcarActivo();
 
     pintarMetricas();
@@ -509,7 +573,10 @@
 
     revelarPalabras();
     revelar();
+    initOrbitas();
     animarContadores();
+    initTiltCards();
+    initPageTransitions();
 
     var y = $("[data-anio]");
     if (y) y.textContent = new Date().getFullYear();
@@ -524,6 +591,99 @@
     $$("[data-tel-enlace]").forEach(function (n) {
       var t = E.telefono;
       if (t) { n.setAttribute("href", "tel:" + t.replace(/[^\d+]/g, "")); n.textContent = t; }
+    });
+
+    initCursor();
+  }
+
+  function initCursor() {
+    /* Solo en escritorio */
+    if (window.innerWidth <= 900) return;
+
+    /* Inyectamos los elementos si aún no existen (funciona en todas las páginas) */
+    var cursorDot = document.querySelector('.cursor-dot');
+    var cursorOutline = document.querySelector('.cursor-outline');
+
+    if (!cursorDot) {
+      cursorDot = document.createElement('div');
+      cursorDot.className = 'cursor-dot';
+      document.body.appendChild(cursorDot);
+    }
+    if (!cursorOutline) {
+      cursorOutline = document.createElement('div');
+      cursorOutline.className = 'cursor-outline';
+      document.body.appendChild(cursorOutline);
+    }
+
+    window.addEventListener('mousemove', function(e) {
+      cursorDot.style.transform     = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px) translate(-50%, -50%)';
+      cursorOutline.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px) translate(-50%, -50%)';
+    });
+
+    document.querySelectorAll('a, button').forEach(function(el) {
+      el.addEventListener('mouseenter', function() {
+        cursorOutline.style.width = '60px';
+        cursorOutline.style.height = '60px';
+        cursorOutline.style.backgroundColor = 'rgba(123, 192, 67, 0.15)';
+      });
+      el.addEventListener('mouseleave', function() {
+        cursorOutline.style.width = '40px';
+        cursorOutline.style.height = '40px';
+        cursorOutline.style.backgroundColor = 'transparent';
+      });
+    });
+  }
+
+
+  /* ---- Efecto magnético 3D en tarjetas ---- */
+  function initTiltCards() {
+    if (window.innerWidth <= 768) return; /* No en móvil */
+    var selectores = '.cat-card, .conf-item, .paso, .vendedor-card';
+    var cards = document.querySelectorAll(selectores);
+
+    cards.forEach(function(card) {
+      card.addEventListener('mousemove', function(e) {
+        var rect = card.getBoundingClientRect();
+        var cx = rect.left + rect.width / 2;
+        var cy = rect.top + rect.height / 2;
+        var dx = (e.clientX - cx) / (rect.width / 2);
+        var dy = (e.clientY - cy) / (rect.height / 2);
+        var rotX = dy * -8;  /* max 8 grados */
+        var rotY = dx * 10;  /* max 10 grados */
+        card.style.transform = 'perspective(700px) rotateX(' + rotX + 'deg) rotateY(' + rotY + 'deg) scale(1.03)';
+        card.style.boxShadow = '0 24px 48px rgba(0,0,0,.14), ' + (dx * -8) + 'px ' + (dy * -8) + 'px 20px rgba(0,166,62,.12)';
+      });
+      card.addEventListener('mouseleave', function() {
+        card.style.transform = '';
+        card.style.boxShadow = '';
+      });
+    });
+
+    /* Re-aplicar cuando el DOM cambie (grid del catálogo es dinámico) */
+    var observer = new MutationObserver(function() {
+      document.querySelectorAll(selectores).forEach(function(card) {
+        if (!card.dataset.tilt) {
+          card.dataset.tilt = '1';
+          card.dispatchEvent(new Event('tilt-init'));
+        }
+      });
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  /* ---- Transición suave al salir de página ---- */
+  function initPageTransitions() {
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a[href]');
+      if (!link) return;
+      var href = link.getAttribute('href');
+      /* Solo enlaces internos que no abran en nueva pestaña */
+      if (!href || href.startsWith('#') || href.startsWith('http') ||
+          href.startsWith('mailto') || href.startsWith('tel') ||
+          link.target === '_blank') return;
+      e.preventDefault();
+      document.body.classList.add('page-salida');
+      setTimeout(function() { window.location.href = href; }, 340);
     });
   }
 

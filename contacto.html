@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/estilos.css?v=7">
+<link rel="stylesheet" href="assets/css/estilos.css?v=9">
 <script>document.documentElement.className += " js";</script>
 <style>
   .campo input.invalido, .campo textarea.invalido { border-color: #d94a4a; background: #fdf3f3; }
@@ -42,12 +42,12 @@
 
   <section class="hero" style="padding:72px 0 82px">
     <div class="contenedor">
-      <span class="hero-chip">
+      <span class="hero-chip revelar">
         <span class="punto"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chat"></use></svg></span>
         Contacto
       </span>
-      <h1 data-palabras style="max-width:17ch">Hablemos de tu <span class="destacado">próximo pedido</span></h1>
-      <p class="hero-lead" style="max-width:60ch">
+      <h1 data-palabras class="revelar" style="max-width:17ch">Hablemos de tu <span class="destacado">próximo pedido</span></h1>
+      <p class="hero-lead revelar" style="max-width:60ch">
         Escríbenos para cotizar, consultar disponibilidad o coordinar la entrega en tu
         zona. Respondemos el mismo día hábil.
       </p>
@@ -59,7 +59,7 @@
       <div class="contacto-grid">
 
         <!-- ------------------------------------------------------- DATOS -->
-        <div class="revelar">
+        <div class="revelar-izq">
           <span class="sec-ojo">Datos de la empresa</span>
           <h2 style="font-size:1.7rem">EXXOMAX C.A.</h2>
           <p style="color:var(--gris)">RIF <strong>J504831298</strong></p>
@@ -95,18 +95,10 @@
             </div>
           </div>
 
-          <a class="btn btn-borde btn-blk" style="margin-top:24px" href="cobertura.html">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ubicacion"></use></svg>
-            Ver mapa y vendedores
-          </a>
-
-          <div class="paso-foto revelar" style="margin-top:24px">
-            <img src="assets/img/productos/1337.jpg" alt="Herramientas eléctricas EXXOMAX listas para despacho" loading="lazy">
-          </div>
         </div>
 
         <!-- --------------------------------------------------- FORMULARIO -->
-        <div class="formulario revelar revelar-d2">
+        <div class="formulario revelar-der">
           <h2 style="font-size:1.4rem">Solicita tu cotización</h2>
           <p style="color:var(--gris);font-size:.94rem">
             Completa el formulario y te contactamos con precio, disponibilidad y
@@ -229,7 +221,7 @@
 <script src="data/empresa.js?v=2"></script>
 <script src="data/categorias.js?v=2"></script>
 <script src="assets/js/iconos.js?v=3"></script>
-<script src="assets/js/app.js?v=4"></script>
+<script src="assets/js/app.js?v=5"></script>
 <script src="assets/js/contacto.js?v=2"></script>
 <script>
   /* categorias en el formulario + enlaces del pie */
