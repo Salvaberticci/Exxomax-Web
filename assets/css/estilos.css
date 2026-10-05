@@ -2002,6 +2002,7 @@ body.saliendo #contenido {
       color-mix(in srgb, var(--verde) 40%, var(--tinta)) 56%,
       var(--tinta) 60%, var(--tinta) 100%);
     background-size: 300% 100%;
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2016,15 +2017,14 @@ body.saliendo #contenido {
   -webkit-text-fill-color: unset !important;
   animation: none !important;
 }
-/* con background-size 300% la posicion porcentual se mide sobre (ancho - 3xancho),
-   o sea -2 x ancho por cada 100%. La banda (45-55% del degradado) solo se ve cuando
-   el desplazamiento va de 1.38 a 0.76 anchos, es decir del -69% al -38%: la faz unica
-   y completa. El ciclo es de 9s, pero el recorrido solo ocupa el primer 28%, asi que
-   el destello se ve rapido y el titulo descansa el resto del ciclo. */
+/* El fondo es 3 veces mas ancho que el texto y no se repite, asi que la banda
+   verde (45-55% del degradado) solo se ve con la posicion entre 16% y 84%, y va
+   de izquierda a derecha al bajarla. El ciclo dura 9s: el destello cruza el titulo
+   en el primer 30% y despues el texto se queda en su color normal. */
 @keyframes h2Shimmer {
-  0%   { background-position: -69% 0; animation-timing-function: cubic-bezier(.4, 0, .2, 1); }
-  28%  { background-position: -38% 0; }
-  100% { background-position: -38% 0; }
+  0%   { background-position: 86% 0; animation-timing-function: cubic-bezier(.4, 0, .2, 1); }
+  30%  { background-position: 16% 0; }
+  100% { background-position: 16% 0; }
 }
 
 /* 4. Glow pulsante en botones primarios, en box-shadow: el barrido de luz de
@@ -2065,21 +2065,24 @@ body.saliendo #contenido {
 }
 @keyframes lineaExpand { from { width: 36px; } to { width: 60px; } }
 
+/* Con "reducir movimiento" se anulan solo las animaciones que implican
+   desplazamiento o 3D (entradas, parallax, anillos, tilt, palabras). Los efectos
+   de color y ritmo suave se conservan: shimmer del h2, rayita del label,
+   separador, glow del boton y carrusel de marcas (mas lento). Antes se anulaba
+   todo con animation-duration .01ms y el sitio se quedaba sin ningun efecto. */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   html { scroll-behavior: auto; }
+  #contenido { animation: none !important; }
+  body.saliendo #contenido { transition: none !important; }
   .js .revelar,
   .js .revelar-izq,
   .js .revelar-der,
   .js .revelar-escala,
   .js .revelar-blur,
-  .js .revelar-voltear { opacity: 1; transform: none; filter: none; }
-  .hero::after, .hero-insignia, .hero-anillo, .hero h1 .destacado {
-    animation: none !important;
-  }
-  .sec-orbe { animation: none !important; opacity: .6; }
-  /* el carrusel de marcas sigue moviendose, pero lento */
+  .js .revelar-voltear { opacity: 1; transform: none; filter: none; transition: none !important; }
+  .hero::after, .hero-insignia, .hero-anillo, .hero h1 .destacado,
+  .hero-foto, .sec-orbe, .palabra { animation: none !important; }
+  .sec-orbe { opacity: .6; }
+  .palabra { opacity: 1; transform: none; }
   .pista { animation-duration: 120s !important; }
-  .palabra { animation: none !important; opacity: 1; transform: none; }
-  h2.h2-brilo { animation: none !important; }
 }
