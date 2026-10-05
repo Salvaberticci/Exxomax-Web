@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/estilos.css?v=15">
+<link rel="stylesheet" href="assets/css/estilos.css?v=16">
 <script>document.documentElement.className += " js";</script>
 </head>
 <body>
@@ -202,40 +202,57 @@
   </section>
 
   <!-- =========================================================== PROCESO -->
-  <section class="seccion alt seccion-deco" style="position:relative; overflow:hidden">
-    <span class="sec-orbe sec-orbe-b" aria-hidden="true"></span>
+<section class="seccion alt seccion-deco seccion-proceso">
 
-    <div class="contenedor">
-      <div class="sec-head centrado revelar">
-        <span class="sec-ojo">Cómo trabajamos</span>
-        <h2>De la fábrica a tu obra</h2>
-        <p class="entradilla">Un proceso directo, trazable y sin pasos innecesarios.</p>
-        <span class="sec-head-linea"></span>
+<div class="proceso-scroll">
+  <div class="contenedor">
+    <div class="sec-head centrado revelar">
+      <span class="sec-ojo">Cómo trabajamos</span>
+      <h2>De la fábrica a tu obra</h2>
+      <p class="entradilla">Un proceso directo, trazable y sin pasos innecesarios.</p>
+      <span class="sec-head-linea"></span>
+    </div>
+<div class="grid g-4 proceso-track">
+      <div class="paso revelar-escala">
+        <div class="paso-linea"></div>
+        <div class="paso-foto"><img src="assets/img/proceso-importacion.jpg" alt="Contenedores de carga marítima en puerto" loading="lazy"></div>
+        <div class="paso-num">1</div><h3>Importación</h3>
+        <p>Compramos directo al fabricante y embarcamos nuestra operación.</p>
       </div>
-      <div class="grid g-4">
-        <div class="paso revelar-escala">
-          <div class="paso-linea"></div>
-          <div class="paso-foto"><img src="assets/img/proceso-importacion.jpg" alt="Contenedores de carga marítima en puerto" loading="lazy"></div>
-          <div class="paso-num">1</div><h3>Importación</h3>
-          <p>Compramos directo al fabricante y embarcamos nuestra operación.</p>
-        </div>
-        <div class="paso revelar-escala revelar-d2">
-          <div class="paso-linea"></div>
-          <div class="paso-foto"><img src="assets/img/proceso-recepcion.jpg" alt="Trabajador escaneando herramientas en almacén" loading="lazy"></div>
-          <div class="paso-num">2</div><h3>Recepción y control</h3>
-          <p>Verificación de calidad y codificación de cada referencia.</p>
-        </div>
-        <div class="paso revelar-escala revelar-d3">
-          <div class="paso-linea"></div>
-          <div class="paso-foto"><img src="assets/img/proceso-almacenamiento.jpg" alt="Almacenamiento organizado en racks industriales" loading="lazy"></div>
-          <div class="paso-num">3</div><h3>Almacenamiento</h3>
-          <p>Despacho rápido desde nuestro centro en Valera, Trujillo.</p>
-        </div>
-        <div class="paso revelar-escala revelar-d4">
-          <div class="paso-foto"><img src="assets/img/proceso-entrega.jpg" alt="Camión de carga en ruta de entrega" loading="lazy"></div>
-          <div class="paso-num">4</div><h3>Entrega en zona</h3>
-          <p>Rutas programadas a Táchira, Mérida, Trujillo y Zulia.</p>
-        </div>
+      <div class="paso revelar-escala revelar-d2">
+        <div class="paso-linea"></div>
+        <div class="paso-foto"><img src="assets/img/proceso-recepcion.jpg" alt="Trabajador escaneando herramientas en almacén" loading="lazy"></div>
+        <div class="paso-num">2</div><h3>Recepción y control</h3>
+        <p>Verificación de calidad y codificación de cada referencia.</p>
+      </div>
+      <div class="paso revelar-escala revelar-d3">
+        <div class="paso-linea"></div>
+        <div class="paso-foto"><img src="assets/img/proceso-almacenamiento.jpg" alt="Almacenamiento organizado en racks industriales" loading="lazy"></div>
+        <div class="paso-num">3</div><h3>Almacenamiento</h3>
+        <p>Despacho rápido desde nuestro centro en Valera, Trujillo.</p>
+      </div>
+      <div class="paso revelar-escala revelar-d4">
+        <div class="paso-foto"><img src="assets/img/proceso-entrega.jpg" alt="Camión de carga en ruta de entrega" loading="lazy"></div>
+        <div class="paso-num">4</div><h3>Entrega en zona</h3>
+        <p>Rutas programadas a Táchira, Mérida, Trujillo y Zulia.</p>
+      </div>
+    </div>
+    <div class="proceso-guia" aria-hidden="true">
+      <span class="pt"></span><span class="pt"></span><span class="pt"></span><span class="pt"></span>
+      <span class="contador" data-proceso-contador>Paso 1 de 4</span>
+    </div>
+  </div>
+  </div>
+</section>
+
+  <!-- ====================================================== METRICAS A SANGRE -->
+  <section class="metricas-banda" aria-label="Cifras de EXXOMAX">
+    <div class="contenedor">
+      <div class="metricas-rejilla">
+        <div class="metrica revelar"><b data-contar="1.081">0</b><span>productos en catálogo</span></div>
+        <div class="metrica revelar revelar-d1"><b data-contar="293">0</b><span>productos marca propia MEGAPRO</span></div>
+        <div class="metrica revelar revelar-d2"><b data-contar="4">0</b><span>estados con despacho</span></div>
+        <div class="metrica revelar revelar-d3"><b data-contar="12">0</b><span>vendedores en la zona</span></div>
       </div>
     </div>
   </section>
@@ -336,7 +353,7 @@
 <script src="data/categorias.js?v=2"></script>
 <script src="data/marcas.js?v=2"></script>
 <script src="assets/js/iconos.js?v=3"></script>
-<script src="assets/js/app.js?v=8"></script>
+<script src="assets/js/app.js?v=9"></script>
 <script>
   (function () {
     var c = window.EXXOMAX_CATEGORIAS_INFO || [];

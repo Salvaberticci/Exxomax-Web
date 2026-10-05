@@ -562,6 +562,57 @@
     });
   }
 
+  /* ---- Proceso con scroll horizontal fijo ----
+     El bloque .proceso-scroll se mantiene pegado al viewport y, segun avanza
+     el scroll, cada paso entra en foco. Solo en pantallas anchas; en movil el
+     CSS deja la rejilla vertical de siempre. */
+  function initProcesoScroll() {
+    var bloque = $(".proceso-scroll");
+    if (!bloque) return;
+    var pasos = $$(".paso", bloque);
+    if (!pasos.length) return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    var ticking = false;
+    var puntos = $$(".proceso-guia .pt");
+    var contador = $("[data-proceso-contador]");
+
+    function evaluar() {
+      ticking = false;
+      var r = bloque.getBoundingClientRect();
+      /* progreso 0-1 de lo que lleva recorrido el bloque */
+      var total = r.height - window.innerHeight;
+      var avance = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 0;
+      var n = pasos.length;
+      var foco = Math.min(n - 1, Math.floor(avance * n * 1.02));
+      pasos.forEach(function (p, i) {
+        if (i === foco) p.classList.add("en-foco");
+        else p.classList.remove("en-foco");
+      });
+      puntos.forEach(function (p, i) {
+        if (i <= foco) p.classList.add("encendido");
+        else p.classList.remove("encendido");
+      });
+      if (contador) contador.textContent = "Paso " + (foco + 1) + " de " + n;
+    }
+
+    function alScroll() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(evaluar);
+    }
+
+    function alRedimensionar() {
+      /* el modo fijo del CSS empieza en 1180px: por debajo se limpia el estado */
+      if (window.innerWidth < 1180) pasos.forEach(function (p) { p.classList.remove("en-foco"); });
+      else evaluar();
+    }
+
+    window.addEventListener("scroll", alScroll, { passive: true });
+    window.addEventListener("resize", alRedimensionar);
+    alRedimensionar();
+  }
+
   function init() {
     transicionesPagina();
     menuMovil();
@@ -584,6 +635,7 @@
     initOrbitas();
     animarContadores();
     initTiltCards();
+    initProcesoScroll();
 
     var y = $("[data-anio]");
     if (y) y.textContent = new Date().getFullYear();

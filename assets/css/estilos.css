@@ -81,9 +81,20 @@ h1, h2, h3, h4 {
   font-weight: 700;
   letter-spacing: -.02em;
 }
-h1 { font-size: clamp(2.1rem, 5vw, 3.6rem); }
-h2 { font-size: clamp(1.6rem, 3.4vw, 2.5rem); }
-h3 { font-size: 1.15rem; font-weight: 600; }
+/* Escala display: los titulos grandes son los que sostienen el impacto visual */
+h1 {
+  font-size: clamp(2.6rem, 6.2vw, 4.6rem);
+  line-height: 1.03;
+  letter-spacing: -.038em;
+  font-weight: 700;
+}
+h2 {
+  font-size: clamp(2rem, 4.6vw, 3.4rem);
+  line-height: 1.06;
+  letter-spacing: -.032em;
+  margin-bottom: .42em;
+}
+h3 { font-size: 1.18rem; font-weight: 600; letter-spacing: -.015em; }
 p { margin: 0 0 1rem; }
 
 .contenedor {
@@ -94,8 +105,9 @@ p { margin: 0 0 1rem; }
 }
 .contenedor-ancho { max-width: 1440px; }
 
-.seccion { padding: 88px 0; }
-.seccion-sm { padding: 56px 0; }
+/* Ritmo vertical: el aire se adapta al tamano de pantalla en vez de ser fijo */
+.seccion { padding: clamp(64px, 8vw, 120px) 0; }
+.seccion-sm { padding: clamp(48px, 5.5vw, 84px) 0; }
 .alt { background: var(--hueso); }
 .alt-verde {
   background: linear-gradient(160deg, var(--verde-900), var(--verde-700));
@@ -107,7 +119,8 @@ p { margin: 0 0 1rem; }
 .centrado .entradilla { margin-left: auto; margin-right: auto; }
 
 .entradilla {
-  font-size: 1.06rem;
+  font-size: clamp(1.02rem, 1.3vw, 1.16rem);
+  line-height: 1.6;
   color: var(--gris);
   max-width: 62ch;
 }
@@ -257,9 +270,12 @@ p { margin: 0 0 1rem; }
   background: linear-gradient(150deg, var(--verde-900) 0%, var(--verde-800) 38%, var(--verde-700) 72%, var(--verde-600) 100%);
   color: var(--blanco);
   overflow: hidden;
-  padding: 96px 0 108px;
+  padding: clamp(58px, 6vw, 92px) 0 clamp(64px, 7vw, 108px);
   isolation: isolate;
 }
+
+/* Hero corto (sin metricas ni fotos): menos aire, el texto manda */
+.hero-ajustado { padding: clamp(44px, 4.4vw, 64px) 0 clamp(48px, 5vw, 72px); }
 
 /* retícula sutil de fondo */
 .hero::before {
@@ -683,18 +699,18 @@ a, button { cursor: none; }
 
 /* ------------------------------------------------------------- titulos sec */
 
-.sec-head { max-width: 720px; margin-bottom: 48px; }
+.sec-head { max-width: 720px; margin-bottom: clamp(34px, 3.4vw, 52px); }
 .sec-head.centrado { margin-left: auto; margin-right: auto; }
 .sec-ojo {
-  display: inline-flex; align-items: center; gap: 8px;
+  display: inline-flex; align-items: center; gap: 10px;
   font-family: var(--fuente-titulo);
-  font-size: .78rem; font-weight: 600;
-  letter-spacing: .14em; text-transform: uppercase;
+  font-size: .74rem; font-weight: 700;
+  letter-spacing: .18em; text-transform: uppercase;
   color: var(--verde);
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 .sec-ojo::before {
-  content: ""; width: 26px; height: 2px; background: var(--verde-lima);
+  content: ""; width: 30px; height: 2px; background: var(--verde-lima);
 }
 
 /* ------------------------------------------------------------------ grids */
@@ -2099,3 +2115,474 @@ body.saliendo #contenido {
   .palabra { opacity: 1; transform: none; }
   .pista { animation-duration: 120s !important; }
 }
+
+/* ==========================================================================
+   IMPACTO VISUAL - Fase 1: divisores y detalle de seccion
+   ========================================================================== */
+
+/* Divisor curvo entre secciones claras: un arco suave en vez de un corte recto.
+   Se hace con un pseudo-elemento pegado al borde superior, sin tocar el layout.
+   Se mantiene dentro de los limites de la seccion: si se sale, la pagina gana
+   scroll horizontal. */
+.seccion.alt, .seccion-sm.alt { position: relative; }
+.seccion.alt::before, .seccion-sm.alt::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: -1px;
+  height: clamp(28px, 3.4vw, 52px);
+  background: radial-gradient(115% 100% at 50% 100%, var(--blanco) 58%, rgba(255, 255, 255, 0) 61%);
+  pointer-events: none;
+  z-index: 0;
+}
+.seccion.alt > .contenedor, .seccion-sm.alt > .contenedor { position: relative; z-index: 1; }
+
+/* Filo de luz entre secciones: hairline con degradado que marca el corte */
+.filo-seccion {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 0;
+  background: linear-gradient(90deg, transparent, rgba(0, 166, 62, .28) 22%, rgba(123, 192, 67, .5) 50%, rgba(0, 166, 62, .28) 78%, transparent);
+}
+
+/* ==========================================================================
+   IMPACTO VISUAL - Fase 2: tarjetas y componentes
+   ========================================================================== */
+
+/* ---------------------------------------------------------- tarjeta de categoria */
+.cat-card {
+  position: relative;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--borde);
+  box-shadow: var(--sombra);
+  transition: transform .3s var(--ease-suave), box-shadow .3s ease, border-color .3s ease;
+}
+.cat-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(140deg, rgba(123, 192, 67, .55), rgba(0, 166, 62, 0) 42%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity .3s ease;
+  pointer-events: none;
+}
+.cat-card:hover::after { opacity: 1; }
+.cat-card:hover { transform: translateY(-8px); box-shadow: var(--sombra-lg); }
+.cat-foto { position: relative; }
+.cat-foto img { transition: transform .55s var(--ease-suave); }
+.cat-card:hover .cat-foto img { transform: scale(1.12); }
+.cat-foto::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(3, 63, 24, 0) 42%, rgba(3, 63, 24, .55) 100%);
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.cat-card:hover .cat-foto::before { opacity: 1; }
+.cat-card .cat-ico {
+  width: 46px; height: 46px; border-radius: 14px;
+  background: linear-gradient(140deg, var(--verde), var(--verde-700));
+  color: var(--blanco);
+  box-shadow: 0 10px 22px -8px rgba(0, 117, 44, .6);
+  transition: transform .35s var(--ease-resorte), border-radius .35s ease;
+}
+.cat-card:hover .cat-ico { transform: scale(1.12) rotate(-7deg); border-radius: 18px; }
+.cat-card h3 { font-size: 1.14rem; letter-spacing: -.02em; }
+.cat-card .cat-go {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 16px;
+  border-radius: 100px;
+  background: var(--verde-50);
+  color: var(--verde-700);
+  font-weight: 600; font-size: .84rem;
+  transition: background .25s ease, color .25s ease, gap .25s ease;
+}
+.cat-card:hover .cat-go { background: var(--verde); color: var(--blanco); gap: 12px; }
+
+/* ---------------------------------------------------------- tarjeta de producto */
+.producto {
+  border-radius: var(--r-lg);
+  border: 1px solid var(--borde);
+  box-shadow: var(--sombra);
+  transition: transform .28s var(--ease-suave), box-shadow .28s ease, border-color .28s ease;
+}
+.producto:hover { transform: translateY(-6px); box-shadow: var(--sombra-lg); border-color: var(--verde-100); }
+/* fondo de la foto: degradado suave en vez de gris plano, el producto se despega */
+.producto-foto {
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(123, 192, 67, .10), rgba(255, 255, 255, 0) 62%),
+    linear-gradient(160deg, #f4f9f6, #e9f2ec 70%);
+  border-bottom: 1px solid var(--borde);
+}
+.producto-foto img { transition: transform .5s var(--ease-suave); }
+.producto:hover .producto-foto img { transform: scale(1.09); }
+.producto-tag {
+  background: linear-gradient(120deg, var(--verde), var(--verde-600));
+  box-shadow: 0 6px 16px -8px rgba(0, 117, 44, .7);
+  font-size: .62rem;
+  letter-spacing: .1em;
+}
+.producto-nombre { font-size: .92rem; font-weight: 600; letter-spacing: -.01em; }
+.producto-codigo { color: var(--verde-700); font-weight: 600; }
+.producto-wa {
+  border-radius: 100px;
+  font-weight: 600;
+  transition: background .22s ease, color .22s ease, transform .22s var(--ease-suave), box-shadow .22s ease;
+}
+.producto:hover .producto-wa { transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(0, 166, 62, .6); }
+
+/* ---------------------------------------------------------- tarjeta de vendedor */
+.vendedor {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--borde);
+  box-shadow: var(--sombra);
+  transition: transform .3s var(--ease-suave), box-shadow .3s ease, border-color .3s ease;
+}
+.vendedor::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  background: linear-gradient(90deg, var(--verde-lima), var(--verde));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .38s var(--ease-suave);
+}
+.vendedor:hover { transform: translateY(-6px); box-shadow: var(--sombra-lg); border-color: var(--verde-100); }
+.vendedor:hover::before { transform: scaleX(1); }
+.vendedor .inicial {
+  background: linear-gradient(140deg, var(--verde), var(--verde-700));
+  color: var(--blanco);
+  box-shadow: 0 10px 22px -10px rgba(0, 117, 44, .65);
+  transition: transform .35s var(--ease-resorte);
+}
+.vendedor:hover .inicial { transform: scale(1.08) rotate(-5deg); }
+.vendedor .datos b { letter-spacing: -.015em; }
+.vendedor .btn-wa {
+  transition: transform .25s var(--ease-suave), box-shadow .25s ease, background .25s ease;
+}
+.vendedor:hover .btn-wa {
+  transform: scale(1.08);
+  box-shadow: 0 10px 22px -8px rgba(0, 166, 62, .65);
+}
+
+/* ---------------------------------------------------------- franja de confianza */
+.conf-item {
+  border-radius: var(--r-lg);
+  border: 1px solid var(--borde);
+  box-shadow: var(--sombra);
+  transition: transform .3s var(--ease-suave), box-shadow .3s ease, border-color .3s ease;
+}
+.conf-item:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sombra-lg);
+  border-color: var(--verde-100);
+  background: var(--blanco);
+}
+.conf-item .ico {
+  width: 52px; height: 52px;
+  border-radius: 16px;
+  background: linear-gradient(140deg, var(--verde), var(--verde-700));
+  color: var(--blanco);
+  box-shadow: 0 12px 26px -12px rgba(0, 117, 44, .7);
+  transition: transform .35s var(--ease-resorte), border-radius .35s ease;
+}
+.conf-item:hover .ico { transform: translateY(-3px) scale(1.06); border-radius: 20px; }
+.conf-item .ico svg { width: 24px; height: 24px; }
+.conf-item b { font-size: 1.14rem; letter-spacing: -.02em; }
+.conf-item span { font-size: .86rem; }
+
+/* ---------------------------------------------------------- pasos del proceso */
+.paso-foto {
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--sombra-md);
+  transition: transform .35s var(--ease-suave), box-shadow .35s ease;
+}
+.paso-foto::after { transition: opacity .35s ease; }
+.paso:hover .paso-foto { transform: translateY(-6px); box-shadow: var(--sombra-lg); }
+.paso-num {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(140deg, var(--verde), var(--verde-lima));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform .3s var(--ease-resorte);
+}
+.paso:hover .paso-num { transform: scale(1.12); }
+.paso h3 { font-size: 1.16rem; letter-spacing: -.02em; }
+
+/* ---------------------------------------------------------- botones y enlaces */
+.btn { transition: transform .25s var(--ease-suave), box-shadow .25s ease, background .25s ease, color .25s ease; }
+.btn:hover { transform: translateY(-4px) scale(1.02); }
+
+.btn-blk, .btn-oscuro, .btn-borde { will-change: transform; }
+
+/* subrayado que se dibuja de izquierda a derecha */
+.enlace-linea {
+  position: relative;
+  text-decoration: none;
+  background-image: linear-gradient(var(--verde), var(--verde));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  transition: background-size .3s var(--ease-suave), color .25s ease;
+  padding-bottom: 2px;
+}
+.enlace-linea:hover { background-size: 100% 2px; }
+
+/* ==========================================================================
+   IMPACTO VISUAL - Fase 3: momentos de alto impacto
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Fotos de herramientas del hero
+   El problema anterior: mix-blend-mode: lighten convertia las fotos en recortes
+   con brillo plastico (el casco parecia una mancha). Ahora van con mezcla normal,
+   mas pequenas, mas apagadas y con mascara radial suave, y sin invadir el texto.
+   -------------------------------------------------------------------------- */
+.hero-foto {
+  mix-blend-mode: normal;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 30%, rgba(0, 0, 0, .55) 56%, transparent 74%);
+  mask-image: radial-gradient(circle at 50% 50%, #000 30%, rgba(0, 0, 0, .55) 56%, transparent 74%);
+  filter: saturate(.82) contrast(.95) brightness(.96);
+  opacity: .9;
+}
+.hf-drill { width: 380px; }
+.hf-helmet { width: 340px; }
+.hf-saw { width: 200px; }
+.hf-wrench { width: 180px; }
+.hf-screwdriver { width: 150px; }
+.hf-tapemeasure { width: 132px; }
+/* el plano frontal no debe caerse encima del titular */
+.hf-drill { bottom: -190px; left: max(0px, calc(50% - 980px)); opacity: .55; }
+.hf-helmet { top: 10px; right: max(0px, calc(50% - 980px)); opacity: .5; }
+.hf-saw { top: 26%; left: max(10px, calc(50% - 700px)); opacity: .8; }
+.hf-wrench { bottom: 16%; right: max(10px, calc(50% - 700px)); opacity: .8; }
+.hf-screwdriver { top: 12%; right: max(10px, calc(50% - 460px)); opacity: .6; }
+.hf-tapemeasure { bottom: 6%; left: max(10px, calc(50% - 500px)); opacity: .6; }
+
+/* --------------------------------------------------------------------------
+   Banda de marcas a sangre, en oscuro
+   Las 24 marcas ya llegan en dos pistas de marquee (48 tarjetas). Antes cada
+   logo iba dentro de una caja y el bloque parecia una tabla; ahora flotan.
+   -------------------------------------------------------------------------- */
+.marcas-banda {
+  position: relative;
+  background: linear-gradient(165deg, #052b16 0%, #0a3d1f 52%, #052b16 100%);
+  border-top: 0;
+  border-bottom: 0;
+  padding: clamp(44px, 5vw, 72px) 0;
+  overflow: hidden;
+}
+.marcas-banda::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.16'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  background-blend-mode: overlay;
+  pointer-events: none;
+  z-index: 0;
+}
+.marcas-banda > * { position: relative; z-index: 1; }
+/* el encabezado de la seccion se queda sobre blanco (el shimmer pinta el h2 con
+   el degradado de tinta, asi que el fondo claro es lo que mantiene el contraste) */
+.seccion:has(> .marcas-banda) .sec-head .sec-ojo { color: var(--verde); }
+.seccion:has(> .marcas-banda) .sec-head h2 { color: var(--blanco); }
+.seccion:has(> .marcas-banda) .entradilla { color: rgba(255, 255, 255, .74); }
+.seccion:has(> .marcas-banda) { background: var(--blanco); }
+.seccion:has(> .marcas-banda)::before { display: none; }
+
+/* los wordmarks flotan: sin caja, con línea de luz al pasar el raton */
+.marcas-banda .marca-logo {
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: var(--r);
+  padding: 12px 20px;
+  margin: 0 6px;
+  opacity: .62;
+  filter: grayscale(1) brightness(2.4);
+  transition: opacity .3s ease, filter .35s ease, transform .3s var(--ease-suave);
+}
+.marcas-banda .marca-logo img { filter: none; }
+.marcas-banda .marca-logo:hover {
+  opacity: 1;
+  filter: grayscale(0) brightness(1);
+  transform: translateY(-3px);
+}
+.marcas-banda .marca-word { color: var(--blanco); }
+.marcas-banda .marca-logo .marca-word { text-shadow: 0 2px 18px rgba(0, 0, 0, .35); }
+
+/* --------------------------------------------------------------------------
+   Metricas a sangre: segundo momento oscuro, con numeros en escala display
+   -------------------------------------------------------------------------- */
+.metricas-banda {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(150deg, #052b16 0%, var(--verde-800) 55%, #06301a 100%);
+  color: var(--blanco);
+  padding: clamp(40px, 5vw, 72px) 0;
+}
+.metricas-banda::before {
+  content: "";
+  position: absolute;
+  inset: -30% -10%;
+  background:
+    radial-gradient(38% 46% at 18% 26%, rgba(123, 192, 67, .34), transparent 66%),
+    radial-gradient(34% 40% at 84% 74%, rgba(0, 166, 62, .40), transparent 68%);
+  filter: blur(18px);
+  pointer-events: none;
+}
+.metricas-banda::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.14'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  background-blend-mode: overlay;
+  pointer-events: none;
+}
+.metricas-banda > .contenedor { position: relative; z-index: 1; }
+.metricas-banda .metricas-rejilla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(18px, 2.4vw, 34px);
+}
+.metricas-banda .metrica { text-align: center; }
+.metricas-banda .metrica b {
+  display: block;
+  font-family: var(--fuente-titulo);
+  font-size: clamp(2.6rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.045em;
+  background: linear-gradient(120deg, var(--blanco) 18%, var(--verde-lima) 50%, var(--blanco) 82%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.metricas-banda .metrica span {
+  display: block;
+  margin-top: 10px;
+  font-size: .88rem;
+  color: rgba(255, 255, 255, .72);
+}
+@media (max-width: 860px) {
+  .metricas-banda .metricas-rejilla { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* --------------------------------------------------------------------------
+   Proceso con scroll horizontal fijo (escritorio)
+   Las cuatro fotos se quedan fijas y el bloque avanza al hacer scroll; en movil
+   y con "reducir movimiento" vuelve a ser la rejilla vertical de siempre.
+   El modo fijo necesita 4 columnas de 240px minimo mas los huecos: por eso el
+   corte esta en 1180px y no en 1024px (a 1024 se salia 38px de scroll lateral).
+   -------------------------------------------------------------------------- */
+.proceso-scroll { display: block; }
+.proceso-track {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 26px;
+}
+@media (min-width: 1180px) {
+  .proceso-scroll { height: 260vh; position: relative; }
+  .proceso-scroll .contenedor { position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+  .proceso-scroll .proceso-track { grid-template-columns: repeat(4, minmax(240px, 1fr)); }
+  .proceso-scroll .paso { opacity: .38; transform: translateY(16px) scale(.97); transition: opacity .5s ease, transform .6s var(--ease-suave); }
+  .proceso-scroll .paso.en-foco { opacity: 1; transform: none; }
+  .proceso-scroll .paso-linea { display: none; }
+  /* el bloque fijo se centra en el viewport: la seccion no lleva padding propio */
+  .seccion-proceso { padding-top: 0; padding-bottom: 0; }
+}
+@media (max-width: 1179px) {
+  .proceso-track { grid-template-columns: repeat(2, 1fr); }
+  .proceso-scroll .paso-linea { display: none; }
+  .proceso-guia { display: none; }
+  .proceso-scroll { height: auto; }
+}
+@media (max-width: 620px) {
+  .proceso-track { grid-template-columns: 1fr; }
+}
+/* La seccion del proceso no puede recortar (overflow): un ancestro con
+   overflow hidden anula el position: sticky del bloque. */
+.seccion-proceso { overflow: visible; }
+
+/* Guia de progreso: hace visible el avance del bloque fijo */
+.proceso-guia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: clamp(24px, 3vw, 40px);
+}
+.proceso-guia .pt {
+  width: 34px; height: 4px;
+  border-radius: 4px;
+  background: rgba(15, 36, 25, .16);
+  transition: background .4s ease, transform .4s var(--ease-suave);
+}
+.proceso-guia .pt.encendido { background: linear-gradient(90deg, var(--verde), var(--verde-lima)); transform: scaleY(1.6); }
+.proceso-guia .contador {
+  margin-left: 8px;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+/* Hero: titular grande pero que no empuje las metricas fuera de pantalla */
+.hero-inner { max-width: 880px; }
+h1 { font-size: clamp(2.5rem, 5.6vw, 4.2rem); }
+
+@media (prefers-reduced-motion: reduce) {
+  .proceso-scroll { height: auto; }
+  .proceso-guia { display: none; }
+}
+
+/* El shimmer deja el h2 en color tinta como respaldo; sobre fondos oscuros eso
+   es ilegible, asi que los titulos claros se reaffirman despues. */
+.cta-banda h2 { color: var(--blanco); }
+.alt-verde > .contenedor > .sec-head h2,
+.alt-verde > .contenedor > .sec-head h3,
+.alt-verde > .contenedor > .entradilla { color: var(--blanco); }
+.alt-verde > .contenedor > .sec-head .entradilla { color: rgba(255, 255, 255, .82); }
+/* pero las tarjetas de zona viven dentro con fondo blanco: sus titulos van oscuros */
+.zona-card h3, .zona-card b { color: var(--tinta); }
+.alt-verde .zona-card p, .alt-verde .zona-card .ruta { color: var(--gris); }
+
+/* El encabezado de marcas vive sobre blanco (debajo va la banda oscura) */
+.seccion:has(> .marcas-banda) .entradilla { color: var(--gris); }
+
+
+/* Menos aire entre secciones: 230pxawa de padding suma dejaba huecos muertos */
+.seccion { padding: clamp(56px, 6.6vw, 100px) 0; }
+.seccion-sm { padding: clamp(40px, 4.6vw, 70px) 0; }
+
+/* Correccion de alcance: .alt-verde solo Whitens los titulos de la PROPIA
+   seccion. Las tarjetas de zona viven dentro de ella con fondo blanco, asi que
+   un .alt-verde h3 global las dejaba con titulo blanco sobre blanco. */
+.alt-verde > .contenedor > .sec-head h2,
+.alt-verde > .contenedor > .sec-head h3,
+.alt-verde > .contenedor > .entradilla { color: var(--blanco); }
+.alt-verde > .contenedor > .sec-head .entradilla { color: rgba(255, 255, 255, .82); }
+.zona-card h3, .zona-card b { color: var(--tinta); }
+.alt-verde .zona-card p, .alt-verde .zona-card .ruta { color: var(--gris); }
+
+/* El encabezado de marcas vive sobre blanco (debajo va la banda oscura) */
+.seccion:has(> .marcas-banda) .entradilla { color: var(--gris); }
