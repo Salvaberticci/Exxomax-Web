@@ -576,7 +576,6 @@
     initOrbitas();
     animarContadores();
     initTiltCards();
-    initPageTransitions();
 
     var y = $("[data-anio]");
     if (y) y.textContent = new Date().getFullYear();
@@ -669,22 +668,6 @@
       });
     });
     observer.observe(document.body, { childList: true, subtree: true });
-  }
-
-  /* ---- Transición suave al salir de página ---- */
-  function initPageTransitions() {
-    document.addEventListener('click', function(e) {
-      var link = e.target.closest('a[href]');
-      if (!link) return;
-      var href = link.getAttribute('href');
-      /* Solo enlaces internos que no abran en nueva pestaña */
-      if (!href || href.startsWith('#') || href.startsWith('http') ||
-          href.startsWith('mailto') || href.startsWith('tel') ||
-          link.target === '_blank') return;
-      e.preventDefault();
-      document.body.classList.add('page-salida');
-      setTimeout(function() { window.location.href = href; }, 340);
-    });
   }
 
   function limiteCategorias() {

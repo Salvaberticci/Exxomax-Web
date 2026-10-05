@@ -1971,55 +1971,51 @@ body.saliendo #contenido {
 
 /* ======================================================= PREMIUM IMPACT PACK */
 
-/* 1. Transición suave al salir de página */
-.page-salida { animation: pageFade .35s ease forwards; }
-@keyframes pageFade { to { opacity: 0; transform: translateY(-10px) scale(.99); } }
-
 /* 2. Grano / textura noise en heroes (via SVG data-uri) */
 .hero::before { z-index: 1; mix-blend-mode: overlay; pointer-events: none; }
 .hero .contenedor { position: relative; z-index: 2; }
 
-/* 3. Shimmer animado en h2 de secciones blancas */
-.seccion h2, .seccion-sm h2, .sec-head h2 {
-  background: linear-gradient(100deg, var(--tinta) 0%, var(--tinta) 35%, var(--verde) 50%, var(--tinta) 65%, var(--tinta) 100%);
-  background-size: 300% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: h2Shimmer 9s linear infinite;
+/* 3. Degradado que recorre el h2: banda estrecha (8% del degradado, no del
+   texto) para que el brillo cruce las letras en vez de encenderlas todas */
+.seccion h2, .seccion-sm h2, .sec-head h2 { color: var(--tinta); }
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .seccion h2, .seccion-sm h2, .sec-head h2 {
+    background-image: linear-gradient(100deg,
+      var(--tinta) 0%, var(--tinta) 46%,
+      var(--verde) 49%, var(--verde-lima) 50%, var(--verde) 51%,
+      var(--tinta) 54%, var(--tinta) 100%);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: h2Shimmer 11s linear infinite;
+  }
 }
 .alt-verde h2, .hero h1, .cta-banda h2 {
   background: none !important;
   -webkit-text-fill-color: unset !important;
   animation: none !important;
 }
+/* con background-size 300% la posicion porcentual se mide sobre (ancho - 3xancho),
+   asi que el recorrido va de 150% a -50%: la banda entra por la derecha y sale
+   por la izquierda sin dejar el degradado */
 @keyframes h2Shimmer {
-  0%   { background-position: 300% 0; }
-  100% { background-position: -300% 0; }
+  0%   { background-position: 150% 0; }
+  100% { background-position: -50% 0; }
 }
 
-/* 4. Glow pulsante en botones primarios */
-.btn-primario { overflow: visible; }
-.btn-primario::after {
-  content: "";
-  position: absolute; inset: -4px;
-  border-radius: inherit;
-  background: radial-gradient(ellipse at center, rgba(123,192,67,.55) 0%, transparent 70%);
-  opacity: 0;
-  transition: opacity .3s ease;
-  z-index: -1;
-  filter: blur(8px);
-}
-.btn-primario:hover::after { opacity: 1; animation: btnGlow 1.8s ease-in-out infinite; }
+/* 4. Glow pulsante en botones primarios, en box-shadow: el barrido de luz de
+   .btn::after se conserva intacto (un ::after lo pisaba y lo hacia invisible) */
+.btn-primario:hover { animation: btnGlow 1.8s ease-in-out infinite; }
 @keyframes btnGlow {
-  0%,100% { transform: scale(1);   opacity: .6; }
-  50%      { transform: scale(1.1); opacity: 1;  }
+  0%, 100% { box-shadow: 0 14px 32px -8px rgba(0, 166, 62, .75), 0 0 0 0 rgba(123, 192, 67, .55); }
+  50%      { box-shadow: 0 18px 40px -8px rgba(0, 166, 62, .85), 0 0 24px 6px rgba(123, 192, 67, .38); }
 }
 
-/* 5. Tarjetas con perspectiva 3D lista para JS */
+/* 5. Las tarjetas usan preserve-3d para el efecto magnetico de app.js
+   (sin will-change: forzar una capa por tarjeta satura la GPU) */
 .cat-card, .conf-item, .paso, .vendedor-card {
   transform-style: preserve-3d;
-  will-change: transform;
 }
 
 /* 6. Línea pulsante antes del .sec-ojo */
