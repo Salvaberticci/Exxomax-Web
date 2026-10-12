@@ -32,6 +32,10 @@
   --r: 14px;
   --r-lg: 20px;
   --r-xl: 28px;
+  /* Radio unico para TODOS los componentes tipo tarjeta. Antes se mezclaban
+     14px, 20px y 28px, y el radio iba unas veces en la tarjeta y otras en la
+     foto: al ampliar la imagen en hover asomaban esquinas rectas. */
+  --r-card: 16px;
 
   /* sombra */
   --sombra: 0 1px 2px rgba(15, 36, 25, .05), 0 8px 24px -12px rgba(15, 36, 25, .18);
@@ -2446,3 +2450,81 @@ body.saliendo #contenido {
 /* Las tarjetas de zona viven dentro de la seccion verde pero con fondo blanco:
    sus titulos deben ir en tinta, no heredar el blanco de .alt-verde h3. */
 .alt-verde .zona-card h3 { color: var(--tinta); }
+
+/* ==========================================================================
+   SISTEMA DE RADIOS
+   Una sola medida para todas las tarjetas: --r-card (16px). El radio se pone
+   en la tarjeta Y en el contenedor de la imagen, para que el zoom del hover
+   nunca revele esquinas cuadradas. Las imagenes ya no rotan al pasar el raton.
+   ========================================================================== */
+.cat-card,
+.producto,
+.zona-card,
+.conf-item,
+.vendedor,
+.formulario { border-radius: var(--r-card); }
+.paso-foto { border-radius: var(--r-card); }
+
+/* solo las esquinas superiores: la foto va pegada al borde de la tarjeta y
+   si se redondearan las inferiores se veria un hueco blanco con el cuerpo */
+.cat-foto,
+.producto-foto { border-radius: var(--r-card) var(--r-card) 0 0; }
+
+/* la imagen solo se amplía: la rotacion de -3deg sacaba las esquinas del marco */
+.cat-card:hover .cat-foto img { transform: scale(1.08); }
+
+/* bloques grandes (banda CTA, tarjeta del hero, mapa, fichas de marca):
+   una segunda medida, coherente entre ellos */
+.cta-banda,
+.hero-card,
+.mapa-envoltura,
+.marca-ficha { border-radius: 24px; }
+
+/* ==========================================================================
+   AVISO DE FILTROS SIN INTERSECCION
+   Se avisa en vez de mostrar un muro vacio: los datos del catalogo permiten
+   combinar una categoria con una marca que no existe (84% de las parejas).
+   ========================================================================== */
+.aviso-filtros {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border: 1px solid #f3d9a4;
+  border-left: 4px solid #e0a33a;
+  border-radius: 12px;
+  background: #fdf8ec;
+  color: #6b4a12;
+  font-size: .88rem;
+  line-height: 1.5;
+}
+.aviso-filtros[hidden] { display: none; }
+.aviso-filtros .ico-aviso { flex: none; margin-top: 1px; }
+.aviso-filtros .ico-aviso svg { width: 19px; height: 19px; }
+.aviso-filtros b { color: #4d3509; }
+.aviso-filtros .acciones { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.aviso-filtros .btn-mini {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #e0a33a;
+  border-radius: 100px;
+  background: #fff;
+  color: #6b4a12;
+  font: inherit; font-size: .82rem; font-weight: 600;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+.aviso-filtros .btn-mini:hover { background: #e0a33a; color: #fff; }
+.aviso-filtros .btn-mini svg { width: 14px; height: 14px; }
+
+/* Facetas sin resultados con el resto de filtros activos: se atenúan para
+   dejar claro que esa combinacion no existe, en vez de llevarte a un muro. */
+.filtro-lista button.sin-datos,
+.filtro-select option.sin-datos { opacity: .42; }
+
+/* opcion "Sin marca" dentro del desplegable */
+#filtro-marca option.sinmarca { font-weight: 600; }
+
+/* la caja de cada marca en la banda animada es una tarjeta mas */
+.marca-logo { border-radius: var(--r-card); }

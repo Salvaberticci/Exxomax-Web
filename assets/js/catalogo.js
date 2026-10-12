@@ -31,17 +31,43 @@
 
   /* --------------------------------------------------------------- busqueda */
 
-  function filtrar() {
-    var q = vista.q ? normalizar(vista.q) : "";
+  /* Valor centinela para la opcion "Sin marca": 194 de los 1.081 productos no
+     tienen marca y antes quedaban inalcanzables al elegir cualquier marca. */
+  var SIN_MARCA = "__sin_marca__";
+
+  /* Aviso vigente cuando la combinacion categoria+marca no tiene interseccion */
+  var aviso = null;
+
+  function coincide(p, cat, marca, q) {
+    if (cat && p.g !== cat) return false;
+    if (marca) {
+      if (marca === SIN_MARCA) { if (p.b) return false; }
+      else if (p.b !== marca) return false;
+    }
+    if (q && p.q.indexOf(q) === -1) return false;
+    return true;
+  }
+
+  function filtrarCon(cat, marca, q) {
     var salida = [];
     for (var i = 0; i < TODOS.length; i++) {
-      var p = TODOS[i];
-      if (vista.cat && p.g !== vista.cat) continue;
-      if (vista.marca && p.b !== vista.marca) continue;
-      if (q && p.q.indexOf(q) === -1) continue;
-      salida.push(p);
+      if (coincide(TODOS[i], cat, marca, q)) salida.push(TODOS[i]);
     }
     return salida;
+  }
+
+  function contarCon(cat, marca, q) {
+    var n = 0;
+    for (var i = 0; i < TODOS.length; i++) {
+      if (coincide(TODOS[i], cat, marca, q)) n++;
+    }
+    return n;
+  }
+
+  function normalizarQ() { return vista.q ? normalizar(vista.q) : ""; }
+
+  function filtrar() {
+    return filtrarCon(vista.cat, vista.marca, normalizarQ());
   }
 
   function ordenar(lista) {
@@ -106,20 +132,72 @@
     var cont = $("#chips-activos");
     var chips = [];
     if (vista.q) chips.push({ k: "q", t: '“' + vista.q + '”' });
-    if (vista.cat) {
-      var c = CATEGORIAS.filter(function (x) { return x.id === vista.cat; })[0];
-      chips.push({ k: "cat", t: c ? c.nombre : vista.cat });
-    }
-    if (vista.marca) chips.push({ k: "marca", t: vista.marca });
+    if (vista.cat) chips.push({ k: "cat", t: nombreCategoria(vista.cat) });
+    if (vista.marca) chips.push({ k: "marca", t: textoMarca(vista.marca) });
     if (!chips.length) { cont.innerHTML = ""; return; }
     cont.innerHTML = chips.map(function (c) {
       return '<span class="chip">' + esc(c.t) + '<button type="button" data-quitar="' + c.k + '" aria-label="Quitar filtro">×</button></span>';
     }).join("") + '<button type="button" class="btn btn-sm btn-borde" data-limpiar-todo>Limpiar todo</button>';
   }
 
+  /* Nombre legible de la marca activa (incluye el caso "Sin marca") */
+  function textoMarca(m) {
+    return m === SIN_MARCA ? "Sin marca" : m;
+  }
+
+  function nombreCategoria(id) {
+    var c = CATEGORIAS.filter(function (x) { return x.id === id; })[0];
+    return c ? c.nombre : id;
+  }
+
+  /* Cuando categoria y marca no tienen nada en comun no se muestra un muro
+     vacio: se muestra el filtro mas amplio (el que mas productos aporta) y se
+     explica cual se esta aplicando, con un boton para quitar el otro. */
+  function resolverAviso() {
+    aviso = null;
+    var q = normalizarQ();
+    if (!vista.cat || !vista.marca) return filtrarCon(vista.cat, vista.marca, q);
+    var base = filtrarCon(vista.cat, vista.marca, q);
+    if (base.length) return base;
+
+    var nCat = contarCon(vista.cat, "", q);
+    var nMarca = contarCon("", vista.marca, q);
+
+    if (nMarca >= nCat && nMarca > 0) {
+      aviso = { aplica: "marca", otro: "cat", n: nMarca };
+      return filtrarCon("", vista.marca, q);
+    }
+    if (nCat > 0) {
+      aviso = { aplica: "cat", otro: "marca", n: nCat };
+      return filtrarCon(vista.cat, "", q);
+    }
+    return base;
+  }
+
+  function pintarAviso() {
+    var cont = $("#aviso-filtros");
+    if (!cont) return;
+    if (!aviso) { cont.hidden = true; cont.innerHTML = ""; return; }
+
+    var aplica = aviso.aplica === "marca" ? textoMarca(vista.marca) : nombreCategoria(vista.cat);
+    var otro = aviso.otro === "marca" ? textoMarca(vista.marca) : nombreCategoria(vista.cat);
+    var aplicaMarca = aviso.aplica === "marca";
+
+    cont.innerHTML =
+      '<span class="ico-aviso">' + ico("i-reloj", "") + "</span>" +
+      "<div><b>No hay productos que cumplan los dos filtros a la vez.</b> " +
+      "Estás viendo los de <b>" + esc(aplica) + "</b> (" + aviso.n.toLocaleString("es-VE") + ")." +
+      '<div class="acciones">' +
+      '<button type="button" class="btn-mini" data-quitar-filtro="' + aviso.otro + '">' +
+      "Quitar el filtro de " + esc(aplicaMarca ? "categoría" : "marca") + "</button>" +
+      '<button type="button" class="btn-mini" data-quitar-filtro="__todos__">Quitar los dos</button>' +
+      "</div></div>";
+    cont.hidden = false;
+  }
+
   function render() {
     var cont = $("#rejilla");
-    resultados = ordenar(filtrar());
+    resultados = ordenar(resolverAviso());
 
     var desde = (pagina - 1) * porPagina;
     var lote = resultados.slice(desde, desde + porPagina);
@@ -129,6 +207,7 @@
       : "<b>" + resultados.length.toLocaleString("es-VE") + "</b> de " + TODOS.length.toLocaleString("es-VE") + " productos";
 
     pintarChips();
+    pintarAviso();
 
     if (!lote.length) {
       cont.innerHTML = '<div class="vacio" style="grid-column:1/-1">' +
@@ -147,18 +226,45 @@
 
   /* --------------------------------------------------------------- filtros */
 
+  /* Las listas se construyen una sola vez y despues solo se actualizan los
+     contadores: rehacer el <select> en cada pulsacion lo cerraria mientras se
+     esta usando. Cada contador respeta el OTRO filtro activo, asi se ve de
+     antemano que una combinacion no existe en vez de descubrirlo al aplicarla. */
   function pintarFiltros() {
     var cont = $("#filtro-categorias");
     cont.innerHTML = CATEGORIAS.map(function (c) {
       return '<li><button type="button" data-cat="' + esc(c.id) + '">' +
-        '<span>' + esc(c.nombre) + '</span><span class="n">' + c.total + "</span></button></li>";
+        '<span>' + esc(c.nombre) + '</span><span class="n">0</span></button></li>';
     }).join("");
 
     var sel = $("#filtro-marca");
     sel.innerHTML = '<option value="">Todas las marcas</option>' +
       MARCAS.map(function (m) {
-        return '<option value="' + esc(m.n) + '">' + esc(m.n) + " (" + m.t + ")</option>";
-      }).join("");
+        return '<option value="' + esc(m.n) + '">' + esc(m.n) + " (0)</option>";
+      }).join("") +
+      '<option value="' + SIN_MARCA + '" class="sinmarca">Sin marca (0)</option>';
+
+    actualizarContadores();
+  }
+
+  function actualizarContadores() {
+    var q = normalizarQ();
+
+    $$("#filtro-categorias button").forEach(function (b) {
+      var id = b.getAttribute("data-cat");
+      var n = contarCon(id, vista.marca, q);
+      b.querySelector(".n").textContent = n.toLocaleString("es-VE");
+      b.classList.toggle("sin-datos", n === 0);
+    });
+
+    Array.prototype.forEach.call($("#filtro-marca").options, function (op) {
+      var v = op.value;
+      if (!v) return;
+      var n = contarCon(vista.cat, v, q);
+      var base = v === SIN_MARCA ? "Sin marca" : v;
+      op.textContent = base + " (" + n.toLocaleString("es-VE") + ")";
+      op.classList.toggle("sin-datos", n === 0);
+    });
   }
 
   function refrescarFiltros() {
@@ -166,6 +272,7 @@
       b.classList.toggle("on", b.getAttribute("data-cat") === vista.cat);
     });
     $("#filtro-marca").value = vista.marca;
+    actualizarContadores();
   }
 
   function aplicar() {
@@ -250,6 +357,19 @@
         var k = q.getAttribute("data-quitar");
         vista[k] = k === "q" ? "" : "";
         if (k === "q") $("#buscar").value = "";
+        aplicar();
+        return;
+      }
+      /* botones del aviso: "Quitar el filtro de X" / "Quitar los dos" */
+      var af = e.target.closest("[data-quitar-filtro]");
+      if (af) {
+        var cual = af.getAttribute("data-quitar-filtro");
+        if (cual === "__todos__") {
+          vista.cat = "";
+          vista.marca = "";
+        } else {
+          vista[cual] = "";
+        }
         aplicar();
         return;
       }
