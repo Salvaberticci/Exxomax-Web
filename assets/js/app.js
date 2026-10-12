@@ -345,20 +345,179 @@
     }).join("");
   }
 
+  /* Metadata descriptiva para las zonas comerciales */
+  var ZONAS_INFO = {
+    "TRUJILLO": {
+      nombre: "Trujillo",
+      slug: "trujillo",
+      desc: "Sede principal Valera, Trujillo y municipios del estado",
+    },
+    "BOCONO": {
+      nombre: "Boconó",
+      slug: "bocono",
+      desc: "Boconó y municipios andinos del estado Trujillo",
+    },
+    "MERIDA": {
+      nombre: "Mérida",
+      slug: "merida",
+      desc: "Mérida capital, Libertador y eje metropolitano",
+    },
+    "TACHIRA": {
+      nombre: "Táchira",
+      slug: "tachira",
+      desc: "San Cristóbal, frontera y municipios del estado",
+    },
+    "TOCUYO-LARA": {
+      nombre: "Tocuyo - Lara",
+      slug: "tocuyo-lara",
+      desc: "El Tocuyo, municipio Morán y centroccidente",
+    },
+    "CARORA": {
+      nombre: "Carora (Lara)",
+      slug: "carora",
+      desc: "Carora, municipio Torres y eje larense",
+    },
+    "ZULIA": {
+      nombre: "Zulia",
+      slug: "zulia",
+      desc: "Maracaibo, Costa Oriental y región occidental",
+    },
+  };
+
   function pintarVendedores() {
-    var cont = $("[data-vendedores]");
-    if (!cont) return;
-    cont.innerHTML = (window.EXXOMAX_VENDEDORES || []).map(function (x) {
-      var ini = x.nombre.split(" ").filter(function (p) { return p.length > 2; })[0] || x.nombre.charAt(0);
-      var wa = "https://wa.me/" + numeroWa(x.tel);
-      return '<article class="vendedor">' +
-        '<div class="inicial">' + ini.charAt(0).toUpperCase() + "</div>" +
-        '<div class="datos"><b>' + x.nombre + "</b>" +
-        '<a href="' + wa + '" target="_blank" rel="noopener">' +
-        window.EXXOMAX_ico("i-whatsapp", "ico-sm") + x.tel + "</a></div>" +
-        '<a class="btn-wa" href="' + wa + '" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a ' + x.nombre + '">' +
-        window.EXXOMAX_ico("i-whatsapp", "") + "</a></article>";
-    }).join("");
+    var conts = $$("[data-vendedores]");
+    if (!conts.length) return;
+
+    var vendedores = window.EXXOMAX_VENDEDORES || [];
+    if (!vendedores.length) return;
+
+    // Agrupar vendedores preservando el orden de zonas del arreglo
+    var gruposMap = {};
+    var ordenZonas = [];
+    vendedores.forEach(function (v) {
+      var z = v.zona || "OTRAS";
+      if (!gruposMap[z]) {
+        gruposMap[z] = [];
+        ordenZonas.push(z);
+      }
+      gruposMap[z].push(v);
+    });
+
+    conts.forEach(function (cont) {
+      cont.classList.remove("grid", "g-3");
+      cont.classList.add("vendedores-contenedor");
+
+      // Barra de filtros interactiva por zona
+      var htmlFiltros = '<div class="vendedores-filtros" role="tablist" aria-label="Filtrar por zona">' +
+        '<button type="button" class="filtro-btn activo" data-filtro="todos" role="tab" aria-selected="true">' +
+        '<span class="fb-txt">Todas las zonas</span>' +
+        '<span class="fb-badge">' + vendedores.length + '</span>' +
+        '</button>' +
+        ordenZonas.map(function (zKey) {
+          var info = ZONAS_INFO[zKey] || { nombre: zKey, slug: normalizar(zKey).replace(/\s+/g, "-") };
+          var cant = gruposMap[zKey].length;
+          return '<button type="button" class="filtro-btn" data-filtro="' + info.slug + '" role="tab" aria-selected="false">' +
+            '<span class="fb-txt">' + esc(info.nombre) + '</span>' +
+            '<span class="fb-badge">' + cant + '</span>' +
+            '</button>';
+        }).join("") +
+        '</div>';
+
+      // Grupos por cada zona
+      var htmlGrupos = '<div class="vendedores-grupos">' +
+        ordenZonas.map(function (zKey) {
+          var info = ZONAS_INFO[zKey] || { nombre: zKey, slug: normalizar(zKey).replace(/\s+/g, "-"), desc: "Atención comercial en " + zKey };
+          var lista = gruposMap[zKey];
+          var plural = lista.length === 1 ? "vendedor activo" : "vendedores activos";
+
+          var cardsHtml = lista.map(function (x) {
+            var partes = x.nombre.split(" ").filter(function (p) { return p.length > 2; });
+            var ini = (partes[0] || x.nombre).charAt(0).toUpperCase();
+            var telWa = numeroWa(x.tel);
+            var mensajeWa = encodeURIComponent("Hola " + x.nombre + ", le contacto desde la página web de EXXOMAX para solicitar información y cotización en la zona " + (info.nombre || zKey) + ".");
+            var linkWa = "https://wa.me/" + telWa + "?text=" + mensajeWa;
+            var linkWaLimpio = "https://wa.me/" + telWa;
+
+            var ciHtml = (x.cedula && x.cedula !== "0")
+              ? '<span class="v-tag ci">' + window.EXXOMAX_ico("i-documento", "ico-sm") + ' C.I. ' + esc(x.cedula) + '</span>'
+              : '';
+
+            var correoHtml = x.correo
+              ? '<a class="v-contacto-item mail" href="mailto:' + esc(x.correo) + '" title="Escribir a ' + esc(x.correo) + '">' +
+                '<span class="v-ico-box mail">' + window.EXXOMAX_ico("i-mail", "ico-sm") + '</span>' +
+                '<div class="v-contacto-txt"><small>Correo</small><b>' + esc(x.correo) + '</b></div>' +
+                '</a>'
+              : '';
+
+            return '<article class="vendedor" data-zona-slug="' + info.slug + '">' +
+              '<div class="vendedor-cabecera">' +
+                '<div class="inicial" aria-hidden="true">' + ini + '</div>' +
+                '<div class="vendedor-titular">' +
+                  '<div class="vendedor-tags">' +
+                    '<span class="v-tag zona">' + window.EXXOMAX_ico("i-ubicacion", "ico-sm") + ' ' + esc(info.nombre) + '</span>' +
+                    ciHtml +
+                  '</div>' +
+                  '<h3 class="vendedor-nombre">' + esc(x.nombre) + '</h3>' +
+                '</div>' +
+              '</div>' +
+              '<div class="vendedor-contactos">' +
+                '<a class="v-contacto-item tel" href="' + linkWaLimpio + '" target="_blank" rel="noopener">' +
+                  '<span class="v-ico-box wa">' + window.EXXOMAX_ico("i-whatsapp", "ico-sm") + '</span>' +
+                  '<div class="v-contacto-txt"><small>Teléfono / WhatsApp</small><b>' + esc(x.tel) + '</b></div>' +
+                '</a>' +
+                correoHtml +
+              '</div>' +
+              '<div class="vendedor-footer">' +
+                '<a class="btn-wa-directo" href="' + linkWa + '" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a ' + esc(x.nombre) + '">' +
+                  window.EXXOMAX_ico("i-whatsapp", "ico-sm") +
+                  '<span>Contactar por WhatsApp</span>' +
+                '</a>' +
+              '</div>' +
+            '</article>';
+          }).join("");
+
+          return '<section class="vendedores-grupo" data-grupo="' + info.slug + '">' +
+            '<div class="vendedores-grupo-head">' +
+              '<div class="vgh-info">' +
+                '<span class="vgh-ico">' + window.EXXOMAX_ico("i-ubicacion", "") + '</span>' +
+                '<div>' +
+                  '<h3>' + esc(info.nombre) + '</h3>' +
+                  (info.desc ? '<p>' + esc(info.desc) + '</p>' : '') +
+                '</div>' +
+              '</div>' +
+              '<span class="vgh-contador">' + lista.length + ' ' + plural + '</span>' +
+            '</div>' +
+            '<div class="grid g-3">' + cardsHtml + '</div>' +
+          '</section>';
+        }).join("") +
+        '</div>';
+
+      cont.innerHTML = htmlFiltros + htmlGrupos;
+
+      // Listeners de los botones de filtro
+      var botones = $$(".filtro-btn", cont);
+      var grupos = $$(".vendedores-grupo", cont);
+
+      botones.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var target = btn.getAttribute("data-filtro");
+          botones.forEach(function (b) {
+            b.classList.remove("activo");
+            b.setAttribute("aria-selected", "false");
+          });
+          btn.classList.add("activo");
+          btn.setAttribute("aria-selected", "true");
+
+          grupos.forEach(function (g) {
+            if (target === "todos" || g.getAttribute("data-grupo") === target) {
+              g.style.display = "";
+            } else {
+              g.style.display = "none";
+            }
+          });
+        });
+      });
+    });
   }
 
   /* ------------------------------------------------------------ categorias */
@@ -480,7 +639,7 @@
     { i: "i-certificado", n: "1.081", t: "referencias activas" },
     { i: "i-capas", n: "101", t: "marcas en catálogo" },
     { i: "i-camion", n: "4", t: "estados con ruta" },
-    { i: "i-usuarios", n: "12", t: "vendedores en zona" },
+    { i: "i-usuarios", n: "11", t: "vendedores en zona" },
   ];
 
   function pintarConfianza() {

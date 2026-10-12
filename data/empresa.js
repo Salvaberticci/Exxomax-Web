@@ -76,20 +76,100 @@ window.EXXOMAX_ZONAS = [
 ];
 
 /* -------------------------------------------------------------- vendedores -- */
+/* Lista de vendedores activos clasificados por zona / estado */
 window.EXXOMAX_VENDEDORES = [
-  { nombre: "Ricardo Enrique Briceño Valero",  tel: "0426-6706262" },
-  { nombre: "Ricardo Yunot Rosillo Duarte",      tel: "0424-7159335" },
-  { nombre: "Robert Rodolfo Pacheco Uzcátegui",  tel: "0414-3508167" },
-  { nombre: "Naudy Antonio Vegas",               tel: "0412-8252959" },
-  { nombre: "Jesús Alberto Bastidas Briceno",    tel: "0424-7528411" },
-  { nombre: "Evelin Osneidy Valero Perez",       tel: "0412-6838908" },
-  { nombre: "Eusebio Antonio García Justo",      tel: "0412-7647611" },
-  { nombre: "Gerardo José Peña Bandre",          tel: "0424-2190011" },
-  { nombre: "Fernando Rafael Alvarado Colmenarez", tel: "0414-5069858" },
-  { nombre: "Alirio Jesus Pineda Hernandez",     tel: "0424-7263106" },
-  { nombre: "Carmen Valero",                     tel: "0414-7266782" },
-  { nombre: "Evelyn Quintero",                   tel: "0412-0210032" },
+  /* --- TRUJILLO --- */
+  {
+    nombre: "Ricardo Enrique Briceño Valero",
+    cedula: "10.402.259",
+    correo: "ricardobriceno1970@gmail.com",
+    tel: "0426-6706262",
+    zona: "TRUJILLO",
+  },
+  {
+    nombre: "Eusebio Antonio García Justo",
+    cedula: "15.430.782",
+    correo: "antonio.1982.ega@gmail.com",
+    tel: "0412-7647611",
+    zona: "TRUJILLO",
+  },
+  {
+    nombre: "Gerardo José Peña Bandre",
+    cedula: "12.688.865",
+    correo: "gerarjpb317@gmail.com",
+    tel: "0424-2190011",
+    zona: "TRUJILLO",
+  },
+  {
+    nombre: "Gabriel Leonardo Rodríguez Díaz",
+    cedula: "30.140.952",
+    correo: "",
+    tel: "0412-0225791",
+    zona: "TRUJILLO",
+  },
+
+  /* --- BOCONO --- */
+  {
+    nombre: "Alirio Jesús Pineda Hernández",
+    cedula: "19.185.319",
+    correo: "",
+    tel: "0424-7263106",
+    zona: "BOCONO",
+  },
+
+  /* --- MERIDA --- */
+  {
+    nombre: "Robert Rodolfo Pacheco Uzcátegui",
+    cedula: "19.422.138",
+    correo: "robertpach@gmail.com",
+    tel: "0414-3508167",
+    zona: "MERIDA",
+  },
+  {
+    nombre: "Evelyn Quintero",
+    cedula: "16.657.330",
+    correo: "",
+    tel: "0412-0210032",
+    zona: "MERIDA",
+  },
+
+  /* --- TACHIRA --- */
+  {
+    nombre: "Carmen Valero",
+    cedula: "",
+    correo: "VALEROCARMEN530@GMAIL.COM",
+    tel: "0414-7266782",
+    zona: "TACHIRA",
+  },
+
+  /* --- TOCUYO-LARA --- */
+  {
+    nombre: "Naudy Antonio Vegas",
+    cedula: "18.432.736",
+    correo: "vegasnaudy629@gmail.com",
+    tel: "0412-8252959",
+    zona: "TOCUYO-LARA",
+  },
+
+  /* --- CARORA --- */
+  {
+    nombre: "Fernando Rafael Alvarado Colmenarez",
+    cedula: "15.674.312",
+    correo: "alvaradofernando249@gmail.com",
+    tel: "0414-5069858",
+    zona: "CARORA",
+  },
+
+  /* --- ZULIA --- */
+  {
+    nombre: "Jesús Alberto Bastidas Briceño",
+    cedula: "10.039.242",
+    correo: "Jesusbastidas1869@gmail.com",
+    tel: "0424-7528411",
+    zona: "ZULIA",
+  },
 ];
+
 
 /* ------------------------------------------------------------- categorias -- */
 /* icono: id del sprite en assets/js/iconos.js
@@ -146,7 +226,7 @@ window.EXXOMAX_LOGOS_MARCAS = {
 /* ------------------------------------------------------------- metricas -- */
 window.EXXOMAX_METRICAS = [
   { valor: "1.081", label: "productos en catálogo" },
-  { valor: "293",  label: "productos marca propia MEGAPRO" },
+  { valor: "101",   label: "marcas autorizadas" },
   { valor: "4",    label: "estados con despacho" },
-  { valor: "12",   label: "vendedores en la zona" },
+  { valor: "11",   label: "vendedores en la zona" },
 ];

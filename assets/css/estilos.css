@@ -1540,43 +1540,378 @@ select.filtro-select {
 
 /* -------------------------------------------------------------- vendedores */
 
+.vendedores-contenedor {
+  width: 100%;
+}
+
+/* Barra de filtros por zona */
+.vendedores-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.filtro-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  background: var(--blanco);
+  border: 1.5px solid var(--borde);
+  border-radius: 100px;
+  color: var(--tinta-2);
+  font-family: var(--fuente-titulo);
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .24s var(--ease-suave);
+  box-shadow: 0 1px 3px rgba(15, 36, 25, .04);
+}
+
+.filtro-btn:hover {
+  border-color: var(--verde);
+  color: var(--verde-700);
+  background: var(--verde-50);
+  transform: translateY(-2px);
+}
+
+.filtro-btn.activo {
+  background: linear-gradient(135deg, var(--verde), var(--verde-700));
+  border-color: transparent;
+  color: var(--blanco);
+  box-shadow: 0 4px 16px rgba(0, 166, 62, .32);
+}
+
+.filtro-btn .fb-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 100px;
+  background: var(--verde-50);
+  color: var(--verde-800);
+  font-size: .74rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: all .2s;
+}
+
+.filtro-btn.activo .fb-badge {
+  background: rgba(255, 255, 255, .25);
+  color: var(--blanco);
+}
+
+/* Grupos por cada zona */
+.vendedores-grupos {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.vendedores-grupo {
+  transition: opacity .3s ease;
+}
+
+.vendedores-grupo-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 14px;
+  margin-bottom: 22px;
+  border-bottom: 2px solid var(--borde);
+}
+
+.vgh-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.vgh-ico {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(140deg, var(--verde-50), var(--verde-100));
+  color: var(--verde-700);
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+
+.vgh-ico svg {
+  width: 22px;
+  height: 22px;
+}
+
+.vgh-info h3 {
+  margin: 0;
+  font-size: 1.32rem;
+  color: var(--tinta);
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+
+.vgh-info p {
+  margin: 2px 0 0;
+  font-size: .88rem;
+  color: var(--gris);
+}
+
+.vgh-contador {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 100px;
+  background: var(--verde-50);
+  border: 1px solid var(--verde-100);
+  color: var(--verde-800);
+  font-size: .82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Tarjeta individual de vendedor */
 .vendedor {
   background: var(--blanco);
   border: 1px solid var(--borde);
-  border-radius: var(--r);
-  padding: 20px;
+  border-radius: var(--r-lg);
+  padding: 24px;
   box-shadow: var(--sombra);
-  display: flex; align-items: center; gap: 15px;
-  transition: transform .2s, box-shadow .2s, border-color .2s;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+  transition: transform .26s var(--ease-suave), box-shadow .26s ease, border-color .26s ease;
+  overflow: hidden;
 }
-.vendedor:hover { transform: translateY(-3px); box-shadow: var(--sombra-md); border-color: var(--verde-100); }
+
+.vendedor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--verde), var(--verde-lima));
+  opacity: 0;
+  transition: opacity .26s ease;
+}
+
+.vendedor:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--sombra-md);
+  border-color: var(--verde-100);
+}
+
+.vendedor:hover::before {
+  opacity: 1;
+}
+
+.vendedor-cabecera {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
 .vendedor .inicial {
-  width: 50px; height: 50px; border-radius: 50%; flex: none;
-  background: linear-gradient(140deg, var(--verde), var(--verde-700));
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  flex: none;
+  background: linear-gradient(140deg, var(--verde), var(--verde-800));
   color: var(--blanco);
-  display: grid; place-items: center;
-  font-family: var(--fuente-titulo); font-weight: 600; font-size: 1.05rem;
+  display: grid;
+  place-items: center;
+  font-family: var(--fuente-titulo);
+  font-weight: 700;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 14px rgba(0, 166, 62, .25);
 }
-.vendedor .datos { min-width: 0; flex: 1; }
-.vendedor .datos b {
-  display: block; color: var(--tinta); font-size: .93rem; font-weight: 600;
-  line-height: 1.3;
-  overflow: hidden; text-overflow: ellipsis;
+
+.vendedor-titular {
+  min-width: 0;
+  flex: 1;
 }
-.vendedor .datos a {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: .84rem; color: var(--verde); font-weight: 600;
-  margin-top: 4px;
+
+.vendedor-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
 }
-.vendedor .datos a:hover { text-decoration: underline; }
-.vendedor .btn-wa {
-  width: 42px; height: 42px; border-radius: 12px; flex: none;
-  background: #25d366; color: var(--blanco);
-  display: grid; place-items: center;
-  transition: transform .2s, background .2s;
+
+.v-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: .72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  letter-spacing: .02em;
 }
-.vendedor .btn-wa:hover { transform: scale(1.08); background: #1eb857; }
-.vendedor .btn-wa svg { width: 21px; height: 21px; }
+
+.v-tag svg {
+  width: 12px;
+  height: 12px;
+}
+
+.v-tag.zona {
+  background: var(--verde-50);
+  color: var(--verde-800);
+  border: 1px solid var(--verde-100);
+  text-transform: uppercase;
+}
+
+.v-tag.ci {
+  background: #f3f6f4;
+  color: var(--tinta-2);
+  border: 1px solid var(--borde);
+}
+
+.vendedor-nombre {
+  margin: 0;
+  font-size: .98rem;
+  font-weight: 700;
+  color: var(--tinta);
+  line-height: 1.32;
+  word-wrap: break-word;
+}
+
+/* Contactos (Teléfono / Correo) */
+.vendedor-contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 14px;
+  background: var(--hueso);
+  border: 1px solid var(--borde);
+  border-radius: var(--r);
+}
+
+.v-contacto-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--tinta-2);
+  transition: color .2s ease;
+  min-width: 0;
+}
+
+.v-contacto-item:hover {
+  color: var(--verde-700);
+}
+
+.v-ico-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  flex: none;
+  display: grid;
+  place-items: center;
+}
+
+.v-ico-box svg {
+  width: 16px;
+  height: 16px;
+}
+
+.v-ico-box.wa {
+  background: rgba(37, 211, 102, .12);
+  color: #128c7e;
+  border: 1px solid rgba(37, 211, 102, .25);
+}
+
+.v-ico-box.mail {
+  background: var(--verde-50);
+  color: var(--verde-700);
+  border: 1px solid var(--verde-100);
+}
+
+.v-contacto-txt {
+  min-width: 0;
+  flex: 1;
+}
+
+.v-contacto-txt small {
+  display: block;
+  font-size: .68rem;
+  color: var(--gris);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .03em;
+  margin-bottom: 1px;
+}
+
+.v-contacto-txt b {
+  display: block;
+  font-size: .84rem;
+  color: var(--tinta);
+  font-weight: 600;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v-contacto-item:hover .v-contacto-txt b {
+  color: var(--verde-700);
+}
+
+/* Botón de acción directa WhatsApp */
+.vendedor-footer {
+  margin-top: auto;
+}
+
+.btn-wa-directo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #25d366, #1eb857);
+  color: var(--blanco);
+  border-radius: 100px;
+  font-family: var(--fuente-titulo);
+  font-size: .88rem;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, .32);
+  transition: transform .22s var(--ease-suave), box-shadow .22s ease, background .22s ease;
+}
+
+.btn-wa-directo svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.btn-wa-directo:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #1eb857, #159c47);
+  box-shadow: 0 8px 22px rgba(37, 211, 102, .48);
+  color: var(--blanco);
+}
+
+@media (max-width: 768px) {
+  .vendedores-grupo-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .vendedores-filtros {
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .filtro-btn {
+    flex: none;
+  }
+}
 
 /* --------------------------------------------------------------- contacto */
 
