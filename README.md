@@ -20,11 +20,10 @@ catálogo usa JavaScript y funciona igual (sólo algunos navegadores bloquean
 ## Estructura
 
     index.html          Portada: hero centrado con métricas animadas,
-                        carrusel de marcas, alianza, misión/visión, objetivos,
-                        portafolio de categorías con foto, fichas de marcas,
-                        proceso con fotos, cobertura, CTA
-    nosotros.html       Historia, alianza Hierromax, misión, visión, objetivos,
-                        compromisos y proceso con fotos
+                        carrusel de marcas, proceso, cobertura, CTA y
+                        portafolio de categorías con foto
+    nosotros.html       Historia, quiénes somos, pilares, misión, visión,
+                        objetivos, compromisos y proceso con fotos
     catalogo.html       1.081 productos con buscador, filtros y paginación
     cobertura.html      Mapa de zonas + cartera de vendedores
     contacto.html       Datos de la empresa, formulario y vendedores

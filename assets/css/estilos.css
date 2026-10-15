@@ -790,45 +790,33 @@ a, button { cursor: none; }
 }
 .lista-check strong { color: var(--tinta); font-weight: 600; }
 
-.marco-alianza {
+/* Tarjeta de los pilares de la sección "Quiénes somos" */
+.marco-pilares {
   background: linear-gradient(150deg, var(--verde-50), var(--blanco));
   border: 1px solid var(--verde-100);
-  border-radius: var(--r-xl);
+  border-radius: var(--r-card);
   padding: 44px;
   position: relative;
   overflow: hidden;
 }
-.marco-alianza::after {
+.marco-pilares::after {
   content: "";
   position: absolute; right: -60px; bottom: -60px;
   width: 200px; height: 200px; border-radius: 50%;
   background: radial-gradient(circle, rgba(0,166,62,.12), transparent 70%);
 }
-.marca-aliada {
-  display: flex; align-items: center; gap: 16px;
-  padding: 18px 22px;
-  background: var(--blanco);
-  border-radius: var(--r);
-  box-shadow: var(--sombra);
-  margin-top: 14px;
+.marco-pilares .sec-ojo,
+.marco-pilares .lista-check { position: relative; z-index: 1; }
+/* sobre el degradado verde el verde puro se queda en 3:1; este tono llega a 5.5:1 */
+.marco-pilares .sec-ojo { color: var(--verde-700); }
+.marco-pilares-titulo {
+  font-size: 1.34rem;
+  letter-spacing: -.022em;
+  margin-bottom: 4px;
 }
-.marca-aliada b {
-  font-family: var(--fuente-titulo);
-  font-size: 1.05rem; letter-spacing: .02em;
-  color: var(--verde-800);
-}
-.marca-aliada small { display: block; color: var(--gris); font-size: .78rem; }
-.marca-aliada .pt {
-  width: 44px; height: 44px; border-radius: 12px; flex: none;
-  display: grid; place-items: center;
-  font-family: var(--fuente-titulo); font-weight: 700; font-size: 1.1rem;
-  background: var(--verde); color: var(--blanco);
-}
-.marca-aliada .pt.alt { background: var(--verde-800); }
-.marca-mas {
-  margin-left: auto; font-size: .72rem; font-weight: 700;
-  color: var(--verde); letter-spacing: .1em; text-transform: uppercase;
-}
+.marco-pilares .lista-check { margin-top: 18px; }
+.marco-pilares .lista-check li { margin-bottom: 16px; }
+.marco-pilares .lista-check li:last-child { margin-bottom: 0; }
 
 /* ------------------------------------------------------ mision / vision */
 
@@ -2257,7 +2245,7 @@ body.saliendo #contenido {
   .split { grid-template-columns: 1fr; gap: 36px; }
   .g-3 { grid-template-columns: 1fr; }
   .cta-banda { padding: 36px 28px; }
-  .marco-alianza { padding: 30px; }
+  .marco-pilares { padding: 30px; }
   .mv { padding: 30px 28px; }
   .formulario { padding: 26px 22px; }
   .campo-fila { grid-template-columns: 1fr; }
