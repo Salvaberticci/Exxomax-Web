@@ -2549,22 +2549,9 @@ body.saliendo #contenido {
    todo con animation-duration .01ms y el sitio se quedaba sin ningun efecto. */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  #contenido { animation: none !important; }
-  body.saliendo #contenido { transition: none !important; }
-  .js .revelar,
-  .js .revelar-izq,
-  .js .revelar-der,
-  .js .revelar-escala,
-  .js .revelar-blur,
-  .js .revelar-voltear { opacity: 1; transform: none; filter: none; transition: none !important; }
-  .hero::after, .hero-insignia, .hero-anillo, .hero h1 .destacado,
-  .sec-orbe, .palabra { animation: none !important; }
-  /* las herramientas del hero se muestran siempre: la animacion foto-in solo
-     aporta el movimiento de entrada, nunca la visibilidad */
-  .hero-foto { animation: none !important; opacity: 1 !important; }
-  .sec-orbe { opacity: .6; }
-  .palabra { opacity: 1; transform: none; }
-  .pista { animation-duration: 120s !important; }
+  /* Mantenemos las transiciones suaves activas para que los bloques al hacer scroll
+     aparezcan con fluidez visual en todos los navegadores y perfiles de Windows */
+  .pista { animation-duration: 60s !important; }
 }
 
 /* ======================================================= TITULOS SOBRE VERDE

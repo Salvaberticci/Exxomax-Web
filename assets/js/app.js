@@ -91,8 +91,6 @@
   /* ---------------------------------------------------- parallax general */
 
   function parallaxHerramientas() {
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
     var items = $$('[data-parallax], [data-parallax-hero]');
     if (!items.length) return;
 
@@ -714,7 +712,7 @@
      externos (WhatsApp, tel:, mailto:) y los anclajes se saltan la transición. */
   function transicionesPagina() {
     var saliendo = false;
-    var anima = !window.matchMedia || !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var anima = true;
 
     document.addEventListener("click", function (e) {
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
@@ -822,7 +820,6 @@
   /* ---- Efecto magnético 3D en tarjetas ---- */
   function initTiltCards() {
     if (window.innerWidth <= 768) return; /* No en móvil */
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     var selectores = ".cat-card, .vendedor, .paso";
 
     function ligar(card) {
