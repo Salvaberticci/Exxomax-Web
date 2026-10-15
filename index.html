@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/estilos.css?v=23">
+<link rel="stylesheet" href="assets/css/estilos.css?v=24">
 <script>document.documentElement.className += " js";</script>
 </head>
 <body>
@@ -37,41 +37,21 @@
 <main id="contenido">
 
   <!-- ================================================================ HERO -->
-  <section class="hero hero-centrado hero-portada">
-    <span class="hero-anillo a" aria-hidden="true" data-parallax-hero="-0.15"></span>
-    <span class="hero-anillo b" aria-hidden="true" data-parallax-hero="-0.25"></span>
-
-    <!-- Imágenes fotorrealistas en 3D para el Hero -->
-    <!-- Frente: Grandes, borrosas y muy rápidas (parallax alto) -->
-    <img src="assets/img/hero-drill.jpg" class="hero-foto hf-drill" aria-hidden="true" data-parallax-hero="0.48">
-    <img src="assets/img/hero-helmet.jpg" class="hero-foto hf-helmet" aria-hidden="true" data-parallax-hero="0.40">
-
-    <!-- Medio: Tamaño normal, nítidas y velocidad moderada -->
-    <img src="assets/img/hero-saw.jpg" class="hero-foto hf-saw" aria-hidden="true" data-parallax-hero="0.22">
-    <img src="assets/img/hero-wrench.jpg" class="hero-foto hf-wrench" aria-hidden="true" data-parallax-hero="0.15">
-
-    <!-- Fondo: Más pequeñas, ligeramente borrosas, baja opacidad y muy lentas -->
-    <img src="assets/img/hero-screwdriver.jpg" class="hero-foto hf-screwdriver" aria-hidden="true" data-parallax-hero="0.08">
-    <img src="assets/img/hero-tapemeasure.jpg" class="hero-foto hf-tapemeasure" aria-hidden="true" data-parallax-hero="0.10">
-
-    <div class="hero-insignia izq" aria-hidden="true">
-      <span class="ico-mini"><svg viewBox="0 0 24 24"><use href="#i-capas"></use></svg></span>
-      <div><b data-contar="1.081">1.081</b>productos</div>
-    </div>
-    <div class="hero-insignia der" aria-hidden="true">
-      <span class="ico-mini"><svg viewBox="0 0 24 24"><use href="#i-camion"></use></svg></span>
-      <div><b>4 estados</b>con despacho</div>
+  <section class="hero hero-simple hero-portada" id="hero-inicio">
+    <!-- Carrusel de imágenes de ferretería de fondo -->
+    <div class="hero-carrusel" aria-hidden="true" data-hero-carrusel>
+      <div class="hero-slide activo" style="background-image: url('assets/img/hero-bg-ferreteria-1.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('assets/img/hero-bg-ferreteria-2.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('assets/img/hero-bg-ferreteria-3.jpg')"></div>
     </div>
 
-    <div class="contenedor">
-      <div class="hero-inner">
-        <span class="hero-chip">
-          <span class="punto"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-rayo"></use></svg></span>
-          Importación directa · Venezuela
-        </span>
+    <!-- Capa verde claro de identidad corporativa -->
+    <div class="hero-overlay" aria-hidden="true"></div>
 
-        <h1 data-palabras>Materiales de ferretería con <span class="destacado">precio de importación</span></h1>
-
+    <div class="contenedor hero-contenedor">
+      <div class="hero-inner hero-inner-simple">
+        <h1 class="hero-marca">EXXOMAX</h1>
+        <p class="hero-bajada">Importación y distribución de materiales de ferretería</p>
         <div class="hero-acciones">
           <a class="btn btn-blanco" href="catalogo.html">
             <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-buscar"></use></svg>
@@ -83,8 +63,6 @@
           </a>
         </div>
       </div>
-
-      <div class="hero-stats" data-metricas></div>
     </div>
   </section>
 

@@ -136,6 +136,23 @@
     mover();
   }
 
+  /* ---------------------------------------------------- hero carrusel */
+  function initHeroCarrusel() {
+    var cont = $("[data-hero-carrusel]");
+    if (!cont) return;
+    var slides = $$(".hero-slide", cont);
+    if (slides.length <= 1) return;
+
+    var actual = 0;
+    var intervalo = 5000; /* 5 segundos por diapositiva */
+
+    setInterval(function () {
+      slides[actual].classList.remove("activo");
+      actual = (actual + 1) % slides.length;
+      slides[actual].classList.add("activo");
+    }, intervalo);
+  }
+
   /* --------------------------------------------------- barra de progreso */
 
   function barraProgreso() {
@@ -743,6 +760,7 @@
     initOrbitas();
     animarContadores();
     initTiltCards();
+    initHeroCarrusel();
 
     var y = $("[data-anio]");
     if (y) y.textContent = new Date().getFullYear();
