@@ -2516,3 +2516,56 @@ body.saliendo #contenido {
 
 /* la caja de cada marca en la banda animada es una tarjeta mas */
 .marca-logo { border-radius: var(--r-card); }
+
+/* ==========================================================================
+   PORTADA SOBRIA
+   La portada usa los colores exactos del logo (verde #00a63e -> #00752c,
+   mas claro que el hero oscuro del resto del sitio) y prescinde de la
+   reticula y de las manchas animadas: se queda solo el grain. Sin el
+   parrafo introductorio (vive en la informacion general de Nosotros), el
+   bloque queda en chip, titular y acciones.
+   ========================================================================== */
+.hero-portada {
+  background:
+    radial-gradient(58% 55% at 85% 8%, rgba(123, 192, 67, .16), transparent 72%),
+    linear-gradient(165deg, var(--verde) 0%, var(--verde-700) 62%, var(--verde-800) 100%);
+}
+/* solo el grain: el ruido sutil se queda, las lineas de la reticula no */
+.hero-portada::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.13'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  background-blend-mode: normal;
+}
+.hero-portada::after { content: none; }
+
+/* sin entradilla, el titular necesita un respiro antes de los botones */
+.hero-portada h1 { margin-bottom: 30px; }
+
+/* chip en cristal oscuro (la regla base, casi blanca, no daba contraste
+   sobre el verde mas claro) y sin el pulso de borde */
+.hero-portada .hero-chip {
+  background: rgba(3, 63, 24, .30);
+  border-color: rgba(255, 255, 255, .28);
+  animation: none;
+}
+
+/* el destacado barre de blanco a lima: sobre el verde claro la lima sola
+   perdia contraste; el texto base del titular sigue en blanco. Se usa
+   background-image (no el shorthand) para no resetear el background-clip
+   a texto que recorta el degradado a las letras */
+.hero-portada h1 .destacado {
+  color: var(--blanco);
+  background-image: linear-gradient(100deg, var(--blanco), var(--verde-lima) 50%, var(--blanco));
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brillo-palabra 7s linear infinite;
+}
+
+/* panel de metricas en cristal oscuro por la misma razon que el chip */
+.hero-portada .hero-stats {
+  background: rgba(3, 63, 24, .34);
+  border-color: rgba(255, 255, 255, .14);
+}
+.hero-portada .hero-stat span { color: rgba(255, 255, 255, .85); }
