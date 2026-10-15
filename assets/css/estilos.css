@@ -1147,22 +1147,40 @@ a, button { cursor: none; }
 
 /* ------------------------------------------------------- franja de confianza */
 
+/* cada item es una tarjeta suelta con el mismo hueco que los pasos de
+   "De la fábrica a tu obra" (gap de 26px y borde suave, como .cat-card) */
 .franja-confianza {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  background: var(--borde);
-  border: 1px solid var(--borde);
-  border-radius: var(--r-lg);
-  overflow: hidden;
+  gap: 26px;
 }
 .conf-item {
+  position: relative;
   background: var(--blanco);
+  border: 1px solid var(--borde);
   padding: 26px 22px;
   text-align: center;
-  transition: background .25s ease;
+  transition: background .25s ease, border-color .25s ease;
 }
 .conf-item:hover { background: var(--verde-50); }
+
+/* conector entre los iconos, calcado del de "De la fábrica a tu obra": cada
+   tarjeta dibuja las dos mitades que le tocan (a izquierda y derecha del
+   icono) y las mitades se encuentran en el hueco de 26px entre tarjetas.
+   Deja 3px de aire antes del icono (23 de medio icono + 3) y 13px hacia el
+   hueco (la mitad del gap). Se oculta en los extremos de la fila. */
+.conf-item::before,
+.conf-item::after {
+  content: "";
+  position: absolute;
+  top: 48px; /* centro vertical del icono: 26px de padding + 46/2 */
+  height: 2px;
+  background: var(--verde-100);
+}
+.conf-item::before { left: -13px; right: calc(50% + 26px); }
+.conf-item::after { left: calc(50% + 26px); right: -13px; }
+.conf-item:first-child::before,
+.conf-item:last-child::after { display: none; }
 .conf-item .ico {
   width: 46px; height: 46px; margin: 0 auto 14px;
   border-radius: 14px;
@@ -2271,6 +2289,8 @@ body.saliendo #contenido {
   .g-2, .g-3, .g-4 { grid-template-columns: 1fr; }
   .filtros:not(.plegado) { grid-template-columns: 1fr; }
   .franja-confianza { grid-template-columns: repeat(2, 1fr); }
+  /* con 2 columnas el conector entre iconos ya no es una recta: se oculta */
+  .conf-item::before, .conf-item::after { display: none; }
   .marcas-banda { padding: 30px 0; }
   .marca-logo { min-width: 148px; height: 58px; padding: 0 16px; margin-right: 12px; }
   .marca-word { font-size: .94rem; }
