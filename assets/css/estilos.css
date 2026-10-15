@@ -5,14 +5,14 @@
 
 :root {
   /* marca */
-  --verde: #00a63e;
-  --verde-600: #009135;
-  --verde-700: #00752c;
-  --verde-800: #045c22;
-  --verde-900: #033f18;
-  --verde-lima: #7bc043;
-  --verde-100: #dcf5e6;
-  --verde-50: #eefaf2;
+  --verde: #58ab27;
+  --verde-600: #4a9421;
+  --verde-700: #3c7a1b;
+  --verde-800: #2e5e14;
+  --verde-900: #1e400c;
+  --verde-lima: #78cc30;
+  --verde-100: #dff2cd;
+  --verde-50: #f3f9ed;
 
   /* neutros */
   --blanco: #ffffff;
@@ -41,8 +41,8 @@
   --sombra: 0 1px 2px rgba(15, 36, 25, .05), 0 8px 24px -12px rgba(15, 36, 25, .18);
   --sombra-md: 0 2px 4px rgba(15, 36, 25, .06), 0 16px 40px -16px rgba(15, 36, 25, .25);
   --sombra-lg: 0 4px 8px rgba(15, 36, 25, .07), 0 32px 64px -24px rgba(15, 36, 25, .32);
-  --sombra-verde: 0 8px 32px -8px rgba(0, 166, 62, .45);
-  --sombra-glow: 0 0 40px rgba(123, 192, 67, .25), 0 4px 8px rgba(15, 36, 25, .08);
+  --sombra-verde: 0 8px 32px -8px rgba(88, 171, 39, .45);
+  --sombra-glow: 0 0 40px rgba(120, 204, 48, .25), 0 4px 8px rgba(15, 36, 25, .08);
 
   /* layout */
   --ancho: 1200px;
@@ -153,11 +153,11 @@ p { margin: 0 0 1rem; }
 .btn-primario {
   background: linear-gradient(135deg, var(--verde), var(--verde-600));
   color: var(--blanco);
-  box-shadow: 0 6px 22px -6px rgba(0, 166, 62, .65);
+  box-shadow: 0 6px 22px -6px rgba(88, 171, 39, .65);
 }
 .btn-primario:hover {
   background: linear-gradient(135deg, var(--verde-600), var(--verde-700));
-  box-shadow: 0 14px 32px -8px rgba(0, 166, 62, .75);
+  box-shadow: 0 14px 32px -8px rgba(88, 171, 39, .75);
 }
 
 .btn-oscuro { background: linear-gradient(135deg, var(--verde-800), var(--verde-900)); color: var(--blanco); }
@@ -168,7 +168,7 @@ p { margin: 0 0 1rem; }
   color: var(--verde-700);
   border-color: var(--verde);
 }
-.btn-borde:hover { background: var(--verde-50); box-shadow: 0 4px 14px -4px rgba(0, 166, 62, .2); }
+.btn-borde:hover { background: var(--verde-50); box-shadow: 0 4px 14px -4px rgba(88, 171, 39, .2); }
 
 .btn-blanco {
   background: var(--blanco);
@@ -283,10 +283,10 @@ p { margin: 0 0 1rem; }
   content: "";
   position: absolute; inset: -20% -10%;
   background:
-    radial-gradient(40% 45% at 80% 18%, rgba(123, 192, 67, .50), transparent 65%),
-    radial-gradient(35% 40% at 10% 80%, rgba(0, 166, 62, .58), transparent 68%),
-    radial-gradient(30% 32% at 55% 95%, rgba(0, 117, 44, .60), transparent 70%),
-    radial-gradient(20% 22% at 45% 10%, rgba(123, 192, 67, .30), transparent 60%);
+    radial-gradient(40% 45% at 80% 18%, rgba(120, 204, 48, .50), transparent 65%),
+    radial-gradient(35% 40% at 10% 80%, rgba(88, 171, 39, .58), transparent 68%),
+    radial-gradient(30% 32% at 55% 95%, rgba(60, 122, 27, .60), transparent 70%),
+    radial-gradient(20% 22% at 45% 10%, rgba(120, 204, 48, .30), transparent 60%);
   filter: blur(18px);
   will-change: transform;
   animation: manchas 24s ease-in-out infinite alternate;
@@ -355,7 +355,7 @@ p { margin: 0 0 1rem; }
   inset: 0;
   z-index: 2;
   /* Capa verde corporativo translúcido para que se aprecien las herramientas/ferretería con tono de marca */
-  background: linear-gradient(135deg, rgba(0, 117, 44, 0.72) 0%, rgba(0, 166, 62, 0.65) 50%, rgba(123, 192, 67, 0.58) 100%);
+  background: linear-gradient(135deg, rgba(60, 122, 27, 0.72) 0%, rgba(88, 171, 39, 0.65) 50%, rgba(120, 204, 48, 0.58) 100%);
   pointer-events: none;
 }
 
@@ -485,8 +485,8 @@ p { margin: 0 0 1rem; }
   animation: glow-borde 4s infinite alternate;
 }
 @keyframes glow-borde {
-  from { box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 0px rgba(123, 192, 67, 0); }
-  to   { box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 15px rgba(123, 192, 67, 0.5); }
+  from { box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 0px rgba(120, 204, 48, 0); }
+  to   { box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2), 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 15px rgba(120, 204, 48, 0.5); }
 }
 .hero-chip .punto {
   width: 22px; height: 22px; border-radius: 50%;
@@ -717,7 +717,7 @@ a, button { cursor: none; }
 }
 .cursor-outline {
   width: 40px; height: 40px;
-  border: 1px solid rgba(123, 192, 67, 0.6);
+  border: 1px solid rgba(120, 204, 48, 0.6);
   transition: width 0.15s, height 0.15s, transform 0.05s linear, background-color 0.2s;
 }
 @media (max-width: 900px) {
@@ -746,7 +746,7 @@ a, button { cursor: none; }
 .barra-progreso i {
   display: block; height: 100%; width: 0;
   background: linear-gradient(90deg, var(--verde-lima), var(--verde-400, var(--verde)));
-  box-shadow: 0 0 12px rgba(123, 192, 67, .7);
+  box-shadow: 0 0 12px rgba(120, 204, 48, .7);
   transition: width .08s linear;
 }
 
@@ -877,7 +877,7 @@ a, button { cursor: none; }
 }
 .card:hover .card-icono {
   transform: rotate(-8deg) scale(1.12);
-  box-shadow: 0 6px 18px -4px rgba(0, 166, 62, .3);
+  box-shadow: 0 6px 18px -4px rgba(88, 171, 39, .3);
 }
 .card-icono svg { width: 26px; height: 26px; }
 .card h3 { margin-bottom: 8px; }
@@ -923,7 +923,7 @@ a, button { cursor: none; }
   content: "";
   position: absolute; right: -60px; bottom: -60px;
   width: 200px; height: 200px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(0,166,62,.12), transparent 70%);
+  background: radial-gradient(circle, rgba(88, 171, 39,.12), transparent 70%);
 }
 .marco-pilares .sec-ojo,
 .marco-pilares .lista-check { position: relative; z-index: 1; }
@@ -980,7 +980,7 @@ a, button { cursor: none; }
 .paso:hover .paso-num {
   background: var(--verde);
   color: var(--blanco);
-  box-shadow: 0 6px 18px rgba(0, 117, 44, .28);
+  box-shadow: 0 6px 18px rgba(60, 122, 27, .28);
 }
 /* la línea va a la altura de los círculos numerados, nunca sobre las fotos:
    la foto mide 3/4 del ancho de la columna (aspecto 4:3) + 16px de margen,
@@ -1028,7 +1028,7 @@ a, button { cursor: none; }
 .cat-foto::after {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(180deg, transparent 45%, rgba(0, 117, 44, .16));
+  background: linear-gradient(180deg, transparent 45%, rgba(60, 122, 27, .16));
   opacity: 0; transition: opacity .3s ease;
 }
 .cat-card:hover .cat-foto::after { opacity: 1; }
@@ -1339,7 +1339,7 @@ a, button { cursor: none; }
 .paso-foto::after {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(180deg, transparent 45%, rgba(0, 117, 44, .16));
+  background: linear-gradient(180deg, transparent 45%, rgba(60, 122, 27, .16));
   opacity: 0; transition: opacity .3s ease;
 }
 .paso:hover .paso-foto {
@@ -1712,7 +1712,7 @@ select.filtro-select {
   background: linear-gradient(135deg, var(--verde), var(--verde-700));
   border-color: transparent;
   color: var(--blanco);
-  box-shadow: 0 4px 16px rgba(0, 166, 62, .32);
+  box-shadow: 0 4px 16px rgba(88, 171, 39, .32);
 }
 
 .filtro-btn .fb-badge {
@@ -1857,7 +1857,7 @@ select.filtro-select {
   font-family: var(--fuente-titulo);
   font-weight: 700;
   font-size: 1.25rem;
-  box-shadow: 0 4px 14px rgba(0, 166, 62, .25);
+  box-shadow: 0 4px 14px rgba(88, 171, 39, .25);
 }
 
 .vendedor-titular {
@@ -2253,13 +2253,13 @@ select.filtro-select {
 .sec-orbe.visible { opacity: 1; }
 .sec-orbe-a {
   width: 380px; height: 380px;
-  background: radial-gradient(circle, rgba(0, 166, 62, .14), transparent 70%);
+  background: radial-gradient(circle, rgba(88, 171, 39, .14), transparent 70%);
   top: -80px; right: -120px;
   animation: orbe-flotar 12s ease-in-out infinite;
 }
 .sec-orbe-b {
   width: 260px; height: 260px;
-  background: radial-gradient(circle, rgba(123, 192, 67, .16), transparent 70%);
+  background: radial-gradient(circle, rgba(120, 204, 48, .16), transparent 70%);
   bottom: -60px; left: -80px;
   animation: orbe-flotar 15s ease-in-out 2s infinite reverse;
 }
@@ -2313,7 +2313,7 @@ select.filtro-select {
   transition: box-shadow .4s ease;
 }
 .cta-banda:hover {
-  box-shadow: 0 24px 60px -16px rgba(0, 117, 44, .5);
+  box-shadow: 0 24px 60px -16px rgba(60, 122, 27, .5);
 }
 
 /* ------------------------------------------------ entrada y salida de página */
@@ -2508,8 +2508,8 @@ body.saliendo #contenido {
    .btn::after se conserva intacto (un ::after lo pisaba y lo hacia invisible) */
 .btn-primario:hover { animation: btnGlow 1.8s ease-in-out infinite; }
 @keyframes btnGlow {
-  0%, 100% { box-shadow: 0 14px 32px -8px rgba(0, 166, 62, .75), 0 0 0 0 rgba(123, 192, 67, .55); }
-  50%      { box-shadow: 0 18px 40px -8px rgba(0, 166, 62, .85), 0 0 24px 6px rgba(123, 192, 67, .38); }
+  0%, 100% { box-shadow: 0 14px 32px -8px rgba(88, 171, 39, .75), 0 0 0 0 rgba(120, 204, 48, .55); }
+  50%      { box-shadow: 0 18px 40px -8px rgba(88, 171, 39, .85), 0 0 24px 6px rgba(120, 204, 48, .38); }
 }
 
 /* 5. Las tarjetas usan preserve-3d para el efecto magnetico de app.js
@@ -2646,7 +2646,7 @@ body.saliendo #contenido {
 
 /* ==========================================================================
    PORTADA SOBRIA
-   La portada usa los colores exactos del logo (verde #00a63e -> #00752c,
+   La portada usa los colores exactos del logo (verde #58ab27 -> #3c7a1b,
    mas claro que el hero oscuro del resto del sitio) y prescinde de la
    reticula y de las manchas animadas: se queda solo el grain. Sin el
    parrafo introductorio (vive en la informacion general de Nosotros), el
@@ -2654,7 +2654,7 @@ body.saliendo #contenido {
    ========================================================================== */
 .hero-portada {
   background:
-    radial-gradient(58% 55% at 85% 8%, rgba(123, 192, 67, .16), transparent 72%),
+    radial-gradient(58% 55% at 85% 8%, rgba(120, 204, 48, .16), transparent 72%),
     linear-gradient(165deg, var(--verde) 0%, var(--verde-700) 62%, var(--verde-800) 100%);
 }
 /* solo el grain: el ruido sutil se queda, las lineas de la reticula no */
@@ -2671,7 +2671,7 @@ body.saliendo #contenido {
 /* chip en cristal oscuro (la regla base, casi blanca, no daba contraste
    sobre el verde mas claro) y sin el pulso de borde */
 .hero-portada .hero-chip {
-  background: rgba(3, 63, 24, .30);
+  background: rgba(30, 64, 12, .30);
   border-color: rgba(255, 255, 255, .28);
   animation: none;
 }
@@ -2692,7 +2692,7 @@ body.saliendo #contenido {
 
 /* panel de metricas en cristal oscuro por la misma razon que el chip */
 .hero-portada .hero-stats {
-  background: rgba(3, 63, 24, .34);
+  background: rgba(30, 64, 12, .34);
   border-color: rgba(255, 255, 255, .14);
 }
 .hero-portada .hero-stat span { color: rgba(255, 255, 255, .85); }

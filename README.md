@@ -156,9 +156,9 @@ teselas con clave propia o el mapa quedará sujeto al uso justo de OSM.
 
 | Uso | Color |
 |---|---|
-| Verde principal | `#00a63e` |
-| Verde oscuro | `#00752c` |
-| Verde acento | `#7bc043` |
+| Verde principal | `#58ab27` |
+| Verde oscuro | `#3c7a1b` |
+| Verde acento | `#78cc30` |
 | Verde muy claro | `#eefaf2` |
 | Texto | `#0f2419` |
 | Gris | `#5f7168` |

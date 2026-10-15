@@ -25,11 +25,11 @@
     var esSede = z.id === "trujillo";
     return '<div style="min-width:210px">' +
       '<b style="font-family:Poppins,sans-serif;font-size:1rem;color:#0f2419">' + z.nombre + "</b>" +
-      (esSede ? '<span class="pt" style="display:inline-block;margin-left:8px;background:#00a63e;color:#fff;font-size:.66rem;padding:2px 8px;border-radius:99px;font-weight:700">SEDE</span>' : "") +
+      (esSede ? '<span class="pt" style="display:inline-block;margin-left:8px;background:#58ab27;color:#fff;font-size:.66rem;padding:2px 8px;border-radius:99px;font-weight:700">SEDE</span>' : "") +
       '<p style="margin:6px 0 0;font-size:.85rem;color:#5f7168">' + z.desc + "</p>" +
-      '<p style="margin:8px 0 0;font-size:.78rem;color:#00752c;font-weight:600">' + z.rutas + "</p>" +
+      '<p style="margin:8px 0 0;font-size:.78rem;color:#3c7a1b;font-weight:600">' + z.rutas + "</p>" +
       (esSede ? '<p style="margin:8px 0 0;font-size:.8rem;color:#0f2419"><strong>' + E.direccion + "</strong><br>" + E.ciudad + ", estado " + E.estado + "</p>" : "") +
-      '<a href="contacto.html" style="display:inline-block;margin-top:12px;background:#00a63e;color:#fff;padding:8px 16px;border-radius:99px;font-size:.8rem;font-weight:600">Consultar despacho</a>' +
+      '<a href="contacto.html" style="display:inline-block;margin-top:12px;background:#58ab27;color:#fff;padding:8px 16px;border-radius:99px;font-size:.8rem;font-weight:600">Consultar despacho</a>' +
       "</div>";
   }
 
@@ -52,10 +52,10 @@
     zonas.forEach(function (z) {
       L.circle(z.coords, {
         radius: z.radio,
-        color: "#00a63e",
+        color: "#58ab27",
         weight: 1.5,
         opacity: 0.5,
-        fillColor: "#7bc043",
+        fillColor: "#78cc30",
         fillOpacity: 0.10,
       }).addTo(mapa).bindPopup(contenido(z));
     });
