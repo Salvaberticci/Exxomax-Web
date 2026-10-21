@@ -654,7 +654,7 @@
     { i: "i-certificado", n: "1.081", t: "referencias activas" },
     { i: "i-capas", n: "101", t: "marcas en catálogo" },
     { i: "i-camion", n: "4", t: "estados con ruta" },
-    { i: "i-usuarios", n: "11", t: "vendedores en zona" },
+    { i: "i-usuarios", n: String((window.EXXOMAX_VENDEDORES && window.EXXOMAX_VENDEDORES.length) ? window.EXXOMAX_VENDEDORES.length : "10"), t: "vendedores en zona" },
   ];
 
   function pintarConfianza() {

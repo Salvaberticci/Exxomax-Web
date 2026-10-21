@@ -100,13 +100,6 @@ window.EXXOMAX_VENDEDORES = [
     tel: "0424-2190011",
     zona: "TRUJILLO",
   },
-  {
-    nombre: "Gabriel Leonardo Rodríguez Díaz",
-    cedula: "30.140.952",
-    correo: "",
-    tel: "0412-0225791",
-    zona: "TRUJILLO",
-  },
 
   /* --- BOCONO --- */
   {
