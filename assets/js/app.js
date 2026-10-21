@@ -736,6 +736,109 @@
     });
   }
 
+  function initGaleria() {
+    var cont = $("[data-galeria]");
+    if (!cont) return;
+    var items = $$(".galeria-item", cont);
+    if (!items.length) return;
+
+    var caja = document.createElement("div");
+    caja.className = "lightbox";
+    caja.setAttribute("role", "dialog");
+    caja.setAttribute("aria-modal", "true");
+    caja.setAttribute("aria-label", "Galería de instalaciones");
+    caja.setAttribute("aria-hidden", "true");
+    caja.innerHTML =
+      '<button class="lightbox-cerrar" type="button" aria-label="Cerrar galería">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-cerrar"></use></svg>' +
+      "</button>" +
+      '<button class="lightbox-flecha prev" type="button" aria-label="Foto anterior">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha-i"></use></svg>' +
+      "</button>" +
+      '<div class="lightbox-caja">' +
+        '<img class="lightbox-img" alt="">' +
+        '<p class="lightbox-pie"></p>' +
+        '<span class="lightbox-contador"></span>' +
+      "</div>" +
+      '<button class="lightbox-flecha next" type="button" aria-label="Foto siguiente">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flecha-d"></use></svg>' +
+      "</button>";
+    document.body.appendChild(caja);
+
+    var img = $(".lightbox-img", caja);
+    var pie = $(".lightbox-pie", caja);
+    var contador = $(".lightbox-contador", caja);
+    var btnCerrar = $(".lightbox-cerrar", caja);
+    var btnPrev = $(".lightbox-flecha.prev", caja);
+    var btnNext = $(".lightbox-flecha.next", caja);
+    var actual = 0;
+    var focoPrevio = null;
+
+    function pintar(i) {
+      actual = (i + items.length) % items.length;
+      var a = items[actual];
+      var origen = $("img", a);
+      img.src = a.getAttribute("href");
+      img.alt = origen ? origen.alt : "";
+      var texto = a.getAttribute("data-pie") || "";
+      pie.textContent = texto;
+      pie.hidden = !texto;
+      contador.textContent = actual + 1 + " / " + items.length;
+      btnPrev.hidden = items.length < 2;
+      btnNext.hidden = items.length < 2;
+    }
+
+    function abrir(i, origen) {
+      focoPrevio = origen || document.activeElement;
+      pintar(i);
+      var barra = window.innerWidth - document.documentElement.clientWidth;
+      if (barra > 0) document.body.style.paddingRight = barra + "px";
+      document.body.classList.add("lightbox-abierto");
+      caja.classList.add("abierto");
+      caja.setAttribute("aria-hidden", "false");
+      void caja.offsetWidth;
+      btnCerrar.focus();
+    }
+
+    function cerrar() {
+      caja.classList.remove("abierto");
+      document.body.classList.remove("lightbox-abierto");
+      document.body.style.paddingRight = "";
+      if (focoPrevio && focoPrevio.focus) focoPrevio.focus();
+      caja.setAttribute("aria-hidden", "true");
+    }
+
+    items.forEach(function (a, i) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        abrir(i, a);
+      });
+    });
+
+    btnCerrar.addEventListener("click", cerrar);
+    btnPrev.addEventListener("click", function () { pintar(actual - 1); });
+    btnNext.addEventListener("click", function () { pintar(actual + 1); });
+
+    caja.addEventListener("click", function (e) {
+      if (e.target === caja) cerrar();
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (!caja.classList.contains("abierto")) return;
+      if (e.key === "Escape") { e.preventDefault(); cerrar(); return; }
+      if (e.key === "ArrowLeft") { e.preventDefault(); pintar(actual - 1); return; }
+      if (e.key === "ArrowRight") { e.preventDefault(); pintar(actual + 1); return; }
+      if (e.key === "Tab") {
+        var focos = [btnPrev, btnNext, btnCerrar].filter(function (b) { return !b.hidden; });
+        var idx = focos.indexOf(document.activeElement);
+        e.preventDefault();
+        if (idx === -1) focos[e.shiftKey ? focos.length - 1 : 0].focus();
+        else if (e.shiftKey) focos[(idx - 1 + focos.length) % focos.length].focus();
+        else focos[(idx + 1) % focos.length].focus();
+      }
+    });
+  }
+
   function init() {
     transicionesPagina();
     menuMovil();
@@ -759,6 +862,7 @@
     animarContadores();
     initTiltCards();
     initHeroCarrusel();
+    initGaleria();
 
     var y = $("[data-anio]");
     if (y) y.textContent = new Date().getFullYear();
