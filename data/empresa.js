@@ -85,6 +85,15 @@ window.EXXOMAX_VENDEDORES = [
     correo: "ricardobriceno1970@gmail.com",
     tel: "0426-6706262",
     zona: "TRUJILLO",
+    imagen: "assets/img/vendedores/Ricardo Briceño.jpeg",
+  },
+  {
+    nombre: "Gustavo Cano",
+    cedula: "",
+    correo: "Tavocano12395@gmail.com",
+    tel: "0424-7497052",
+    zona: "TRUJILLO",
+    imagen: "assets/img/vendedores/Gustavo Cano.jpeg",
   },
   {
     nombre: "Eusebio Antonio García Justo",
@@ -92,6 +101,7 @@ window.EXXOMAX_VENDEDORES = [
     correo: "antonio.1982.ega@gmail.com",
     tel: "0412-7647611",
     zona: "TRUJILLO",
+    imagen: "assets/img/vendedores/Eusebio García.jpeg",
   },
   {
     nombre: "Gerardo José Peña Bandre",
@@ -99,6 +109,7 @@ window.EXXOMAX_VENDEDORES = [
     correo: "gerarjpb317@gmail.com",
     tel: "0424-2190011",
     zona: "TRUJILLO",
+    imagen: "assets/img/vendedores/Gerardo peña.jpeg",
   },
 
   /* --- BOCONO --- */
@@ -108,6 +119,7 @@ window.EXXOMAX_VENDEDORES = [
     correo: "",
     tel: "0424-7263106",
     zona: "BOCONO",
+    imagen: "assets/img/vendedores/Alirio Peña.jpeg",
   },
 
   /* --- MERIDA --- */
@@ -117,13 +129,7 @@ window.EXXOMAX_VENDEDORES = [
     correo: "robertpach@gmail.com",
     tel: "0414-3508167",
     zona: "MERIDA",
-  },
-  {
-    nombre: "Evelyn Quintero",
-    cedula: "16.657.330",
-    correo: "",
-    tel: "0412-0210032",
-    zona: "MERIDA",
+    imagen: "assets/img/vendedores/Robert peña.jpeg",
   },
 
   /* --- TACHIRA --- */
@@ -133,6 +139,15 @@ window.EXXOMAX_VENDEDORES = [
     correo: "VALEROCARMEN530@GMAIL.COM",
     tel: "0414-7266782",
     zona: "TACHIRA",
+    imagen: "assets/img/vendedores/Carmen Valero.jpeg",
+  },
+  {
+    nombre: "Jose Oscar Duran",
+    cedula: "",
+    correo: "jduran124120@gmail.com",
+    tel: "0424-7357780",
+    zona: "TACHIRA",
+    imagen: "assets/img/vendedores/Jose Oscar Duran .jpeg",
   },
 
   /* --- TOCUYO-LARA --- */
@@ -142,6 +157,7 @@ window.EXXOMAX_VENDEDORES = [
     correo: "vegasnaudy629@gmail.com",
     tel: "0412-8252959",
     zona: "TOCUYO-LARA",
+    imagen: "assets/img/vendedores/Naudy vegas.jpeg",
   },
 
   /* --- CARORA --- */
@@ -151,6 +167,7 @@ window.EXXOMAX_VENDEDORES = [
     correo: "alvaradofernando249@gmail.com",
     tel: "0414-5069858",
     zona: "CARORA",
+    imagen: "assets/img/vendedores/Fernando Alvarado.jpeg",
   },
 
   /* --- ZULIA --- */
@@ -160,6 +177,15 @@ window.EXXOMAX_VENDEDORES = [
     correo: "Jesusbastidas1869@gmail.com",
     tel: "0424-7528411",
     zona: "ZULIA",
+    imagen: "assets/img/vendedores/Jesus bastidas.jpeg",
+  },
+  {
+    nombre: "Jorge Camperos",
+    cedula: "",
+    correo: "Jhormancamperos12@gmail.com",
+    tel: "0412-8430336",
+    zona: "ZULIA",
+    imagen: "assets/img/vendedores/Jorge Camperos.jpeg",
   },
 ];
 
@@ -221,5 +247,5 @@ window.EXXOMAX_METRICAS = [
   { valor: "1.081", label: "productos en catálogo" },
   { valor: "101",   label: "marcas autorizadas" },
   { valor: "4",    label: "estados con despacho" },
-  { valor: "11",   label: "vendedores en la zona" },
+  { valor: "12",   label: "vendedores en la zona" },
 ];

@@ -464,9 +464,13 @@
                 '</a>'
               : '';
 
+            var imagenHtml = x.imagen
+              ? '<div class="vendedor-foto"><img src="' + esc(x.imagen) + '" alt="' + esc(x.nombre) + '" loading="lazy" decoding="async"></div>'
+              : '<div class="vendedor-foto"><div class="inicial" aria-hidden="true">' + ini + '</div></div>';
+
             return '<article class="vendedor" data-zona-slug="' + info.slug + '">' +
+              imagenHtml +
               '<div class="vendedor-cabecera">' +
-                '<div class="inicial" aria-hidden="true">' + ini + '</div>' +
                 '<div class="vendedor-titular">' +
                   '<div class="vendedor-tags">' +
                     '<span class="v-tag zona">' + window.EXXOMAX_ico("i-ubicacion", "ico-sm") + ' ' + esc(info.nombre) + '</span>' +
