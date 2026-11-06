@@ -131,6 +131,14 @@ window.EXXOMAX_VENDEDORES = [
     zona: "MERIDA",
     imagen: "assets/img/vendedores/Robert peña.jpeg",
   },
+  {
+    nombre: "Evelyn Quintero",
+    cedula: "16.657.330",
+    correo: "Evelyn040784@gmail.com",
+    tel: "0412-0210032",
+    zona: "MERIDA",
+    imagen: "assets/img/vendedores/Evelyn Quintero.jpeg",
+  },
 
   /* --- TACHIRA --- */
   {
@@ -247,5 +255,5 @@ window.EXXOMAX_METRICAS = [
   { valor: "1.081", label: "productos en catálogo" },
   { valor: "101",   label: "marcas autorizadas" },
   { valor: "4",    label: "estados con despacho" },
-  { valor: "12",   label: "vendedores en la zona" },
+  { valor: "13",   label: "vendedores en la zona" },
 ];
