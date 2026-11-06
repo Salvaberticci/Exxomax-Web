@@ -2936,11 +2936,16 @@ body.saliendo #contenido {
 }
 
 .carousel-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding: 20px 24px;
-  background: linear-gradient(to top, rgba(12, 34, 16, 0.85) 0%, transparent 100%);
+  padding: 0 24px;
+  z-index: 10;
+  pointer-events: none;
 }
 
 .carousel-dot {
@@ -2948,9 +2953,11 @@ body.saliendo #contenido {
   height: 12px;
   border-radius: 50%;
   border: none;
-  background: rgba(255, 255, 255, 0.4);
+  background: var(--blanco);
   cursor: pointer;
+  pointer-events: auto;
   transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .carousel-dot:hover {
@@ -2992,9 +2999,10 @@ body.saliendo #contenido {
     font-size: 1rem;
   }
   .carousel-dots {
-    padding: 16px 20px;
+    bottom: 12px;
+    padding: 0 16px;
     gap: 8px;
-    background: linear-gradient(to top, rgba(12, 34, 16, 0.85) 0%, transparent 100%);
+    background: transparent;
   }
   .carousel-dot {
     width: 10px;
