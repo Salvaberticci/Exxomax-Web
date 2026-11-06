@@ -2845,7 +2845,7 @@ body.saliendo #contenido {
   margin: 8px auto 0;
   border-radius: var(--r-xl);
   overflow: hidden;
-  background: var(--verde-900);
+  background: transparent;
   box-shadow: var(--sombra-lg);
 }
 
@@ -2940,7 +2940,7 @@ body.saliendo #contenido {
   justify-content: center;
   gap: 10px;
   padding: 20px 24px;
-  background: transparent;
+  background: linear-gradient(to top, rgba(12, 34, 16, 0.85) 0%, transparent 100%);
 }
 
 .carousel-dot {
@@ -2994,6 +2994,7 @@ body.saliendo #contenido {
   .carousel-dots {
     padding: 16px 20px;
     gap: 8px;
+    background: linear-gradient(to top, rgba(12, 34, 16, 0.85) 0%, transparent 100%);
   }
   .carousel-dot {
     width: 10px;
