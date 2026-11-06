@@ -1020,10 +1020,12 @@
 
     function siguiente() {
       if (currentIndex < slideCount - 1) irA(currentIndex + 1);
+      else irA(0);
     }
 
     function anterior() {
       if (currentIndex > 0) irA(currentIndex - 1);
+      else irA(slideCount - 1);
     }
 
     btnNext.addEventListener("click", siguiente);
@@ -1047,7 +1049,39 @@
       }
     }, { passive: true });
 
+    var autoplayTimer = null;
+    var AUTOPLAY_DELAY = 5000;
+
+    function iniciarAutoplay() {
+      detenerAutoplay();
+      autoplayTimer = setInterval(siguiente, AUTOPLAY_DELAY);
+    }
+
+    function detenerAutoplay() {
+      if (autoplayTimer) {
+        clearInterval(autoplayTimer);
+        autoplayTimer = null;
+      }
+    }
+
+    carrusel.addEventListener("mouseenter", detenerAutoplay);
+    carrusel.addEventListener("mouseleave", iniciarAutoplay);
+    carrusel.addEventListener("focusin", detenerAutoplay);
+    carrusel.addEventListener("focusout", iniciarAutoplay);
+
+    var interacciones = [btnPrev, btnNext].concat(Array.from(dots));
+    interacciones.forEach(function (el) {
+      el.addEventListener("click", function () {
+        detenerAutoplay();
+        iniciarAutoplay();
+      });
+    });
+
+    track.addEventListener("touchstart", function () { detenerAutoplay(); }, { passive: true });
+    track.addEventListener("touchend", function () { iniciarAutoplay(); }, { passive: true });
+
     actualizar();
+    iniciarAutoplay();
   }
 
   if (document.readyState === "loading") {

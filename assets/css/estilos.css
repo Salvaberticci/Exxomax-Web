@@ -2940,7 +2940,7 @@ body.saliendo #contenido {
   justify-content: center;
   gap: 10px;
   padding: 20px 24px;
-  background: rgba(12, 34, 16, 0.95);
+  background: transparent;
 }
 
 .carousel-dot {
