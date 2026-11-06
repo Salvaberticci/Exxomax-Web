@@ -2883,11 +2883,8 @@ body.saliendo #contenido {
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.3;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
   pointer-events: none;
-  background: linear-gradient(to top, rgba(12, 34, 16, 0.95) 0%, rgba(12, 34, 16, 0.6) 40%, transparent 100%);
-  padding: 16px 20px 20px;
-  border-radius: var(--r);
 }
 
 .carousel-btn {
