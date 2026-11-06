@@ -2836,6 +2836,167 @@ body.saliendo #contenido {
   .galeria-pie { transition: none; }
 }
 
+/* ==========================================================================
+   CARRUSEL DE INSTALACIONES (página Nosotros)
+   ========================================================================== */
+.carousel {
+  position: relative;
+  max-width: 1100px;
+  margin: 8px auto 0;
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  background: var(--verde-900);
+  box-shadow: var(--sombra-lg);
+}
+
+.carousel-viewport {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.carousel-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 20px;
+  color: var(--blanco);
+  font-family: var(--fuente-titulo);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tinta);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
+.carousel-btn:hover:not(:disabled) {
+  background: var(--blanco);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.carousel-btn-prev {
+  left: 20px;
+}
+
+.carousel-btn-next {
+  right: 20px;
+}
+
+.carousel-btn svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.5;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 24px;
+  background: rgba(12, 34, 16, 0.95);
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.carousel-dot:hover {
+  background: rgba(255, 255, 255, 0.7);
+  transform: scale(1.2);
+}
+
+.carousel-dot.activo {
+  background: var(--verde);
+  transform: scale(1.3);
+  box-shadow: 0 0 12px rgba(123, 192, 67, 0.6);
+}
+
+.carousel-dot:focus-visible {
+  outline: 3px solid var(--verde-lima);
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    border-radius: 0;
+    margin: 8px -24px 0;
+    max-width: none;
+  }
+  .carousel-btn {
+    width: 48px;
+    height: 48px;
+  }
+  .carousel-btn-prev {
+    left: 12px;
+  }
+  .carousel-btn-next {
+    right: 12px;
+  }
+  .carousel-caption {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    font-size: 1rem;
+  }
+  .carousel-dots {
+    padding: 16px 20px;
+    gap: 8px;
+  }
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
 /* ---------------------------------------------------------- lightbox */
 body.lightbox-abierto { overflow: hidden; }
 

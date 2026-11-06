@@ -867,6 +867,7 @@
     initTiltCards();
     initHeroCarrusel();
     initGaleria();
+    initCarruselInstalaciones();
 
     var y = $("[data-anio]");
     if (y) y.textContent = new Date().getFullYear();
@@ -968,6 +969,85 @@
 
   function limiteCategorias() {
     return 8;
+  }
+
+  function initCarruselInstalaciones() {
+    var carrusel = document.querySelector("[data-carousel]");
+    if (!carrusel) return;
+
+    var track = carrusel.querySelector(".carousel-track");
+    var slides = carrusel.querySelectorAll(".carousel-slide");
+    var btnPrev = carrusel.querySelector(".carousel-btn-prev");
+    var btnNext = carrusel.querySelector(".carousel-btn-next");
+    var dotsContainer = carrusel.querySelector(".carousel-dots");
+
+    if (!track || slides.length <= 1) return;
+
+    var currentIndex = 0;
+    var slideCount = slides.length;
+    var isAnimating = false;
+
+    slides.forEach(function (_, i) {
+      var dot = document.createElement("button");
+      dot.type = "button";
+      dot.role = "tab";
+      dot.setAttribute("aria-label", "Ir a imagen " + (i + 1));
+      dot.setAttribute("aria-selected", i === 0 ? "true" : "false");
+      dot.className = "carousel-dot" + (i === 0 ? " activo" : "");
+      dot.addEventListener("click", function () { irA(i); });
+      dotsContainer.appendChild(dot);
+    });
+
+    var dots = dotsContainer.querySelectorAll(".carousel-dot");
+
+    function actualizar() {
+      track.style.transform = "translateX(" + (-currentIndex * 100) + "%)";
+      dots.forEach(function (dot, i) {
+        dot.classList.toggle("activo", i === currentIndex);
+        dot.setAttribute("aria-selected", i === currentIndex ? "true" : "false");
+      });
+      btnPrev.disabled = currentIndex === 0;
+      btnNext.disabled = currentIndex === slideCount - 1;
+    }
+
+    function irA(index) {
+      if (isAnimating || index < 0 || index >= slideCount || index === currentIndex) return;
+      isAnimating = true;
+      currentIndex = index;
+      actualizar();
+      setTimeout(function () { isAnimating = false; }, 400);
+    }
+
+    function siguiente() {
+      if (currentIndex < slideCount - 1) irA(currentIndex + 1);
+    }
+
+    function anterior() {
+      if (currentIndex > 0) irA(currentIndex - 1);
+    }
+
+    btnNext.addEventListener("click", siguiente);
+    btnPrev.addEventListener("click", anterior);
+
+    carrusel.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") siguiente();
+      else if (e.key === "ArrowLeft") anterior();
+    });
+
+    var touchStartX = 0;
+    track.addEventListener("touchstart", function (e) {
+      touchStartX = e.changedTouches[0].clientX;
+    }, { passive: true });
+
+    track.addEventListener("touchend", function (e) {
+      var dx = e.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(dx) > 50) {
+        if (dx > 0) anterior();
+        else siguiente();
+      }
+    }, { passive: true });
+
+    actualizar();
   }
 
   if (document.readyState === "loading") {
