@@ -132,7 +132,7 @@ window.EXXOMAX_VENDEDORES = [
     imagen: "assets/img/vendedores/Robert peña.jpeg",
   },
   {
-    nombre: "Evelyn Quintero",
+    nombre: "Evelin Quintero",
     cedula: "16.657.330",
     correo: "Evelyn040784@gmail.com",
     tel: "0412-0210032",
